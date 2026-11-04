@@ -621,5 +621,233 @@
         "transition families"
       ]
     }
+  },
+  {
+    "id": "LESSON-12-LIN",
+    "domain": "Math",
+    "skillCategory": "Linear Interpretation",
+    "difficulty": "Easy",
+    "stimulus": "A gym charges a one-time joining fee and then the same fee every month. The total cost y, in dollars, of a membership that lasts x months is given by y = 28x + 45.",
+    "questionStem": "What does the number 28 represent in this context?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "The one-time fee, in dollars, to join the gym.",
+        "isCorrect": false,
+        "trapType": "SWAPPED_SLOPE_INTERCEPT",
+        "rationale": "The joining fee is the constant term 45, not 28. With no months purchased (x = 0), the cost is y = 28(0) + 45 = 45, so 45 is the fee paid up front. The number 28 multiplies x, which makes it the slope, not the starting amount."
+      },
+      {
+        "letter": "B",
+        "text": "The cost, in dollars, for each additional month of membership.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The coefficient of x is the slope, the change in y for every 1-unit increase in x. Each extra month adds 28 dollars to the total cost, because 28(x + 1) + 45 is exactly 28 more than 28x + 45."
+      },
+      {
+        "letter": "C",
+        "text": "The total cost, in dollars, of a membership lasting 28 months.",
+        "isCorrect": false,
+        "trapType": "MISREAD_COEFFICIENT",
+        "rationale": "This treats 28 as a value of x, the number of months. But 28 is a coefficient, not an input. A 28-month membership costs y = 28(28) + 45 = 829 dollars, which is not 28."
+      },
+      {
+        "letter": "D",
+        "text": "The number of months of membership that can be bought with the joining fee of $45.",
+        "isCorrect": false,
+        "trapType": "MISREAD_COEFFICIENT",
+        "rationale": "This treats 28 as a count of months. Setting y = 45 gives 28x + 45 = 45, so x = 0: the $45 fee alone buys no months at all. Also, 28 is a rate in dollars per month, not a number of months."
+      }
+    ],
+    "correctAnswer": "B",
+    "coreQuestion": "When x, the number of months, increases by 1, by how much does the total cost y change, and what does that amount stand for?",
+    "steps": [
+      "Name the parts of y = 28x + 45: x is the number of months, y is the total cost in dollars, 45 is the constant term, and 28 is the coefficient of x.",
+      "Test small inputs: with x = 0, y = 28(0) + 45 = 45; with x = 1, y = 28(1) + 45 = 73; with x = 2, y = 28(2) + 45 = 101.",
+      "Find the change in y for each added month: 73 \u2212 45 = 28 and 101 \u2212 73 = 28, so every extra month adds 28 dollars to the total.",
+      "Interpret: 28 is the rate of change, the cost in dollars for each additional month, so choose B. The constant 45 is the joining fee, since it is the cost at x = 0."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "In a linear model y = mx + b, the slope m is the change in y for each 1-unit increase in x, and the intercept b is the value of y when x = 0. Interpretation items ask you to say what m or b means in the story, with units.",
+      "trapAlert": "Do not swap the two numbers. The constant added on its own (45) is the starting amount, and the number multiplying x (28) is the per-unit rate. Also avoid plugging a coefficient in as if it were an input.",
+      "strategicShortcut": "Plug in x = 0 and x = 1, then subtract: the first output is the intercept and the difference is the slope. Match the result to the choice that includes the right units (dollars per month).",
+      "keyVocabularyOrFormulas": [
+        "y = mx + b",
+        "slope = rate of change",
+        "y-intercept = starting value",
+        "units: dollars per month"
+      ]
+    }
+  },
+  {
+    "id": "LESSON-13-EQX",
+    "domain": "Math",
+    "skillCategory": "Equivalent Expressions",
+    "difficulty": "Medium",
+    "stimulus": "Consider the rational expression (x\u00b2 \u2212 9)/(x\u00b2 \u2212 x \u2212 12), which is defined for all values of x except \u22123 and 4.",
+    "questionStem": "Which of the following expressions is equivalent to the given expression, for x not equal to \u22123 or 4?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "(x + 3)/(x + 4)",
+        "isCorrect": false,
+        "trapType": "SIGN_ERROR",
+        "rationale": "This comes from factoring the denominator with the wrong signs, as (x + 4)(x \u2212 3), which expands to x\u00b2 + x \u2212 12 and has the wrong middle term. The correct factors are (x + 3)(x \u2212 4). At x = 5 the original expression equals 16/8 = 2, but this choice equals 8/9."
+      },
+      {
+        "letter": "B",
+        "text": "(x \u2212 3)/(x + 4)",
+        "isCorrect": false,
+        "trapType": "MISFACTORED_DENOMINATOR",
+        "rationale": "The numerator factor x \u2212 3 is right, but the denominator's leftover factor is x \u2212 4, not x + 4. Factoring the denominator as (x + 3)(x + 4) gives x\u00b2 + 7x + 12, which does not match x\u00b2 \u2212 x \u2212 12. At x = 5 this choice equals 2/9, not 2."
+      },
+      {
+        "letter": "C",
+        "text": "9/(x + 12)",
+        "isCorrect": false,
+        "trapType": "ILLEGAL_CANCELLATION",
+        "rationale": "This cancels x\u00b2 from the top and bottom, leaving \u22129/(\u2212x \u2212 12), which simplifies to 9/(x + 12). Only factors that multiply the whole numerator and denominator can cancel, and x\u00b2 is a term inside a subtraction. At x = 5 this choice equals 9/17, not 2."
+      },
+      {
+        "letter": "D",
+        "text": "(x \u2212 3)/(x \u2212 4)",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The numerator factors as (x \u2212 3)(x + 3) and the denominator as (x + 3)(x \u2212 4). The common factor x + 3 cancels, leaving (x \u2212 3)/(x \u2212 4). At x = 5 both the original and this choice equal 2."
+      }
+    ],
+    "correctAnswer": "D",
+    "coreQuestion": "After factoring the numerator and the denominator completely, which factor appears in both and cancels, and what is left?",
+    "steps": [
+      "Factor the numerator with the difference of squares: x\u00b2 \u2212 9 = (x \u2212 3)(x + 3).",
+      "Factor the denominator by finding two numbers with product \u221212 and sum \u22121, which are 3 and \u22124: x\u00b2 \u2212 x \u2212 12 = (x + 3)(x \u2212 4). Check: (x + 3)(x \u2212 4) = x\u00b2 \u2212 4x + 3x \u2212 12 = x\u00b2 \u2212 x \u2212 12.",
+      "Write the fraction as (x \u2212 3)(x + 3) / [(x + 3)(x \u2212 4)] and cancel the common factor x + 3, which is allowed because x is not \u22123. The result is (x \u2212 3)/(x \u2212 4).",
+      "Verify with x = 5: the original is (25 \u2212 9)/(25 \u2212 5 \u2212 12) = 16/8 = 2, and (5 \u2212 3)/(5 \u2212 4) = 2/1 = 2. The other choices give 8/9, 2/9, and 9/17 at x = 5, so they fail."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "To simplify a rational expression, factor the numerator and denominator completely, then cancel factors that appear in both. Only factors, which are multiplied, can cancel; terms, which are added or subtracted, cannot.",
+      "trapAlert": "Cancelling x\u00b2 or any other term inside a sum or difference is illegal. Also check signs when factoring: the two numbers must multiply to the constant term and add to the middle coefficient.",
+      "strategicShortcut": "Test one value of x, such as x = 5, in the original expression and in each choice. Any choice that gives a different number is not equivalent, and that is often enough to eliminate three of the four.",
+      "keyVocabularyOrFormulas": [
+        "difference of squares: a\u00b2 \u2212 b\u00b2 = (a \u2212 b)(a + b)",
+        "factor by sum and product",
+        "cancel factors, not terms",
+        "excluded values of x"
+      ]
+    }
+  },
+  {
+    "id": "LESSON-14-CPR",
+    "domain": "Math",
+    "skillCategory": "Conditional Probability",
+    "difficulty": "Medium",
+    "stimulus": "A school counselor asked 150 students in the junior and senior classes whether they prefer to study in the morning or in the evening. The results are shown in the table below.\n• Juniors — Morning: 48; Evening: 32; Row total: 80\n• Seniors — Morning: 30; Evening: 40; Row total: 70\n• All students — Morning: 78; Evening: 72; Grand total: 150",
+    "questionStem": "If one student who prefers evening study is selected at random, what is the probability that the student is a senior?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "4/15",
+        "isCorrect": false,
+        "trapType": "JOINT_NOT_CONDITIONAL",
+        "rationale": "This is 40/150, the probability that a student chosen from all 150 is both a senior and an evening studier. The question says the student is already known to prefer evening study, so the denominator must shrink from 150 to the evening total."
+      },
+      {
+        "letter": "B",
+        "text": "4/9",
+        "isCorrect": false,
+        "trapType": "WRONG_GROUP",
+        "rationale": "This is 32/72, the probability that an evening studier is a junior. The numerator uses the junior count of 32 instead of the senior count of 40. The two answers for juniors and seniors must add to 1: 32/72 + 40/72 = 1."
+      },
+      {
+        "letter": "C",
+        "text": "5/9",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Given that the student prefers evening study, the sample space is the evening column, 72 students. Of those, 40 are seniors, so the probability is 40/72 = 5/9."
+      },
+      {
+        "letter": "D",
+        "text": "4/7",
+        "isCorrect": false,
+        "trapType": "WRONG_DENOMINATOR",
+        "rationale": "This is 40/70, the fraction of seniors who prefer evening study. It divides by the senior row total instead of the evening column total. That answers the reverse question, not the one asked."
+      }
+    ],
+    "correctAnswer": "C",
+    "coreQuestion": "The words \"who prefers evening study\" tell you the student comes from which column, and how many students are in that group?",
+    "steps": [
+      "Find the condition in the question: the student is known to prefer evening study, so only the Evening column counts. That column has 32 + 40 = 72 students, which is the denominator.",
+      "Find the favorable outcomes inside that column: the seniors who prefer evening study number 40, which is the numerator.",
+      "Write the conditional probability: P(senior | evening) = 40/72. Divide the top and bottom by 8 to get 5/9.",
+      "Check the other fractions: 40/150 ignores the condition, 32/72 counts juniors, and 40/70 divides by the senior row total, so only 5/9 uses the evening total of 72 with the senior count of 40."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "In a conditional probability P(A given B), the condition B restricts the sample space. The denominator is the total for B only, and the numerator is the count that is in both A and B.",
+      "trapAlert": "Do not divide by the grand total (150) or by the row total when the condition names a column. The word after \"given,\" \"who,\" or \"of those\" tells you which total to use.",
+      "strategicShortcut": "Circle the condition group in the table first. Its total is the denominator, and the numerator is the cell where the condition group meets the group you are asked about.",
+      "keyVocabularyOrFormulas": [
+        "P(A given B) = count(A and B) / count(B)",
+        "sample space",
+        "two-way table",
+        "row total and column total"
+      ]
+    }
+  },
+  {
+    "id": "LESSON-15-TRG",
+    "domain": "Math",
+    "skillCategory": "Right Triangle Trigonometry",
+    "difficulty": "Medium",
+    "stimulus": "In right triangle ABC, the right angle is at C, AB = 50, and cos(B) = 24/25.",
+    "questionStem": "What is the length of AC?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "7",
+        "isCorrect": false,
+        "trapType": "STOPPED_EARLY",
+        "rationale": "The ratio 7/25 is sin(B) = AC/AB, so AC is 7 parts out of 25. But AB is 50, not 25, so the ratio must be multiplied by 50: AC = 50 \u00b7 7/25 = 14. The number 7 is the numerator of the ratio, not the side length."
+      },
+      {
+        "letter": "B",
+        "text": "14",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. BC = 50 \u00b7 24/25 = 48, and by the Pythagorean theorem AC = \u221a(50\u00b2 \u2212 48\u00b2) = \u221a196 = 14. Equivalently, AC = 50 \u00b7 7/25 = 14, and 14\u00b2 + 48\u00b2 = 196 + 2304 = 2500 = 50\u00b2."
+      },
+      {
+        "letter": "C",
+        "text": "24",
+        "isCorrect": false,
+        "trapType": "STOPPED_EARLY",
+        "rationale": "The number 24 is the numerator of cos(B) = 24/25. Reading it as a side length would make the hypotenuse 25, but the hypotenuse AB is 50. Scaled by 2, the side next to angle B is 48, and the side asked for, AC, is 14."
+      },
+      {
+        "letter": "D",
+        "text": "48",
+        "isCorrect": false,
+        "trapType": "WRONG_SIDE",
+        "rationale": "The number 48 is BC, the leg adjacent to angle B: BC = 50 \u00b7 24/25 = 48. The question asks for AC, the leg opposite angle B. The leg AC must satisfy AC\u00b2 + 48\u00b2 = 50\u00b2, which gives AC = 14."
+      }
+    ],
+    "correctAnswer": "B",
+    "coreQuestion": "Which leg is opposite angle B, and which ratio of side lengths (or which theorem) gives its length from the hypotenuse of 50?",
+    "steps": [
+      "Place the sides: AB is the hypotenuse because it is opposite the right angle at C. Side BC is adjacent to angle B, and side AC is opposite angle B.",
+      "Use the cosine to find the adjacent leg: cos(B) = BC/AB = 24/25, so BC = 50 \u00b7 24/25 = 48.",
+      "Use the Pythagorean theorem for the other leg: AC = \u221a(50\u00b2 \u2212 48\u00b2) = \u221a(2500 \u2212 2304) = \u221a196 = 14.",
+      "Check with the sine: sin(B) = 7/25 because 7\u00b2 + 24\u00b2 = 25\u00b2, so AC = 50 \u00b7 7/25 = 14, which agrees."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "In a right triangle, cos = adjacent/hypotenuse, sin = opposite/hypotenuse, and tan = opposite/adjacent. A trigonometric ratio gives a proportion, not a length, so multiply it by the known side to get the actual length.",
+      "trapAlert": "Do not report the numerator of a ratio as a side length unless the hypotenuse is exactly the denominator. Also check that your answer is the side the question names, not the other leg.",
+      "strategicShortcut": "Recognize Pythagorean triples: 7-24-25 scaled by 2 is 14-48-50. Once you know the hypotenuse is 50 and one leg is 48, the other leg is 14.",
+      "keyVocabularyOrFormulas": [
+        "cos = adjacent / hypotenuse",
+        "sin = opposite / hypotenuse",
+        "a\u00b2 + b\u00b2 = c\u00b2",
+        "Pythagorean triple 7-24-25"
+      ]
+    }
   }
 ]

@@ -173,4 +173,68 @@ test("TRN item", () => {
   assert.match(q.stimulus, /\.\s+______,/);
 });
 
+const num = t => {
+  const m = t.replace(/−/g, "-").trim().match(/^(-?\d+(?:\.\d+)?)\/(\d+(?:\.\d+)?)$/);
+  return m ? Number(m[1]) / Number(m[2]) : Number(t.replace(/−/g, "-"));
+};
+const ascending = q => q.choices.map(c => num(c.text)).every((v, k, a) => k === 0 || v > a[k - 1]);
+const close = (a, b) => Math.abs(a - b) < 1e-12;
+
+test("LIN item", () => {
+  const q = get("LESSON-12-LIN");
+  assert.ok(q, "LESSON-12-LIN exists");
+  assert.ok(q.stimulus.includes("y = 28x + 45"));
+  assert.match(q.questionStem, /28/);
+  const correct = q.choices.find(c => c.isCorrect);
+  assert.match(correct.text, /each additional month/);
+  assert.ok(!q.choices.filter(c => !c.isCorrect).every(c => correct.text.length > c.text.length), "correct choice is unique longest");
+});
+
+test("EQX item", () => {
+  const q = get("LESSON-13-EQX");
+  assert.ok(q, "LESSON-13-EQX exists");
+  const orig = x => (x * x - 9) / (x * x - x - 12);
+  const right = "(x − 3)/(x − 4)";
+  const fns = {
+    [right]: x => (x - 3) / (x - 4),
+    "(x + 3)/(x + 4)": x => (x + 3) / (x + 4),
+    "(x − 3)/(x + 4)": x => (x - 3) / (x + 4),
+    "9/(x + 12)": x => 9 / (x + 12)
+  };
+  assert.equal(q.choices.find(c => c.isCorrect).text, right);
+  assert.deepEqual(q.choices.map(c => c.text).sort(), Object.keys(fns).sort());
+  for (const x of [0, 1, 2, 5, 6]) assert.ok(close(orig(x), fns[right](x)), "equivalent at x=" + x);
+  for (const c of q.choices.filter(c => !c.isCorrect)) assert.ok(!close(orig(5), fns[c.text](5)), c.text + " differs at x=5");
+});
+
+test("CPR item", () => {
+  const q = get("LESSON-14-CPR");
+  assert.ok(q, "LESSON-14-CPR exists");
+  const bullets = q.stimulus.split("\n").filter(l => l.startsWith("•"));
+  const counts = bullets.map(b => (b.match(/\d+/g) || []).map(Number));
+  assert.deepEqual(counts, [[48, 32, 80], [30, 40, 70], [78, 72, 150]]);
+  const [jr, sr, tot] = counts;
+  assert.equal(jr[0] + jr[1], jr[2]);
+  assert.equal(sr[0] + sr[1], sr[2]);
+  assert.equal(jr[0] + sr[0], tot[0]);
+  assert.equal(jr[1] + sr[1], tot[1]);
+  assert.equal(tot[0] + tot[1], tot[2]);
+  assert.deepEqual(q.choices.map(c => c.text), ["4/15", "4/9", "5/9", "4/7"]);
+  assert.equal(q.choices.find(c => c.isCorrect).text, "5/9");
+  assert.ok(close(num("5/9"), 40 / 72) && close(num("4/15"), 40 / 150));
+  assert.ok(close(num("4/9"), 32 / 72) && close(num("4/7"), 40 / 70));
+  assert.ok(ascending(q), "choices ascending");
+});
+
+test("TRG item", () => {
+  const q = get("LESSON-15-TRG");
+  assert.ok(q, "LESSON-15-TRG exists");
+  const text = q.stimulus + " " + q.questionStem;
+  assert.ok(text.includes("AB = 50") && text.includes("cos(B) = 24/25"));
+  assert.equal(q.choices.find(c => c.isCorrect).text, "14");
+  assert.deepEqual(q.choices.map(c => c.text), ["7", "14", "24", "48"]);
+  assert.ok(ascending(q), "choices ascending");
+  assert.equal(Math.hypot(14, 48), 50);
+});
+
 module.exports = { items, get, wc };

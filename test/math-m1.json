@@ -1,1 +1,501 @@
-[]
+[
+  {
+    "id": "M1-01",
+    "section": "math",
+    "skill": "ALG-1V",
+    "difficulty": "Easy",
+    "type": "mc",
+    "stimulus": "Consider the equation 5(x − 3) = 2x + 9.",
+    "questionStem": "What is the solution to the given equation?",
+    "coreQuestion": "How do you solve a linear equation when a variable appears on both sides and a factor must be distributed?",
+    "steps": [
+      "Distribute the 5: 5x − 15 = 2x + 9.",
+      "Subtract 2x and add 15 to both sides: 3x = 24.",
+      "Divide by 3: x = 8. Check: 5(8 − 3) = 25 and 2(8) + 9 = 25."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "24/7",
+        "isCorrect": false,
+        "trapType": "COMBINED_LIKE_SIDES",
+        "rationale": "Adds 5x and 2x to get 7x instead of subtracting, giving 7x = 24, so x = 24/7."
+      },
+      {
+        "letter": "B",
+        "text": "4",
+        "isCorrect": false,
+        "trapType": "DISTRIBUTION_ERROR",
+        "rationale": "Treats 5(x − 3) as 5x − 3, which gives 3x = 12 and x = 4."
+      },
+      {
+        "letter": "C",
+        "text": "5",
+        "isCorrect": false,
+        "trapType": "DROPPED_CONSTANT",
+        "rationale": "Drops the +9 and solves 5x − 15 = 2x, so 3x = 15 and x = 5; 5(5 − 3) = 10 but 2(5) + 9 = 19."
+      },
+      {
+        "letter": "D",
+        "text": "8",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "5x − 15 = 2x + 9 gives 3x = 24, so x = 8; both sides equal 25."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "M1-02",
+    "section": "math",
+    "skill": "PSD-PCT",
+    "difficulty": "Easy",
+    "type": "mc",
+    "stimulus": "Attendance at a school play dropped from 2400 on the opening weekend to 1800 on the closing weekend.",
+    "questionStem": "By what percent did attendance decrease from the opening weekend to the closing weekend?",
+    "coreQuestion": "How do you compute a percent decrease, and which quantity is the base?",
+    "steps": [
+      "Find the decrease: 2400 − 1800 = 600.",
+      "Divide by the original (opening) value: 600 / 2400 = 0.25.",
+      "Convert to a percent: 25%."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "25",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "600 / 2400 = 0.25 = 25%."
+      },
+      {
+        "letter": "B",
+        "text": "33.3",
+        "isCorrect": false,
+        "trapType": "WRONG_BASE",
+        "rationale": "Divides the decrease by the new value: 600 / 1800 = 33.3%, but the base must be the original 2400."
+      },
+      {
+        "letter": "C",
+        "text": "75",
+        "isCorrect": false,
+        "trapType": "PERCENT_REMAINING",
+        "rationale": "1800 / 2400 = 75% is the share that remained, not the percent lost."
+      },
+      {
+        "letter": "D",
+        "text": "600",
+        "isCorrect": false,
+        "trapType": "NOT_A_PERCENT",
+        "rationale": "600 is the drop in attendees, not a percent."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "M1-03",
+    "section": "math",
+    "skill": "ADV-FN",
+    "difficulty": "Easy",
+    "type": "mc",
+    "stimulus": "The function f is defined by f(x) = 2x² − 3x + 1.",
+    "questionStem": "What is the value of f(−2)?",
+    "coreQuestion": "How do you evaluate a quadratic function at a negative input without losing signs?",
+    "steps": [
+      "Substitute −2: f(−2) = 2(−2)² − 3(−2) + 1.",
+      "Square first: (−2)² = 4, so 2(4) = 8, and −3(−2) = +6.",
+      "Add: 8 + 6 + 1 = 15."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "−1",
+        "isCorrect": false,
+        "trapType": "NEGATIVE_SQUARE",
+        "rationale": "Treats (−2)² as −4, giving −8 + 6 + 1 = −1."
+      },
+      {
+        "letter": "B",
+        "text": "3",
+        "isCorrect": false,
+        "trapType": "SIGN_ERROR_LINEAR_TERM",
+        "rationale": "Computes −3(−2) as −6, giving 8 − 6 + 1 = 3."
+      },
+      {
+        "letter": "C",
+        "text": "15",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "2(4) + 6 + 1 = 15."
+      },
+      {
+        "letter": "D",
+        "text": "23",
+        "isCorrect": false,
+        "trapType": "SQUARED_COEFFICIENT",
+        "rationale": "Squares the product 2(−2) to get 16, giving 16 + 6 + 1 = 23, but only x is squared."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "M1-04",
+    "section": "math",
+    "skill": "GEO-AV",
+    "difficulty": "Easy",
+    "type": "mc",
+    "stimulus": "A rectangular prism has a base that measures 8 centimeters by 5 centimeters. The volume of the prism is 360 cubic centimeters.",
+    "questionStem": "What is the height, in centimeters, of the prism?",
+    "coreQuestion": "How do you use the volume formula for a rectangular prism to find a missing dimension?",
+    "steps": [
+      "Volume = length · width · height, so 360 = 8 · 5 · h.",
+      "The base area is 8 · 5 = 40, so 360 = 40h.",
+      "Divide: h = 360 / 40 = 9."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "9",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "360 / 40 = 9."
+      },
+      {
+        "letter": "B",
+        "text": "45",
+        "isCorrect": false,
+        "trapType": "USED_ONE_DIMENSION",
+        "rationale": "Divides 360 by 8 only, which ignores the 5 centimeter side."
+      },
+      {
+        "letter": "C",
+        "text": "72",
+        "isCorrect": false,
+        "trapType": "USED_ONE_DIMENSION",
+        "rationale": "Divides 360 by 5 only, which ignores the 8 centimeter side."
+      },
+      {
+        "letter": "D",
+        "text": "320",
+        "isCorrect": false,
+        "trapType": "SUBTRACTED_INSTEAD_OF_DIVIDED",
+        "rationale": "Subtracts the base area: 360 − 40 = 320, but the base area divides the volume."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "M1-05",
+    "section": "math",
+    "skill": "ALG-INEQ",
+    "difficulty": "Easy",
+    "type": "spr",
+    "stimulus": "A freight elevator can hold at most 500 kilograms. The operator weighs 85 kilograms, and each crate loaded onto the elevator weighs 40 kilograms.",
+    "questionStem": "What is the greatest number of crates that can be loaded with the operator on the elevator?",
+    "coreQuestion": "How do you turn a weight limit into an inequality and interpret the answer as a whole number?",
+    "steps": [
+      "Write 85 + 40c ≤ 500.",
+      "Subtract 85: 40c ≤ 415, so c ≤ 10.375.",
+      "The number of crates must be a whole number, so the greatest value is 10."
+    ],
+    "acceptedAnswers": [
+      "10"
+    ],
+    "commonErrors": [
+      {
+        "value": "11",
+        "why": "Rounds 10.375 up; 11 crates weigh 440 kilograms, so the total is 525, over the limit."
+      },
+      {
+        "value": "12",
+        "why": "Divides 500 by 40 and forgets the operator's weight."
+      }
+    ]
+  },
+  {
+    "id": "M1-06",
+    "section": "math",
+    "skill": "ADV-EQ",
+    "difficulty": "Easy",
+    "type": "mc",
+    "stimulus": "A rectangular garden is 5 meters longer than it is wide. Its area is 84 square meters.",
+    "questionStem": "What is the width, in meters, of the garden?",
+    "coreQuestion": "How do you set up and solve a quadratic equation from an area relationship?",
+    "steps": [
+      "Let w be the width, so the length is w + 5 and w(w + 5) = 84.",
+      "Rewrite as w² + 5w − 84 = 0, which factors as (w + 12)(w − 7) = 0.",
+      "Width cannot be negative, so w = 7. Check: 7 · 12 = 84."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "5",
+        "isCorrect": false,
+        "trapType": "USED_GIVEN_DIFFERENCE",
+        "rationale": "Reports the 5 meter difference; a width of 5 gives length 10 and area 50, not 84."
+      },
+      {
+        "letter": "B",
+        "text": "7",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "7 · 12 = 84."
+      },
+      {
+        "letter": "C",
+        "text": "12",
+        "isCorrect": false,
+        "trapType": "LENGTH_NOT_WIDTH",
+        "rationale": "12 is the length (7 + 5), not the width."
+      },
+      {
+        "letter": "D",
+        "text": "84",
+        "isCorrect": false,
+        "trapType": "REPORTED_AREA",
+        "rationale": "84 is the area, not a side length."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "M1-07",
+    "section": "math",
+    "skill": "ALG-LF",
+    "difficulty": "Easy",
+    "type": "mc",
+    "stimulus": "The function f is linear. f(1) = 7 and f(4) = 19.",
+    "questionStem": "What is the value of f(6)?",
+    "coreQuestion": "How do you find a linear function from two points and then evaluate it?",
+    "steps": [
+      "Slope: (19 − 7) / (4 − 1) = 12 / 3 = 4.",
+      "Intercept: 7 = 4(1) + b, so b = 3 and f(x) = 4x + 3.",
+      "f(6) = 4(6) + 3 = 27."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "24",
+        "isCorrect": false,
+        "trapType": "FORGOT_INTERCEPT",
+        "rationale": "Computes 4 · 6 and leaves out the +3."
+      },
+      {
+        "letter": "B",
+        "text": "26",
+        "isCorrect": false,
+        "trapType": "ADDED_WRONG_VALUE",
+        "rationale": "Adds f(1) = 7 to f(4) = 19 instead of using the slope: 19 + 7 = 26."
+      },
+      {
+        "letter": "C",
+        "text": "27",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "4(6) + 3 = 27."
+      },
+      {
+        "letter": "D",
+        "text": "42",
+        "isCorrect": false,
+        "trapType": "MULTIPLIED_VALUES",
+        "rationale": "Multiplies 6 by f(1) = 7, which is not how a linear function behaves."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "M1-08",
+    "section": "math",
+    "skill": "PSD-1V",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "A librarian recorded how many books each of 20 students read over the summer. The results are shown in the table.",
+    "questionStem": "What is the median number of books read by these 20 students?",
+    "table": {
+      "caption": "Books read over the summer",
+      "headers": [
+        "Books read",
+        "Number of students"
+      ],
+      "rows": [
+        [
+          "0",
+          "3"
+        ],
+        [
+          "1",
+          "5"
+        ],
+        [
+          "2",
+          "6"
+        ],
+        [
+          "3",
+          "4"
+        ],
+        [
+          "4",
+          "2"
+        ]
+      ]
+    },
+    "coreQuestion": "How do you find a median from a frequency table?",
+    "steps": [
+      "There are 20 values, so the median is the average of the 10th and 11th values in order.",
+      "Cumulative counts: 0 books: 3, 1 book: 8, 2 books: 14. So the 10th and 11th values both fall in the 2-book group.",
+      "The median is (2 + 2) / 2 = 2."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "1.85",
+        "isCorrect": false,
+        "trapType": "MEAN_NOT_MEDIAN",
+        "rationale": "(0·3 + 1·5 + 2·6 + 3·4 + 4·2) / 20 = 37/20 = 1.85 is the mean."
+      },
+      {
+        "letter": "B",
+        "text": "2",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "The 10th and 11th ordered values are both 2."
+      },
+      {
+        "letter": "C",
+        "text": "2.5",
+        "isCorrect": false,
+        "trapType": "MEDIAN_OF_CATEGORIES",
+        "rationale": "Takes the middle of the list 0, 1, 2, 3, 4 as (2 + 3) / 2, ignoring how many students are in each group."
+      },
+      {
+        "letter": "D",
+        "text": "10",
+        "isCorrect": false,
+        "trapType": "POSITION_NOT_VALUE",
+        "rationale": "10 is the position of the middle value, not the number of books."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "M1-09",
+    "section": "math",
+    "skill": "ADV-EXP",
+    "difficulty": "Medium",
+    "type": "spr",
+    "stimulus": "The equation (3x − 2)(x + 6) = 3x² + px − 12 is true for all values of x, where p is a constant.",
+    "questionStem": "What is the value of p?",
+    "coreQuestion": "How do you find a coefficient by expanding a product and matching like terms?",
+    "steps": [
+      "Expand with FOIL: 3x · x = 3x², 3x · 6 = 18x, −2 · x = −2x, −2 · 6 = −12.",
+      "Combine like terms: 3x² + 16x − 12.",
+      "Matching the x-coefficients gives p = 16."
+    ],
+    "acceptedAnswers": [
+      "16"
+    ],
+    "commonErrors": [
+      {
+        "value": "18",
+        "why": "Keeps only the 3x · 6 term and omits −2x."
+      },
+      {
+        "value": "20",
+        "why": "Adds 2x instead of subtracting it: 18 + 2 = 20."
+      }
+    ]
+  },
+  {
+    "id": "M1-10",
+    "section": "math",
+    "skill": "ALG-SYS",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "A community theater sells adult tickets and student tickets at fixed prices. Three adult tickets and two student tickets cost $41 in all. One adult ticket and four student tickets cost $37 in all.",
+    "questionStem": "What is the combined cost, in dollars, of one adult ticket and one student ticket?",
+    "coreQuestion": "How do you solve a system from a word problem and then answer the question that was actually asked?",
+    "steps": [
+      "Let a and s be the prices: 3a + 2s = 41 and a + 4s = 37.",
+      "From the second equation, a = 37 − 4s. Substitute: 3(37 − 4s) + 2s = 41, so 111 − 10s = 41 and s = 7. Then a = 9.",
+      "The question asks for a + s = 9 + 7 = 16."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "7",
+        "isCorrect": false,
+        "trapType": "ANSWERED_STUDENT_ONLY",
+        "rationale": "7 is the price of a single student ticket, not the combined cost."
+      },
+      {
+        "letter": "B",
+        "text": "9",
+        "isCorrect": false,
+        "trapType": "ANSWERED_ADULT_ONLY",
+        "rationale": "9 is the price of a single adult ticket, not the combined cost."
+      },
+      {
+        "letter": "C",
+        "text": "16",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "9 + 7 = 16."
+      },
+      {
+        "letter": "D",
+        "text": "37",
+        "isCorrect": false,
+        "trapType": "USED_ONE_EQUATION_TOTAL",
+        "rationale": "37 is the cost of one adult and four student tickets, not of one of each."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "M1-11",
+    "section": "math",
+    "skill": "GEO-LAT",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "Lines l and m are parallel and are cut by a transversal. Two alternate interior angles measure (4x − 15)° and (2x + 25)°.",
+    "questionStem": "What is the measure, in degrees, of the angle that forms a linear pair with the (4x − 15)° angle?",
+    "coreQuestion": "How do you use equal alternate interior angles to find x, and then a linear pair to finish?",
+    "steps": [
+      "Alternate interior angles are equal: 4x − 15 = 2x + 25, so 2x = 40 and x = 20.",
+      "The given angle is 4(20) − 15 = 65 degrees.",
+      "A linear pair sums to 180, so the angle is 180 − 65 = 115 degrees."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "20",
+        "isCorrect": false,
+        "trapType": "REPORTED_X",
+        "rationale": "20 is the value of x, not an angle measure."
+      },
+      {
+        "letter": "B",
+        "text": "40",
+        "isCorrect": false,
+        "trapType": "REPORTED_2X",
+        "rationale": "40 is the value of 2x from an intermediate step, not an angle."
+      },
+      {
+        "letter": "C",
+        "text": "65",
+        "isCorrect": false,
+        "trapType": "STOPPED_EARLY",
+        "rationale": "65 is the measure of the (4x − 15)° angle itself; the question asks for the angle that forms a linear pair with it."
+      },
+      {
+        "letter": "D",
+        "text": "115",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "180 − 65 = 115."
+      }
+    ],
+    "correctAnswer": "D"
+  }
+]

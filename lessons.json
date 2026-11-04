@@ -441,7 +441,7 @@
     "studyNote": {
       "ruleOrPrinciple": "A colon may follow only a complete independent clause, and it introduces a list, an explanation, or an example of something in that clause. A semicolon or a period needs an independent clause on both sides, and a comma alone cannot join two independent clauses.",
       "trapAlert": "A semicolon looks formal and can seem right before a long list, but it is not a colon: it needs a complete clause after it, and a list of nouns is not one.",
-      "strategicShortcut": "Cover the choices and ask two questions: Is the left side a complete sentence? Is the right side a complete sentence? Complete plus a list or explanation points to a colon; complete plus complete points to a period or semicolon.",
+      "strategicShortcut": "Cover the choices and ask two questions: Is the left side a complete sentence? Is the right side a complete sentence? Complete plus a list or explanation points to a colon; complete plus complete points to a period or semicolon (or a colon when the second clause explains the first).",
       "keyVocabularyOrFormulas": [
         "independent clause",
         "colon before a list",

@@ -82,7 +82,7 @@
       },
       {
         "letter": "D",
-        "text": "It states a general pattern, introduces an exception to that pattern, and then proposes an explanation for it.",
+        "text": "It states a general pattern, introduces an exception to it, and then proposes an explanation for that exception.",
         "isCorrect": true,
         "trapType": "NONE",
         "rationale": "Correct. Sentence 1 gives the pattern (many plants bloom in early spring), \"however\" in sentence 2 introduces the exception (Veria tardiflora flowers in midsummer), and sentences 3 and 4 give Okafor's proposed explanation (its pollinator emerges only in midsummer)."
@@ -185,11 +185,11 @@
         "text": "By 1840, the lock town of Hallow Bend had eleven inns that served the boat crews passing through it.",
         "isCorrect": false,
         "trapType": "TRUE_BUT_MINOR_DETAIL",
-        "rationale": "The text does say this, but it is offered \"for example\" to illustrate Vance's argument. A single supporting detail about one town cannot be the main idea of the whole text."
+        "rationale": "This draws on a detail the text gives (Hallow Bend's eleven inns by 1840), but it is offered \"for example\" to illustrate Vance's argument. A single supporting detail about one town cannot be the main idea of the whole text."
       },
       {
         "letter": "C",
-        "text": "Vance holds that the valley's canal towns prospered mainly from serving passing crews, not from the freight.",
+        "text": "Vance holds that the valley's canal towns prospered mainly from serving boat crews rather than from freight.",
         "isCorrect": true,
         "trapType": "NONE",
         "rationale": "Correct. This restates the claim in the first and last sentences: the towns grew prosperous \"less from the goods the canal carried than from the services that arose around it.\" The inn and workshop details support this claim."
@@ -353,7 +353,7 @@
       },
       {
         "letter": "B",
-        "text": "the north cliff face of Tarn Ridge is made of a type of rock on which C. petrae could potentially grow.",
+        "text": "the north cliff face of Tarn Ridge is made of a type of rock on which C. petrae could grow.",
         "isCorrect": true,
         "trapType": "NONE",
         "rationale": "Correct. The lichen is found only on limestone, and the cliff is limestone, so the cliff's rock meets the one requirement the text gives. That makes the cliff a possible site for the lichen, which is all the facts guarantee."
@@ -569,7 +569,7 @@
     "domain": "Reading and Writing",
     "skillCategory": "Transitions",
     "difficulty": "Easy",
-    "stimulus": "The city of Brennick lowered its bus fares in 2019, making a bus ride cheaper than parking downtown for most commuters. ______, ridership rose the following year.",
+    "stimulus": "The city of Brennick lowered its bus fares in 2016, making a bus ride cheaper than parking downtown for most commuters. ______, ridership rose the following year.",
     "questionStem": "Which choice completes the text with the most logical transition?",
     "choices": [
       {
@@ -627,7 +627,7 @@
     "domain": "Math",
     "skillCategory": "Linear Interpretation",
     "difficulty": "Easy",
-    "stimulus": "A gym charges a one-time joining fee and then the same fee every month. The total cost y, in dollars, of a membership that lasts x months is given by y = 28x + 45.",
+    "stimulus": "A gym charges a one-time joining fee and then a fixed amount each month. The total cost y, in dollars, of a membership that lasts x months is given by y = 28x + 45.",
     "questionStem": "What does the number 28 represent in this context?",
     "choices": [
       {
@@ -653,10 +653,10 @@
       },
       {
         "letter": "D",
-        "text": "The number of months of membership that can be bought with the joining fee of $45.",
+        "text": "The number of months of membership included before the monthly charges begin.",
         "isCorrect": false,
         "trapType": "MISREAD_COEFFICIENT",
-        "rationale": "This treats 28 as a count of months. Setting y = 45 gives 28x + 45 = 45, so x = 0: the $45 fee alone buys no months at all. Also, 28 is a rate in dollars per month, not a number of months."
+        "rationale": "This treats 28 as a count of months. But 28 multiplies x, so it is a rate in dollars per month, and no months are included free: every month added raises the total cost by 28 dollars."
       }
     ],
     "correctAnswer": "B",

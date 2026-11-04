@@ -375,10 +375,10 @@
 
   function showLoadError(err) {
     document.getElementById("questionArea").innerHTML =
-      '<div class="error-state">Could not load <code>questions.json</code> (' + err + ').<br><br>' +
+      '<div class="error-state">Could not load <code>' + DATA_URL + '</code> (' + err + ').<br><br>' +
       'Most browsers block a page opened directly from disk (a <code>file://</code> URL) from fetching a local JSON file. ' +
       'Serve this folder instead \u2014 for example, run <code>python -m http.server</code> inside this folder and open ' +
-      '<code>http://localhost:8000</code>, or open the folder in VS Code with the Live Server extension.</div>';
+      '<code>http://localhost:8000/' + location.pathname.split('/').pop() + '</code>, or open the folder in VS Code with the Live Server extension.</div>';
   }
 
   function init() {

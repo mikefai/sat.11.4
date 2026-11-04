@@ -880,11 +880,11 @@
     "difficulty": "Hard",
     "type": "mc",
     "topic": "history",
-    "stimulus": "In 1847 the Orvane road commission inspected three river crossings: the northern ford, which flooded every spring; the stone bridge, which had been rebuilt twice ______ the ferry landing, which was the only crossing open all winter.",
+    "stimulus": "In 2003 the Delvane Historical Society catalogued three donated collections: the chart folio, which records the northern coast; the letter series, which had been transcribed twice ______ the photograph albums, which were kept in sealed cases.",
     "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "coreQuestion": "Which punctuation separates the items of a list whose items already contain commas?",
     "steps": [
-      "Identify the three listed crossings, each followed by a comma-set description.",
+      "Identify the three listed collections, each followed by a comma-set description.",
       "Because the items contain internal commas, the earlier break uses a semicolon.",
       "Use a semicolon before the final item (with \"and\") to keep the pattern consistent and the items distinct.",
       "Reject the comma, bare \"and,\" and colon choices because each blurs or breaks the list."
@@ -895,14 +895,14 @@
         "text": "twice, and",
         "isCorrect": false,
         "trapType": "INCONSISTENT_LIST_PUNCTUATION",
-        "rationale": "A comma here would match the commas inside the descriptions, making it unclear where one crossing ends and the next begins; the first break already used a semicolon."
+        "rationale": "A comma here would match the commas inside the descriptions, making it unclear where one collection ends and the next begins; the first break already used a semicolon."
       },
       {
         "letter": "B",
         "text": "twice and",
         "isCorrect": false,
         "trapType": "MISSING_PUNCTUATION",
-        "rationale": "With no punctuation the stone bridge and the ferry landing merge into one item."
+        "rationale": "With no punctuation the letter series and the photograph albums merge into one item."
       },
       {
         "letter": "C",
@@ -976,40 +976,40 @@
     "difficulty": "Easy",
     "type": "mc",
     "topic": "humanities",
-    "stimulus": "At the end of each spring, the two ______ studios on Lamplight Row open their doors, and visitors can watch clay being shaped, glazed, and fired.",
+    "stimulus": "At the end of each spring, the three ______ shared studio on the old mill road opens its doors, and visitors can watch glass being blown, shaped, and slowly cooled.",
     "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-    "coreQuestion": "Which form shows that the studios belong to more than one sculptor?",
+    "coreQuestion": "Which form shows that the studio belongs to more than one glassblower?",
     "steps": [
-      "Notice \"two\" signals more than one sculptor.",
-      "The studios belong to them, so a possessive is needed.",
-      "Place the apostrophe after the plural \"s\" to make \"sculptors'.\"",
+      "Notice \"three\" signals more than one glassblower, and \"studio\" is singular.",
+      "The studio belongs to them, so a possessive is needed.",
+      "Place the apostrophe after the plural \"s\" to make \"glassblowers'.\"",
       "Reject the singular possessive, the bare plural, and the doubled ending."
     ],
     "choices": [
       {
         "letter": "A",
-        "text": "sculptors'",
+        "text": "glassblowers'",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. \"Two\" makes the noun plural, and the apostrophe after the s shows the studios belong to them."
+        "rationale": "Correct. \"Three\" makes the noun plural, and the apostrophe after the s shows the shared studio belongs to them."
       },
       {
         "letter": "B",
-        "text": "sculptor's",
+        "text": "glassblower's",
         "isCorrect": false,
         "trapType": "SINGULAR_POSSESSIVE",
-        "rationale": "This shows ownership by one sculptor, which conflicts with \"two.\""
+        "rationale": "This shows ownership by one glassblower, which conflicts with \"three\" and \"shared.\""
       },
       {
         "letter": "C",
-        "text": "sculptors",
+        "text": "glassblowers",
         "isCorrect": false,
         "trapType": "MISSING_APOSTROPHE",
-        "rationale": "This plural has no possessive marker, so it cannot show that the studios belong to the sculptors."
+        "rationale": "This plural has no possessive marker, so it cannot show that the studio belongs to the glassblowers."
       },
       {
         "letter": "D",
-        "text": "sculptors's",
+        "text": "glassblowers's",
         "isCorrect": false,
         "trapType": "DOUBLED_POSSESSIVE",
         "rationale": "This adds an extra \"s\" after a plural that already ends in s; it is not standard."
@@ -1024,7 +1024,7 @@
     "difficulty": "Medium",
     "type": "mc",
     "topic": "literature",
-    "stimulus": "Since its founding in 1971, the Alder Quarterly, a small literary journal, ______ the early work of more than two hundred poets and story writers, and several of them went on to win national prizes.",
+    "stimulus": "Since its founding in 1971, the Corvane Quarterly, a small literary journal, ______ the early work of more than two hundred poets and story writers, and several of them went on to win national prizes.",
     "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "coreQuestion": "Which verb form fits an action that began in 1971 and continues to the present?",
     "steps": [
@@ -1039,7 +1039,7 @@
         "text": "published",
         "isCorrect": false,
         "trapType": "WRONG_TENSE",
-        "rationale": "The simple past treats the publishing as finished, which does not fit \"since 1971\" for a journal still operating."
+        "rationale": "The simple past treats the publishing as finished, but \"since 1971\" marks a span reaching to the present."
       },
       {
         "letter": "B",
@@ -1072,7 +1072,7 @@
     "difficulty": "Hard",
     "type": "mc",
     "topic": "science",
-    "stimulus": "Embedded in the thin sediment layers that the survey team sampled beneath the dry lake's central basin ______ fragments of a freshwater sponge, whose microscopic glass needles allowed the researchers to date each layer.",
+    "stimulus": "Embedded in the thin sediment layers that the survey team sampled beneath the dry lake's central basin ______ fragments of a freshwater sponge, whose microscopic glass needles indicate that the basin once held fresh water.",
     "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "coreQuestion": "Which verb agrees with the true subject of this inverted sentence?",
     "steps": [
@@ -1168,14 +1168,14 @@
     "difficulty": "Hard",
     "type": "mc",
     "topic": "humanities",
-    "stimulus": "Visitors to the sculptor Neve Aldous's retrospective often assume her rough, unfinished surfaces came from haste, and some critics have called the technique careless. ______ her letters show that she regularly spent months deciding which surfaces to leave untouched, treating restraint as the hardest part of the work.",
+    "stimulus": "Many listeners assume that the plain, repetitive openings of Lucia Verhaal's string quartets reveal a lack of invention. ______ the repetition is the organizing idea of each work: every movement returns to its opening phrase in a new key, so that the same notes are heard differently.",
     "questionStem": "Which choice completes the text with the most logical transition?",
-    "coreQuestion": "What relationship does the evidence in her letters have to the viewers' and critics' assumption?",
+    "coreQuestion": "What relationship does the second sentence have to the listeners' assumption?",
     "steps": [
-      "Identify the assumption: the roughness came from haste or carelessness.",
-      "Read the letters' claim: she took months deliberately choosing what to leave rough.",
-      "The letters correct the assumption by stating what was really true.",
-      "Choose the transition that introduces a correction and reject example, result, and parallel markers."
+      "Identify the assumption: repetition shows a lack of invention.",
+      "Read the second sentence: the repetition is the organizing idea, so the assumption is false.",
+      "The second sentence denies the assumption outright, so it needs a transition that asserts the opposite is true, not one that grants the point.",
+      "Reject concession markers that accept the assumption, and result or addition markers."
     ],
     "choices": [
       {
@@ -1187,24 +1187,24 @@
       },
       {
         "letter": "B",
-        "text": "Therefore,",
+        "text": "Nevertheless,",
         "isCorrect": false,
         "trapType": "WRONG_RELATIONSHIP",
-        "rationale": "\"Therefore\" would make the letters a consequence of the assumption, but they refute it."
+        "rationale": "\"Nevertheless\" treats the openings as a real drawback that the quartets overcome, but the sentence denies the assumption instead of granting it."
       },
       {
         "letter": "C",
-        "text": "For instance,",
+        "text": "Even so,",
         "isCorrect": false,
         "trapType": "WRONG_RELATIONSHIP",
-        "rationale": "The letters are not an example of haste or carelessness; they contradict both."
+        "rationale": "\"Even so\" concedes that the openings lack invention, but the sentence says the repetition is the invention."
       },
       {
         "letter": "D",
-        "text": "Likewise,",
+        "text": "Admittedly,",
         "isCorrect": false,
         "trapType": "WRONG_RELATIONSHIP",
-        "rationale": "\"Likewise\" signals agreement with the assumption, but the letters oppose it."
+        "rationale": "\"Admittedly\" would grant the assumption, yet the sentence rejects it."
       }
     ],
     "correctAnswer": "A"

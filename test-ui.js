@@ -14,6 +14,7 @@
   var navOpen = false;
   var lastTick = 0;
   var timerId = null;
+  var resFilter = "all";
 
   // ---------- storage (every access guarded) ----------
 
@@ -177,10 +178,64 @@
     updateTimer();
   }
 
-  // Task 5 replaces the body of this function with the real results view.
+  function esc(v) { return String(v).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+
+  function trapLabel(t) {
+    return !t || t === "NONE" ? "" : t.toLowerCase().replace(/_/g, " ").replace(/^./, function (c) { return c.toUpperCase(); });
+  }
+
+  function reviewItem(it, s) {
+    var r = s.responses[it.id], got = answered(it) ? r : null;
+    var ok = E.isCorrect(it, got);
+    var status = got === null ? "omitted" : ok ? "correct" : "incorrect";
+    var h = '<details class="tm-ritem" data-status="' + status + '"><summary><span class="tm-rid">' + it.id + "</span> " +
+      (E.SKILL_NAMES[it.skill] || it.skill) + " &middot; " + it.difficulty + ' <span class="tm-rstat ' + status + '">' +
+      status.charAt(0).toUpperCase() + status.slice(1) + "</span>" + (s.marked[it.id] ? ' <span class="tm-rmark">Marked</span>' : "") +
+      '</summary><div class="tm-rbody">' + R.stimulus(it.stimulus) + R.table(it.table) + '<p class="tm-stem">' + it.questionStem + "</p>";
+    if (it.type === "spr") {
+      h += "<p>Your answer: <strong>" + (got === null ? "Omitted" : esc(got)) + "</strong></p>" +
+        "<p>Accepted answer: <strong>" + it.acceptedAnswers.join(" or ") + "</strong></p>";
+      if (it.commonErrors && it.commonErrors.length) {
+        h += "<p>Common errors:</p><ul>" + it.commonErrors.map(function (e) { return "<li>" + e.value + " &mdash; " + e.why + "</li>"; }).join("") + "</ul>";
+      }
+    } else {
+      h += '<div class="tm-choices">' + it.choices.map(function (c) {
+        var cls = "choice answered" + (c.isCorrect ? (got === c.letter ? " correct-pick" : " reveal-correct-unpicked") : got === c.letter ? " wrong-pick" : "");
+        var tag = (got === c.letter ? " (your answer)" : "") + (c.isCorrect ? " (correct)" : "");
+        return '<div class="' + cls + '"><span class="letter">' + c.letter + '</span><span class="body">' + c.text + "<em>" + tag + '</em><span class="rationale">' +
+          c.rationale + "</span>" + (!c.isCorrect && trapLabel(c.trapType) ? '<span class="trap-chip">Trap: ' + trapLabel(c.trapType) + "</span>" : "") + "</span></div>";
+      }).join("") + "</div>";
+      if (got === null) h += "<p>Your answer: <strong>Omitted</strong></p>";
+    }
+    return h + R.explanation(it) + "</div></details>";
+  }
+
   function renderResults(s, f) {
-    app.innerHTML = '<section class="tm-card"><h1>Results</h1><p>The results view arrives in the next task.</p>' +
-      '<button type="button" class="tm-btn" data-action="startover">Start over</button></section>';
+    var sum = E.summarize(s, f);
+    var h = '<section class="tm-card tm-results"><h1>Results</h1><div class="tm-scores">' +
+      "<div><strong>Reading and Writing</strong> " + sum.sections.rw.correct + " / " + sum.sections.rw.total + "</div>" +
+      "<div><strong>Math</strong> " + sum.sections.math.correct + " / " + sum.sections.math.total + "</div></div><ul>" +
+      E.MODULES.map(function (m) { var x = sum.modules[m.id] || { correct: 0, total: 0 }; return "<li>" + m.label + ": " + x.correct + " / " + x.total + "</li>"; }).join("") +
+      '</ul><table class="data-table"><thead><tr><th>Domain</th><th>Correct</th><th>%</th></tr></thead><tbody>' +
+      Object.keys(E.DOMAIN_NAMES).map(function (k) {
+        var x = sum.domains[k] || { correct: 0, total: 0 };
+        return "<tr><td>" + E.DOMAIN_NAMES[k] + "</td><td>" + x.correct + " / " + x.total + "</td><td>" + (x.total ? Math.round(100 * x.correct / x.total) + "%" : "n/a") + "</td></tr>";
+      }).join("") + "</tbody></table><p>Raw scores only; this original form has no official scale.</p>" +
+      '<div class="tm-actions" role="group" aria-label="Review filter">' + ["all", "incorrect", "marked"].map(function (k) {
+        return '<button type="button" class="tm-btn' + (resFilter === k ? " tm-primary" : "") + '" data-filter="' + k + '" aria-pressed="' + (resFilter === k) + '">' +
+          k.charAt(0).toUpperCase() + k.slice(1) + "</button>";
+      }).join("") + "</div>";
+    var shown = 0, list = "";
+    E.MODULES.forEach(function (m) {
+      f[m.id].forEach(function (it) {
+        var inc = !E.isCorrect(it, answered(it) ? s.responses[it.id] : null);
+        if (resFilter === "incorrect" ? !inc : resFilter === "marked" ? !s.marked[it.id] : false) return;
+        shown++;
+        list += reviewItem(it, s);
+      });
+    });
+    app.innerHTML = h + '<div class="tm-rlist">' + (shown ? list : "<p>No questions match this filter.</p>") +
+      '</div><div class="tm-actions"><button type="button" class="tm-btn" data-action="retake">Retake test</button></div></section>';
   }
 
   function render() {
@@ -244,6 +299,7 @@
   app.addEventListener("click", function (e) {
     var el = e.target.closest("button");
     if (!el || el.disabled) return;
+    if (el.hasAttribute("data-filter") && session.phase === "results") { resFilter = el.getAttribute("data-filter"); return render(); }
     if (el.hasAttribute("data-letter") && session.phase === "module") return choose(el.getAttribute("data-letter"));
     if (el.hasAttribute("data-goto") && session.phase === "module") return go(Number(el.getAttribute("data-goto")));
     var a = el.getAttribute("data-action");
@@ -255,10 +311,10 @@
       if (sv && sv.phase === "module") session.position = Math.min(session.position, curItems().length);
       lastTick = Date.now();
       render();
-    } else if (a === "startover") {
-      var ok = window.confirm("Start over? Your saved progress will be erased.");
+    } else if (a === "startover" || a === "retake") {
+      var ok = window.confirm(a === "retake" ? "Retake the test? Your results will be erased and you will start from the beginning." : "Start over? Your saved progress will be erased.");
       lastTick = Date.now();
-      if (ok) { clearSaved(); session = E.newSession(); navOpen = false; render(); }
+      if (ok) { clearSaved(); session = E.newSession(); navOpen = false; resFilter = "all"; render(); }
     }
     else if (a === "openref") document.getElementById("tmRef").showModal();
     else if (a === "closeref") document.getElementById("tmRef").close();

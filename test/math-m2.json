@@ -62,17 +62,17 @@
     "choices": [
       {
         "letter": "A",
+        "text": "1.8",
+        "isCorrect": false,
+        "trapType": "TREATED_HOUR_AS_100_MINUTES",
+        "rationale": "Finds 180 minutes correctly, then divides by 100 as if an hour had 100 minutes: 180 / 100 = 1.8."
+      },
+      {
+        "letter": "B",
         "text": "3",
         "isCorrect": true,
         "trapType": "NONE",
         "rationale": "3240 / 18 = 180 minutes, and 180 / 60 = 3 hours."
-      },
-      {
-        "letter": "B",
-        "text": "54",
-        "isCorrect": false,
-        "trapType": "CONVERTED_VOLUME_NOT_TIME",
-        "rationale": "3240 / 60 = 54 divides the liters by 60 instead of dividing by the rate; it is neither minutes nor hours."
       },
       {
         "letter": "C",
@@ -89,7 +89,7 @@
         "rationale": "3240 · 18 / 60 = 972 multiplies by the rate instead of dividing, so the units do not work out to a time."
       }
     ],
-    "correctAnswer": "A"
+    "correctAnswer": "B"
   },
   {
     "id": "M2-03",
@@ -97,25 +97,25 @@
     "skill": "ADV-EXP",
     "difficulty": "Easy",
     "type": "spr",
-    "stimulus": "The equation (x + 5)² − (x − 3)² = px + q is true for all values of x, where p and q are constants.",
-    "questionStem": "What is the value of p + q?",
-    "coreQuestion": "How do you find the coefficients of an expression written as a difference of two squared binomials?",
+    "stimulus": "For x ≠ 4, the expression (x² − 2x − 8)/(x − 4) is equivalent to x + k, where k is a constant.",
+    "questionStem": "What is the value of k?",
+    "coreQuestion": "How do you simplify a rational expression by factoring the numerator?",
     "steps": [
-      "Expand each square: (x + 5)² = x² + 10x + 25 and (x − 3)² = x² − 6x + 9.",
-      "Subtract, distributing the negative sign to every term: x² + 10x + 25 − x² + 6x − 9 = 16x + 16.",
-      "So p = 16 and q = 16, and p + q = 32."
+      "Factor the numerator: x² − 2x − 8 = (x − 4)(x + 2), since −4 · 2 = −8 and −4 + 2 = −2.",
+      "Cancel the common factor (x − 4), which is allowed because x ≠ 4: the expression equals x + 2.",
+      "So k = 2."
     ],
     "acceptedAnswers": [
-      "32"
+      "2"
     ],
     "commonErrors": [
       {
-        "value": "16",
-        "why": "Gives only p (or only q); the question asks for p + q."
+        "value": "-2",
+        "why": "Takes the linear coefficient −2 as k instead of factoring the numerator."
       },
       {
-        "value": "38",
-        "why": "Subtracts only the x² term of (x − 3)², getting 4x + 34 instead of 16x + 16, so p + q = 38."
+        "value": "4",
+        "why": "Uses the excluded value 4 from the denominator as k."
       }
     ]
   },
@@ -228,24 +228,24 @@
     "choices": [
       {
         "letter": "A",
+        "text": "4a<sup>4</sup>/b<sup>2</sup>",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "(∛8)² = 4, (a<sup>6</sup>)<sup>2/3</sup> = a<sup>4</sup>, (b<sup>3</sup>)<sup>2/3</sup> = b<sup>2</sup>, giving 4a<sup>4</sup>/b<sup>2</sup>."
+      },
+      {
+        "letter": "B",
         "text": "2a<sup>2</sup>/b",
         "isCorrect": false,
         "trapType": "USED_ONE_THIRD_POWER",
         "rationale": "This is the cube root (power 1/3) of the expression, (8a<sup>6</sup>/b<sup>3</sup>)<sup>1/3</sup> = 2a<sup>2</sup>/b, not the 2/3 power."
       },
       {
-        "letter": "B",
+        "letter": "C",
         "text": "2a<sup>4</sup>/b<sup>2</sup>",
         "isCorrect": false,
         "trapType": "FORGOT_TO_SQUARE_CUBE_ROOT",
         "rationale": "Takes the cube root of 8 but forgets to square it: 8<sup>2/3</sup> is 4, not 2."
-      },
-      {
-        "letter": "C",
-        "text": "4a<sup>4</sup>/b<sup>2</sup>",
-        "isCorrect": true,
-        "trapType": "NONE",
-        "rationale": "(∛8)² = 4, (a<sup>6</sup>)<sup>2/3</sup> = a<sup>4</sup>, (b<sup>3</sup>)<sup>2/3</sup> = b<sup>2</sup>, giving 4a<sup>4</sup>/b<sup>2</sup>."
       },
       {
         "letter": "D",
@@ -255,7 +255,7 @@
         "rationale": "Leaves b<sup>3</sup> unchanged in the denominator instead of raising it to the 2/3 power, which gives b<sup>2</sup>."
       }
     ],
-    "correctAnswer": "C"
+    "correctAnswer": "A"
   },
   {
     "id": "M2-07",
@@ -263,25 +263,25 @@
     "skill": "ALG-LF",
     "difficulty": "Medium",
     "type": "spr",
-    "stimulus": "The linear function g satisfies g(−2) = 9 and g(6) = −7.",
-    "questionStem": "For what value of x does g(x) = 0?",
-    "coreQuestion": "How do you find where a linear function equals zero from two of its values?",
+    "stimulus": "A metal sample cools at a constant rate after it is removed from a furnace. Its temperature, in degrees Celsius, is modeled by the linear function T(m), where m is the number of minutes since removal. The model gives T(2) = 156 and T(6) = 108.",
+    "questionStem": "According to the model, after how many minutes will the temperature of the sample reach 0 degrees Celsius?",
+    "coreQuestion": "How do you find when a linear model reaches zero from two of its values?",
     "steps": [
-      "Slope: (−7 − 9)/(6 − (−2)) = −16/8 = −2.",
-      "Use g(6) = −7: g(x) = −2(x − 6) − 7 = −2x + 5.",
-      "Set −2x + 5 = 0, so x = 5/2."
+      "Rate of change: (108 − 156)/(6 − 2) = −48/4 = −12 degrees per minute.",
+      "Use T(2) = 156: T(m) = −12(m − 2) + 156 = −12m + 180.",
+      "Set −12m + 180 = 0, so m = 15."
     ],
     "acceptedAnswers": [
-      "5/2"
+      "15"
     ],
     "commonErrors": [
       {
-        "value": "5",
-        "why": "This is g(0), the y-intercept, not the x-value where g(x) = 0."
+        "value": "180",
+        "why": "This is T(0), the starting temperature, not the time when T(m) = 0."
       },
       {
-        "value": "-2",
-        "why": "This is the slope of g, not the zero."
+        "value": "-12",
+        "why": "This is the rate of change in degrees per minute, not a time."
       }
     ]
   },
@@ -291,71 +291,75 @@
     "skill": "PSD-PROB",
     "difficulty": "Medium",
     "type": "mc",
-    "stimulus": "A fitness center surveyed 160 of its members about the type of workout they prefer. The results, sorted by age group, are shown in the table.",
-    "questionStem": "One member who prefers cardio is selected at random from the surveyed members. What is the probability that this member is 40 or older?",
+    "stimulus": "A city parks department surveyed 200 visitors to a riverside park about how they arrived. The results, sorted by the day of the visit, are shown in the table.",
+    "questionStem": "One visitor who was surveyed on a weekend is selected at random. What is the probability that the visitor did not arrive by driving?",
     "table": {
-      "caption": "Preferred workout by age group",
+      "caption": "Method of arrival by day of visit",
       "headers": [
-        "Age group",
-        "Weights",
-        "Cardio",
+        "Day of visit",
+        "Walked",
+        "Biked",
+        "Drove",
         "Total"
       ],
       "rows": [
         [
-          "Under 40",
-          "54",
-          "36",
-          "90"
+          "Weekday",
+          "22",
+          "18",
+          "40",
+          "80"
         ],
         [
-          "40 or older",
-          "21",
-          "49",
-          "70"
+          "Weekend",
+          "28",
+          "36",
+          "56",
+          "120"
         ],
         [
           "Total",
-          "75",
-          "85",
-          "160"
+          "50",
+          "54",
+          "96",
+          "200"
         ]
       ]
     },
-    "coreQuestion": "How do you find a conditional probability when the sample is restricted to one column of a two-way table?",
+    "coreQuestion": "How do you find a conditional probability when the sample is restricted to one row of a two-way table?",
     "steps": [
-      "Restrict to the cardio column: 36 + 49 = 85 members prefer cardio.",
-      "Of those 85, 49 are 40 or older.",
-      "The probability is 49/85."
+      "Restrict to the weekend row: 120 visitors were surveyed on a weekend.",
+      "Of those, 28 walked and 36 biked, so 28 + 36 = 64 did not drive.",
+      "The probability is 64/120 = 8/15."
     ],
     "choices": [
       {
         "letter": "A",
-        "text": "49/160",
+        "text": "8/25",
         "isCorrect": false,
         "trapType": "WRONG_DENOMINATOR_WHOLE_SAMPLE",
-        "rationale": "49/160 uses all 160 surveyed members as the denominator, but the selection is restricted to members who prefer cardio."
+        "rationale": "64/200 = 8/25 uses all 200 visitors as the denominator, but the selection is restricted to the 120 weekend visitors."
       },
       {
         "letter": "B",
-        "text": "7/16",
+        "text": "7/15",
         "isCorrect": false,
-        "trapType": "IGNORED_CARDIO_CONDITION",
-        "rationale": "70/160 = 7/16 is the probability that a random member is 40 or older, ignoring the cardio condition."
+        "trapType": "COMPLEMENT_NOT_TAKEN",
+        "rationale": "56/120 = 7/15 is the probability that the weekend visitor drove, which is the complement of what is asked."
       },
       {
         "letter": "C",
-        "text": "49/85",
+        "text": "8/15",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Only the 85 members who prefer cardio are possible, and 49 of them are 40 or older, so the probability is 49/85."
+        "rationale": "Of the 120 weekend visitors, 28 + 36 = 64 did not drive, so the probability is 64/120 = 8/15."
       },
       {
         "letter": "D",
-        "text": "7/10",
+        "text": "8/13",
         "isCorrect": false,
         "trapType": "REVERSED_CONDITION",
-        "rationale": "49/70 = 7/10 is the probability that a 40-or-older member prefers cardio, which reverses the condition."
+        "rationale": "64/104 = 8/13 divides by the 104 visitors who walked or biked on either day, which reverses the condition."
       }
     ],
     "correctAnswer": "C"

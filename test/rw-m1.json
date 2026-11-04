@@ -837,7 +837,7 @@
         "text": ":",
         "isCorrect": false,
         "trapType": "UNNECESSARY_COLON",
-        "rationale": "A colon must follow a complete clause, and it cannot close a phrase that began after a comma."
+        "rationale": "A colon cannot close a phrase that opened with a comma, and the \"because\" clause that follows is not a list or an explanation set off by a colon."
       },
       {
         "letter": "B",
@@ -885,7 +885,7 @@
         "text": ":",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. A colon follows the complete clause \"the report listed three serious obstacles\" and introduces the list of those obstacles."
+        "rationale": "Correct. A colon follows the complete clause that ends at \"route\" and introduces the list naming the obstacles."
       },
       {
         "letter": "B",
@@ -906,7 +906,7 @@
         "text": ", and",
         "isCorrect": false,
         "trapType": "ILLOGICAL_CONJUNCTION",
-        "rationale": "Adding \"and\" makes the list read as a fourth item attached to the obstacles, and the comma cuts the clause off from what it introduces."
+        "rationale": "A comma plus \"and\" cannot introduce a list after a complete clause. It reads as a separate addition and leaves the list of obstacles unintroduced."
       }
     ],
     "correctAnswer": "A",
@@ -925,7 +925,7 @@
     "difficulty": "Medium",
     "type": "mc",
     "topic": "humanities",
-    "stimulus": "The curator of the Calloway Hall retrospective wondered whether visitors would linger before the quiet watercolors or hurry on to the louder canvases in the next gallery ______ In the end, nearly all of them stayed for an hour or more.",
+    "stimulus": "The conductor of the Calloway Hall summer series wondered whether the audience would sit patiently through the long, silent pauses in the new symphony or grow restless and begin to murmur ______ In the end, nearly all of them stayed seated until the final note faded.",
     "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
@@ -933,7 +933,7 @@
         "text": "?",
         "isCorrect": false,
         "trapType": "QUESTION_MARK_FOR_INDIRECT_QUESTION",
-        "rationale": "The sentence reports what the curator wondered. It is a statement containing an indirect question, so it does not take a question mark."
+        "rationale": "The sentence reports what the conductor wondered. It is a statement containing an indirect question, so it does not take a question mark."
       },
       {
         "letter": "B",
@@ -980,14 +980,14 @@
         "letter": "A",
         "text": "are",
         "isCorrect": false,
-        "trapType": "SUBJECT_VERB_NEAREST_NOUN",
-        "rationale": "This agrees with \"soldiers\" or \"letters\", but those nouns sit inside modifying phrases. The subject is \"collection\"."
+        "trapType": "SUBJECT_VERB_INTERVENING_PHRASE",
+        "rationale": "This plural verb agrees with \"letters\" or \"soldiers\", but those nouns sit inside modifying phrases. The subject is \"collection\"."
       },
       {
         "letter": "B",
         "text": "were",
         "isCorrect": false,
-        "trapType": "SUBJECT_VERB_NEAREST_NOUN",
+        "trapType": "SUBJECT_VERB_INTERVENING_PHRASE",
         "rationale": "A plural verb does not agree with the singular subject \"collection\", and past tense clashes with \"now held\"."
       },
       {
@@ -1001,7 +1001,7 @@
         "letter": "D",
         "text": "have been",
         "isCorrect": false,
-        "trapType": "SUBJECT_VERB_NEAREST_NOUN",
+        "trapType": "SUBJECT_VERB_INTERVENING_PHRASE",
         "rationale": "This plural form is tied to \"letters\" or \"soldiers\", not to the singular subject \"collection\"."
       }
     ],
@@ -1069,45 +1069,45 @@
     "difficulty": "Hard",
     "type": "mc",
     "topic": "humanities",
-    "stimulus": "Hendrik Vael left few works behind, and most have been lost to fire or neglect. Painted in 1620 on a single oak panel and scarcely touched by later restorers, ______",
+    "stimulus": "Hendrik Vael, a Flemish painter, left behind only nine known works, among them a portrait of a merchant's daughter that surfaced in an attic in 1950. Painted in 1620 on a single oak panel and scarcely touched by later restorers, ______",
     "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       {
         "letter": "A",
-        "text": "the artist's use of shadow is still admired by critics today",
+        "text": "Vael's modest fame now rests largely on that single portrait of her",
         "isCorrect": false,
         "trapType": "DANGLING_MODIFIER",
-        "rationale": "\"Use of shadow\" was not painted on a panel in 1620, so the opening phrase is left modifying the wrong noun."
+        "rationale": "The head noun is \"fame\", which was not painted on an oak panel in 1620, so the opening phrase modifies the wrong noun."
       },
       {
         "letter": "B",
-        "text": "critics today still admire the artist's use of shadow",
+        "text": "Vael completed the portrait in only three weeks, by one account",
         "isCorrect": false,
         "trapType": "DANGLING_MODIFIER",
-        "rationale": "\"Critics\" were not painted on an oak panel, so the opening phrase modifies the wrong noun."
+        "rationale": "The subject is \"Vael\", the painter. He was not painted on a panel or touched by restorers, so the opening phrase dangles."
       },
       {
         "letter": "C",
-        "text": "the artist's use of shadow remains much admired today",
+        "text": "scholars now rank the portrait among the finest of its decade",
         "isCorrect": false,
         "trapType": "DANGLING_MODIFIER",
-        "rationale": "The phrase \"painted in 1620 on a single oak panel\" cannot describe \"use of shadow\"."
+        "rationale": "The subject is \"scholars\", who were not painted on an oak panel, so the opening phrase modifies the wrong noun."
       },
       {
         "letter": "D",
-        "text": "the portrait is the best-known work he left",
+        "text": "Vael's portrait is now ranked among the finest of its decade",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. A portrait is the thing that can be painted on an oak panel and left scarcely touched by restorers, so the opening phrase modifies the right noun."
+        "rationale": "Correct. Although \"Vael's\" comes first, the head noun is \"portrait\", which is the thing painted on the panel and left scarcely touched by restorers."
       }
     ],
     "correctAnswer": "D",
-    "coreQuestion": "What noun must come right after a comma if it is described by the opening participial phrase?",
+    "coreQuestion": "What noun must come right after the comma if the opening participial phrase is to describe it logically?",
     "steps": [
-      "Identify the opening phrase: \"Painted in 1620 ... scarcely touched by later restorers\".",
-      "Ask what was painted and restored: a work such as a portrait, not an ability or the critics.",
-      "Check that the noun right after the comma can logically be that thing.",
-      "Choose the option that begins with the portrait."
+      "Identify the opening phrase: \"Painted in 1620 on a single oak panel and scarcely touched by later restorers\".",
+      "Find the subject of each option, ignoring possessives: fame, Vael, scholars, portrait.",
+      "Ask which of those could have been painted on a panel and restored: only the portrait.",
+      "Choose the option whose head noun is the portrait, even though it begins with a possessive."
     ]
   },
   {
@@ -1213,45 +1213,45 @@
     "difficulty": "Medium",
     "type": "mc",
     "topic": "history",
-    "stimulus": "While researching a topic, a student has taken the following notes:\n• The Tamsin Valley Railway opened in 1884.\n• Before it opened, grain took nine days to reach the port by wagon.\n• By rail, the same trip took one day.\n• Farmers along the line planted more acres of wheat in the following decade.\n• Grain shipments through the port tripled between 1884 and 1894.",
-    "questionStem": "The student wants to explain how the railway changed the time grain took to reach the port. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n• The Port Calder Free Library opened in 1893.\n• Before it opened, borrowing books cost two dollars a year through a private lending club.\n• The new library charged borrowers no fee.\n• Its collection grew from 800 books in 1893 to 6,000 books in 1913.\n• Card-holders numbered 150 in 1893 and 2,100 in 1913.",
+    "questionStem": "The student wants to explain how the library changed the cost of borrowing books for residents. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
         "letter": "A",
-        "text": "Grain that took nine days to reach the port by wagon before 1884 could make the trip in one day by rail.",
+        "text": "Borrowing books had cost two dollars a year through a private lending club before 1893, but the new library charged borrowers no fee.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. It gives the before and after travel times, which is exactly the change in time."
+        "rationale": "Correct. It gives the old cost, two dollars a year, and the new cost, no fee, which is the change in cost."
       },
       {
         "letter": "B",
-        "text": "Grain shipments through the port tripled between 1884 and 1894, a decade of growth along the Tamsin Valley line.",
+        "text": "The Port Calder Free Library collection grew from 800 books in 1893 to 6,000 books in 1913, a rise of more than five thousand volumes overall.",
         "isCorrect": false,
         "trapType": "WRONG_FOCUS",
-        "rationale": "The tripling of shipments is a later effect, not the change in travel time."
+        "rationale": "The growth of the collection is a later development and says nothing about what borrowing cost."
       },
       {
         "letter": "C",
-        "text": "After the railway opened, farmers along the line planted more acres of wheat during the next decade, according to records.",
+        "text": "Card-holders at the Port Calder Free Library rose from 150 in 1893 to 2,100 in 1913, a fourteenfold increase in a single generation.",
         "isCorrect": false,
         "trapType": "WRONG_FOCUS",
-        "rationale": "Wheat acreage is a downstream result and says nothing about how long the trip took."
+        "rationale": "The rise in card-holders is a later result and says nothing about what borrowing cost."
       },
       {
         "letter": "D",
-        "text": "Before the Tamsin Valley Railway opened in 1884, grain took nine days to reach the port by wagon from the farms.",
+        "text": "Before the Port Calder Free Library opened in 1893, borrowing books cost two dollars a year through a private lending club for residents.",
         "isCorrect": false,
         "trapType": "INCOMPLETE_COMPARISON",
-        "rationale": "It gives only the old travel time, so it never shows how the railway changed it."
+        "rationale": "It gives only the old cost, so it never shows how the library changed it."
       }
     ],
     "correctAnswer": "A",
-    "coreQuestion": "Which choice gives both the old and the new travel time for the grain?",
+    "coreQuestion": "Which choice gives both the old cost and the new cost of borrowing books?",
     "steps": [
-      "Restate the goal: how the railway changed the time grain took to reach the port.",
-      "Look in the notes for two numbers: nine days by wagon and one day by rail.",
-      "Reject the choices about shipment totals and wheat acreage, and the choice that gives only the old time.",
-      "Choose the sentence that contrasts nine days with one day."
+      "Restate the goal: how the library changed the cost of borrowing books.",
+      "Look in the notes for two costs: two dollars a year through the private club, and no fee at the new library.",
+      "Reject the choices about the collection and card-holders, and the choice that gives only the old cost.",
+      "Choose the sentence that contrasts the two costs."
     ]
   },
   {
@@ -1261,45 +1261,45 @@
     "difficulty": "Hard",
     "type": "mc",
     "topic": "literature",
-    "stimulus": "While researching a topic, a student has taken the following notes:\n• Imre Valdis published the novel The Salt Road in 1998.\n• The novel follows a family of salt traders across a desert over three generations.\n• Valdis worked as a geologist before turning to fiction.\n• The book is told in short chapters, each narrated by a different family member.\n• The novel has been translated into eleven languages.",
-    "questionStem": "The student wants to show how the author's earlier career connects to the novel's setting. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n• Imre Valdis published the novel The Ashen Caravan in 1998.\n• The novel follows a family of salt traders across a desert over three generations.\n• Valdis worked as a geologist before turning to fiction.\n• The book is told in short chapters, each narrated by a different family member.\n• The novel has been translated into eleven languages.",
+    "questionStem": "The student wants to present the author's earlier career alongside the novel's setting. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
       {
         "letter": "A",
-        "text": "Valdis worked as a geologist before turning to fiction, and his novel has since been translated into eleven languages worldwide.",
+        "text": "Before turning to fiction, Valdis worked as a geologist, and his 1998 novel The Ashen Caravan has since been translated into eleven languages.",
         "isCorrect": false,
-        "trapType": "HALF_RIGHT_OMITS_LINK",
-        "rationale": "It gives the earlier career, but translations do not connect to the setting."
+        "trapType": "HALF_RIGHT_OMITS_SETTING",
+        "rationale": "It gives the earlier career, but translations are not part of the setting."
       },
       {
         "letter": "B",
-        "text": "The Salt Road, published in 1998, follows a family of salt traders across a desert over the span of three generations.",
+        "text": "Valdis, who worked as a geologist before turning to fiction, tells The Ashen Caravan over three generations in short chapters narrated by family members.",
         "isCorrect": false,
-        "trapType": "HALF_RIGHT_OMITS_LINK",
-        "rationale": "It describes the setting but never mentions the author's career."
+        "trapType": "WRONG_FOCUS",
+        "rationale": "It names the career and the three generations, but the generations and the chapter structure are not the setting of salt traders in a desert."
       },
       {
         "letter": "C",
-        "text": "Valdis, a former geologist, set The Salt Road among salt traders crossing a desert.",
+        "text": "Before turning to fiction, Valdis worked as a geologist; his 1998 novel The Ashen Caravan follows a family of salt traders across a desert.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. It pairs his earlier career as a geologist with a setting built on salt and desert land."
+        "rationale": "Correct. It states the earlier career as a geologist and then gives the setting: a family of salt traders crossing a desert."
       },
       {
         "letter": "D",
-        "text": "Told in short chapters by different family members, Valdis's The Salt Road appeared in 1998 after he left geology.",
+        "text": "Published in 1998, Valdis's novel The Ashen Caravan follows a family of salt traders across a desert over the course of three generations.",
         "isCorrect": false,
-        "trapType": "WRONG_FOCUS",
-        "rationale": "It mentions his past career, but the form of the book is not the setting."
+        "trapType": "HALF_RIGHT_OMITS_CAREER",
+        "rationale": "It describes the setting but never mentions the author's earlier career."
       }
     ],
     "correctAnswer": "C",
-    "coreQuestion": "Which choice ties the author's former job to the place where the story is set?",
+    "coreQuestion": "Which choice presents the author's former job together with the place where the story is set?",
     "steps": [
-      "Restate the goal: link the author's earlier career to the setting.",
-      "Pick out the two needed notes: geologist, and salt traders in a desert.",
-      "Reject choices that give only one note, or that bring in structure or translations.",
-      "Choose the sentence that joins both."
+      "Restate the goal: present the author's earlier career alongside the setting.",
+      "Pick out the two needed notes: geologist, and salt traders crossing a desert.",
+      "Reject choices that give only one of them, and the choice that pairs the career with generations and chapter structure instead of the setting.",
+      "Choose the sentence that gives the career and the desert setting."
     ]
   },
   {
@@ -1314,31 +1314,31 @@
     "choices": [
       {
         "letter": "A",
-        "text": "A honeybee colony typically holds 20,000 to 60,000 bees, while a bumblebee colony typically holds only 50 to 500 bees in all.",
+        "text": "A honeybee colony typically holds 20,000 to 60,000 bees, while a bumblebee colony typically holds only 50 to 500 bees in all, which is far fewer.",
         "isCorrect": false,
         "trapType": "HALF_RIGHT_OMITS_SECOND_POINT",
         "rationale": "It contrasts size but says nothing about winter survival."
       },
       {
         "letter": "B",
-        "text": "A honeybee colony of tens of thousands survives the winter whole, but in a bumblebee colony of a few hundred, only new queens do.",
+        "text": "A honeybee colony of 20,000 to 60,000 bees survives the winter whole, but a bumblebee colony of 50 to 500 bees keeps only its new queens.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. It contrasts both size and winter survival for the two kinds of colonies."
+        "rationale": "Correct. It contrasts the two kinds of colonies on both size and winter survival."
       },
       {
         "letter": "C",
-        "text": "A honeybee colony survives the winter as a whole, while in a bumblebee colony only the new queens survive the winter months.",
+        "text": "A honeybee colony typically holds 20,000 to 60,000 bees, and the colony as a whole survives the winter as the cold months pass each year.",
         "isCorrect": false,
-        "trapType": "HALF_RIGHT_OMITS_SECOND_POINT",
-        "rationale": "It contrasts winter survival but says nothing about size."
+        "trapType": "HALF_RIGHT_NO_CONTRAST",
+        "rationale": "It covers size and winter survival, but only for honeybees, so it contrasts nothing."
       },
       {
         "letter": "D",
-        "text": "Both honeybees and bumblebees pollinate crops such as apples and blueberries, as the colonies of each kind do each year without fail.",
+        "text": "Bumblebee colonies typically hold 50 to 500 bees, and only their new queens survive the winter, while both kinds of bees pollinate crops such as apples.",
         "isCorrect": false,
-        "trapType": "WRONG_FOCUS",
-        "rationale": "It states a similarity, not the contrast the student wants."
+        "trapType": "HALF_RIGHT_NO_CONTRAST",
+        "rationale": "It covers size and winter survival, but only for bumblebees, and ends with a similarity, so it does not contrast the two kinds of colonies."
       }
     ],
     "correctAnswer": "B",

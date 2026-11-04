@@ -1,0 +1,76 @@
+[
+  {
+    "id": "M2-01",
+    "section": "math",
+    "skill": "ADV-EXP",
+    "difficulty": "Medium",
+    "stimulus": "Consider the expression (x + 3)<sup>2</sup> - 9.",
+    "questionStem": "Which of the following expressions is equivalent to the given expression?",
+    "coreQuestion": "What does the expression become after the square is expanded and the constant is combined?",
+    "steps": [
+      "Expand: (x + 3)<sup>2</sup> = x<sup>2</sup> + 6x + 9.",
+      "Subtract 9: x<sup>2</sup> + 6x + 9 - 9.",
+      "The constants cancel, leaving x<sup>2</sup> + 6x."
+    ],
+    "type": "mc",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "x<sup>2</sup> + 6x",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "The constants 9 and -9 cancel."
+      },
+      {
+        "letter": "B",
+        "text": "x<sup>2</sup> + 6x + 18",
+        "isCorrect": false,
+        "trapType": "SIGN_ERROR",
+        "rationale": "Adds 9 instead of subtracting it."
+      },
+      {
+        "letter": "C",
+        "text": "x<sup>2</sup>",
+        "isCorrect": false,
+        "trapType": "DROPPED_MIDDLE_TERM",
+        "rationale": "Squares each term separately and misses the 6x cross term."
+      },
+      {
+        "letter": "D",
+        "text": "x<sup>2</sup> - 6",
+        "isCorrect": false,
+        "trapType": "ARITHMETIC_SLIP",
+        "rationale": "Combines the constants incorrectly and loses the 6x term."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "M2-02",
+    "section": "math",
+    "skill": "PSD-1V",
+    "difficulty": "Medium",
+    "type": "spr",
+    "stimulus": "The mean of five test scores is 82. Four of the scores are 80, 90, 78, and 88.",
+    "questionStem": "What is the fifth test score?",
+    "coreQuestion": "How can a known mean and four known values be used to find a missing value?",
+    "steps": [
+      "Total of all five scores: 5 x 82 = 410.",
+      "Total of the four known scores: 80 + 90 + 78 + 88 = 336.",
+      "Fifth score: 410 - 336 = 74."
+    ],
+    "acceptedAnswers": [
+      "74"
+    ],
+    "commonErrors": [
+      {
+        "value": "82",
+        "why": "Assumes the missing score equals the mean."
+      },
+      {
+        "value": "336",
+        "why": "Gives the sum of the four known scores instead of the missing one."
+      }
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "M1-01",
+    "section": "math",
+    "skill": "ALG-1V",
+    "difficulty": "Easy",
+    "stimulus": "A community garden charges a flat registration fee of $12 plus $4.50 per square meter of plot. Mara paid a total of $57 for her plot.",
+    "questionStem": "How many square meters is Mara's plot?",
+    "coreQuestion": "How do you find the plot size from a total cost that includes a flat fee and a per-unit charge?",
+    "steps": [
+      "Subtract the $12 fee from $57 to get $45.",
+      "Divide $45 by the $4.50 rate per square meter.",
+      "45 / 4.5 = 10 square meters."
+    ],
+    "type": "mc",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "5",
+        "isCorrect": false,
+        "trapType": "DIVISION_SLIP",
+        "rationale": "Comes from dividing 45 by 9 instead of by 4.50."
+      },
+      {
+        "letter": "B",
+        "text": "10",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "(57 - 12) / 4.5 = 10."
+      },
+      {
+        "letter": "C",
+        "text": "12.67",
+        "isCorrect": false,
+        "trapType": "FORGOT_FIXED_FEE",
+        "rationale": "Divides 57 by 4.5 without removing the flat fee first."
+      },
+      {
+        "letter": "D",
+        "text": "45",
+        "isCorrect": false,
+        "trapType": "STOPPED_EARLY",
+        "rationale": "Subtracts the fee but never divides by the per-square-meter rate."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "M1-02",
+    "section": "math",
+    "skill": "ALG-2V",
+    "difficulty": "Easy",
+    "type": "spr",
+    "stimulus": "A rectangle has a perimeter of 38 centimeters. Its length is 3 centimeters more than its width.",
+    "questionStem": "What is the width, in centimeters, of the rectangle?",
+    "coreQuestion": "How do you turn a perimeter and a length-width relationship into one equation?",
+    "steps": [
+      "Let the width be w, so the length is w + 3.",
+      "Perimeter: 2(w + w + 3) = 38, so 4w + 6 = 38.",
+      "4w = 32, so w = 8."
+    ],
+    "acceptedAnswers": [
+      "8"
+    ],
+    "commonErrors": [
+      {
+        "value": "11",
+        "why": "This is the length (w + 3), not the width."
+      },
+      {
+        "value": "9.5",
+        "why": "Divides the perimeter by 4 and ignores the 3 centimeter difference."
+      }
+    ]
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "RW1-01",
+    "section": "rw",
+    "skill": "WIC",
+    "difficulty": "Easy",
+    "topic": "science",
+    "stimulus": "Marine biologists tracking a colony of sea otters off a rocky northern coast noticed that the animals' foraging habits were remarkably ______: each otter relied on a single kind of prey, such as urchins or crabs, and rarely switched even when that prey grew scarce.",
+    "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "coreQuestion": "What single word describes animals that stick to one food source even when it becomes scarce?",
+    "steps": [
+      "The colon introduces an explanation of the blank.",
+      "The explanation says each otter keeps to one prey and rarely switches.",
+      "A word meaning unchanging or inflexible matches that behavior."
+    ],
+    "type": "mc",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "wasteful",
+        "isCorrect": false,
+        "trapType": "WRONG_CONNOTATION",
+        "rationale": "Nothing in the text says the otters discard or squander food."
+      },
+      {
+        "letter": "B",
+        "text": "rigid",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Sticking to one prey despite scarcity shows inflexible habits."
+      },
+      {
+        "letter": "C",
+        "text": "unpredictable",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_MEANING",
+        "rationale": "The otters rarely switch, so their habits are predictable, not unpredictable."
+      },
+      {
+        "letter": "D",
+        "text": "ambitious",
+        "isCorrect": false,
+        "trapType": "OFF_TOPIC",
+        "rationale": "Ambition describes goals, not feeding patterns, and the text mentions no goals."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "RW1-02",
+    "section": "rw",
+    "skill": "TRN",
+    "difficulty": "Medium",
+    "topic": "history",
+    "stimulus": "In the early nineteenth century, canal companies in several river valleys expected barges to carry most inland freight for generations. ______ within a few decades, railroads offered faster and more flexible service, and many canals were abandoned after investors withdrew their funds.",
+    "questionStem": "Which choice completes the text with the most logical transition?",
+    "coreQuestion": "How does the second sentence relate to the expectation described in the first?",
+    "steps": [
+      "The first sentence states what the canal companies expected.",
+      "The second sentence says railroads soon undercut that expectation.",
+      "A contrast transition fits an expectation followed by an opposite outcome."
+    ],
+    "type": "mc",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "For instance,",
+        "isCorrect": false,
+        "trapType": "WRONG_RELATIONSHIP",
+        "rationale": "Introduces an example, but the railroads reverse the expectation rather than illustrate it."
+      },
+      {
+        "letter": "B",
+        "text": "However,",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Signals the contrast between the expectation and what actually happened."
+      },
+      {
+        "letter": "C",
+        "text": "Similarly,",
+        "isCorrect": false,
+        "trapType": "WRONG_RELATIONSHIP",
+        "rationale": "Signals likeness, but the second sentence reverses the first."
+      },
+      {
+        "letter": "D",
+        "text": "Therefore,",
+        "isCorrect": false,
+        "trapType": "FALSE_CAUSE",
+        "rationale": "Implies the expectation caused the railroads, which the text does not say."
+      }
+    ],
+    "correctAnswer": "B"
+  }
+]

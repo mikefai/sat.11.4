@@ -1,0 +1,96 @@
+[
+  {
+    "id": "RW2-01",
+    "section": "rw",
+    "skill": "CID",
+    "difficulty": "Medium",
+    "topic": "literature",
+    "stimulus": "In the novel The Salt Road, the narrator, a ferry pilot named Ines Torrado, rarely describes her own feelings directly. Instead, she reports what she sees from the wheelhouse: the weather, the passengers, the tide. Through these small details, readers gradually come to understand her loneliness and her fear of ever leaving the harbor town.",
+    "questionStem": "Which choice best states the main idea of the text?",
+    "coreQuestion": "What is the overall point the text makes about how the narrator reveals her feelings?",
+    "steps": [
+      "Note that the narrator seldom states her feelings outright.",
+      "Note that she describes weather, passengers and tide instead.",
+      "The details together let readers infer her loneliness and fear."
+    ],
+    "type": "mc",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "The narrator conveys her loneliness and fear indirectly, through her observations of the people and conditions around her.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Matches both the lack of direct statements and the revealing details."
+      },
+      {
+        "letter": "B",
+        "text": "The narrator avoids describing the harbor town because she dislikes the passengers she carries across the water every day.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_CLAIM",
+        "rationale": "The text never says she dislikes passengers or avoids describing the town."
+      },
+      {
+        "letter": "C",
+        "text": "The novel is mainly a technical account of how ferries are piloted through changing weather and tides.",
+        "isCorrect": false,
+        "trapType": "OFF_FOCUS",
+        "rationale": "Weather and tide are details that reveal her feelings, not the main subject."
+      },
+      {
+        "letter": "D",
+        "text": "Readers cannot understand the narrator because she never describes anything she sees.",
+        "isCorrect": false,
+        "trapType": "CONTRADICTS_TEXT",
+        "rationale": "She does describe what she sees; she just does not state her feelings."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "RW2-02",
+    "section": "rw",
+    "skill": "FSS",
+    "difficulty": "Easy",
+    "topic": "humanities",
+    "stimulus": "Curators at the municipal museum ______ that the newly donated tapestry dates from the fourteenth century, although laboratory tests on its dyes are still under way. If confirmed, the date would make the piece the oldest textile in the museum's permanent collection.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "coreQuestion": "Which verb form agrees with the plural subject Curators in a complete clause?",
+    "steps": [
+      "Identify the subject: the plural noun Curators.",
+      "The clause needs a finite verb that agrees in number with a plural subject.",
+      "Only the plural present form works; the other options are singular or nonfinite."
+    ],
+    "type": "mc",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "believes",
+        "isCorrect": false,
+        "trapType": "SUBJECT_VERB_DISAGREEMENT",
+        "rationale": "Singular verb does not agree with the plural subject Curators."
+      },
+      {
+        "letter": "B",
+        "text": "believe",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Plural present verb agrees with Curators."
+      },
+      {
+        "letter": "C",
+        "text": "believing",
+        "isCorrect": false,
+        "trapType": "NONFINITE_VERB",
+        "rationale": "Leaves the sentence without a finite verb, creating a fragment."
+      },
+      {
+        "letter": "D",
+        "text": "to believe",
+        "isCorrect": false,
+        "trapType": "NONFINITE_VERB",
+        "rationale": "An infinitive cannot serve as the main verb of the clause."
+      }
+    ],
+    "correctAnswer": "B"
+  }
+]

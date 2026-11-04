@@ -78,4 +78,14 @@ test("correct letters are spread", () => {
   }
 });
 
+test("WIC seed item", () => {
+  const q = get("LESSON-01-WIC");
+  assert.ok(q, "LESSON-01-WIC exists");
+  const n = wc(q.stimulus);
+  assert.ok(n >= 40 && n <= 80, "stimulus word count " + n);
+  assert.ok(q.stimulus.includes("______"));
+  assert.equal(q.choices.length, 4);
+  for (const c of q.choices) assert.equal(wc(c.text), 1, c.letter + " single word");
+});
+
 module.exports = { items, get, wc };

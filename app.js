@@ -1,8 +1,8 @@
 (function () {
   "use strict";
 
-  var STORAGE_KEY = "item-bank-progress-v2";
-  var DATA_URL = "questions.json";
+  var STORAGE_KEY = document.body.getAttribute("data-storage") || "item-bank-progress-v2";
+  var DATA_URL = document.body.getAttribute("data-src") || "questions.json";
 
   var QUESTIONS = [];
 
@@ -107,6 +107,19 @@
     }, 1000);
   }
 
+  function renderLessonExtras(q) {
+    var html = "";
+    if (q.coreQuestion) {
+      html += '<div class="core-question"><div class="note-label">Underlying core question</div>' + q.coreQuestion + "</div>";
+    }
+    if (q.steps && q.steps.length) {
+      html += '<ol class="steps">';
+      for (var i = 0; i < q.steps.length; i++) html += "<li>" + q.steps[i] + "</li>";
+      html += "</ol>";
+    }
+    return html;
+  }
+
   function renderQuestion() {
     var area = document.getElementById("questionArea");
     var q = currentQuestion();
@@ -164,6 +177,8 @@
       } else {
         html += '<div class="verdict bad"><span class="mark" aria-hidden="true">\u2717</span> Not quite \u2014 the correct answer is ' + q.correctAnswer + ".</div>";
       }
+
+      html += renderLessonExtras(q);
 
       html += '<details class="study-note"><summary>Study note</summary><div class="note-body">';
       html += '<div class="note-section"><div class="note-label">Core concept</div><div class="note-text">' + q.studyNote.ruleOrPrinciple + "</div></div>";
@@ -333,6 +348,7 @@
     document.getElementById("resetBtn").addEventListener("click", resetProgress);
 
     document.addEventListener("keydown", function (e) {
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
       var dialogEl = document.getElementById("report");
       if (dialogEl.open) return;
       var key = e.key.toUpperCase();

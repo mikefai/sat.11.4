@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "id": "LESSON-01-WIC",
+    "domain": "Reading and Writing",
+    "skillCategory": "Words in Context",
+    "difficulty": "Medium",
+    "stimulus": "To a casual reader, the naturalist's field notes appear ______ at first glance: page after page of repetitive measurements, each recorded in the same flat, unhurried tone. Yet a closer reading shows that the notes in fact capture remarkable precision, since the same patterns can be traced across decades of careful observation.",
+    "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "ornate",
+        "isCorrect": false,
+        "trapType": "SOUNDS_RIGHT_NO_CUE",
+        "rationale": "Ornate sounds like a fitting word for a scholarly document, but nothing in the sentence points to decoration or elaborate style. The clues describe plain, repetitive measurements."
+      },
+      {
+        "letter": "B",
+        "text": "mundane",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Page after page of repetitive measurements in a flat tone is ordinary and dull, and the contrast signal \"Yet ... in fact capture remarkable precision\" confirms that the blank must name a first impression that the notes then overturn."
+      },
+      {
+        "letter": "C",
+        "text": "erratic",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_DIRECTION",
+        "rationale": "Erratic means unpredictable, which points the wrong way. Repetitive measurements are regular, and the later claim of remarkable precision directly contradicts the idea of inconsistency."
+      },
+      {
+        "letter": "D",
+        "text": "provocative",
+        "isCorrect": false,
+        "trapType": "WRONG_CONNOTATION",
+        "rationale": "Provocative suggests material that stirs up debate or strong reactions. A flat, unhurried record of measurements has the opposite effect, so the tone of this word does not fit the clues."
+      }
+    ],
+    "correctAnswer": "B",
+    "coreQuestion": "Before looking at the options, which word do the clues \"repetitive measurements\" and the contrast with \"remarkable precision\" force the blank to be?",
+    "steps": [
+      "Cover the choices and predict a word from the in-sentence clues: repetitive measurements in a flat tone suggest something ordinary or dull.",
+      "Name the contrast signal. \"Yet\" and \"in fact\" show that the first impression in the blank is the opposite of the notes' real quality, which is remarkable precision.",
+      "Test each option against your prediction and cross out any word that has no support in the text: ornate has no cue, erratic contradicts precision, and provocative clashes with the flat tone.",
+      "Keep mundane, the only word that matches both the prediction and the contrast."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "In a Words in Context item, the correct word is fixed by clues inside the sentence. Predict a word from those clues first, then pick the option that matches your prediction.",
+      "trapAlert": "Distractors are often words that sound academic or fit the general topic, such as ornate for a scholarly document, without any support from the text. A word that merely sounds right is wrong if no clue points to it.",
+      "strategicShortcut": "Find the contrast or continuation signal (yet, however, in fact, because), decide whether the blank agrees or disagrees with the nearby clue, and predict before reading the choices.",
+      "keyVocabularyOrFormulas": ["mundane", "contrast signal", "predict before you look", "in-sentence clue"]
+    }
+  }
+]

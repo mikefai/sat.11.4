@@ -198,15 +198,15 @@
     "difficulty": "Easy",
     "type": "mc",
     "topic": "science",
-    "stimulus": "Many people assume that bats are blind, but this is a myth. Bats can see, and some species see quite well in dim light. What makes bats remarkable is that they also use echolocation, emitting high-pitched calls and listening for the returning echoes to locate insects in total darkness.",
+    "stimulus": "Many people assume that bats are blind, but this is a myth. Bats can see, and some species see quite well in dim light. What makes many bats remarkable is that they also use echolocation, emitting high-pitched calls and listening for the returning echoes to locate insects in total darkness.",
     "questionStem": "Which choice best describes the overall structure of the text?",
     "choices": [
       {
         "letter": "A",
-        "text": "It dismisses a common misconception and then describes an additional ability that bats have.",
+        "text": "It dismisses a common misconception and then describes an additional ability that many bats have.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. The text corrects the belief that bats are blind, then adds that bats also use echolocation."
+        "rationale": "Correct. The text corrects the belief that bats are blind, then adds that many bats also use echolocation."
       },
       {
         "letter": "B",
@@ -438,44 +438,44 @@
     "difficulty": "Medium",
     "type": "mc",
     "topic": "history",
-    "stimulus": "When the Kessler Canal opened in 1841, many in the town of Brandt expected its merchants to prosper, and they did. But the canal's greater effect was on the town's workers: by cutting the cost of hauling coal, it brought cheap fuel to Brandt's small foundries, which expanded and hired hundreds of laborers who had once worked the surrounding farms. Within a generation, Brandt was known less as a trading post than as a manufacturing center.",
+    "stimulus": "In 1902, the Harwick Bureau of Weights and Measures began inspecting grocers' scales, a reform meant to protect shoppers from short weight. Shoppers did benefit, but the program's chief effect was on the grocers themselves: inspected scales carried a bureau seal, honest grocers advertised it, and customers began choosing shops by the seal rather than by habit or family loyalty. Within a decade, most dealers who had cheated were out of business.",
     "questionStem": "Which choice best states the main idea of the text?",
     "choices": [
       {
         "letter": "A",
-        "text": "The canal benefited Brandt's merchants more than it benefited any other group in the town.",
+        "text": "The inspection program benefited shoppers more than it benefited any of the grocers it covered.",
         "isCorrect": false,
         "trapType": "HALF_CORRECT_DETAIL",
-        "rationale": "Merchants did prosper, but the text calls the canal's greater effect the one on workers and industry."
+        "rationale": "Shoppers did benefit, but the text says the program's chief effect was on the grocers and on how customers chose among them."
       },
       {
         "letter": "B",
-        "text": "By lowering fuel costs, the canal helped turn Brandt from a trading post into a factory town.",
+        "text": "A program meant to protect shoppers mainly worked by changing which grocers customers chose.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. Cheaper coal let the foundries grow, and within a generation the town was known for manufacturing."
+        "rationale": "Correct. The seal let customers pick honest shops, which drove out cheating dealers within a decade."
       },
       {
         "letter": "C",
-        "text": "Farm laborers in Brandt resisted taking jobs in the new foundries when they were first offered.",
+        "text": "Grocers resisted the bureau's seals because inspections raised the cost of running their shops.",
         "isCorrect": false,
         "trapType": "UNSUPPORTED_CLAIM",
-        "rationale": "The text says the laborers took foundry jobs but never mentions resistance."
+        "rationale": "The text says honest grocers advertised the seal and never mentions resistance or cost."
       },
       {
         "letter": "D",
-        "text": "Coal became more valuable to Brandt than the goods that its merchants had once traded.",
+        "text": "Customer loyalty to family-run shops grew stronger once the bureau began inspecting scales.",
         "isCorrect": false,
-        "trapType": "UNSUPPORTED_CLAIM",
-        "rationale": "The text compares no values of coal and merchant goods. It describes cheaper coal helping foundries."
+        "trapType": "OPPOSITE_DIRECTION",
+        "rationale": "The text says customers began choosing by the seal rather than by habit or family loyalty."
       }
     ],
     "correctAnswer": "B",
-    "coreQuestion": "What is the central point about the canal's effect on Brandt?",
+    "coreQuestion": "What is the central point about the effect of the scale inspections?",
     "steps": [
-      "Mark the contrast signal: merchants prospered, but the greater effect was on workers.",
-      "Follow the chain: cheaper coal, bigger foundries, more jobs, manufacturing identity.",
-      "Reject the half-right option that stops at the merchants and the options that invent resistance or comparisons.",
+      "Mark the contrast signal: shoppers did benefit, but the chief effect was on the grocers.",
+      "Follow the chain: seal on scales, honest grocers advertise it, customers choose by seal, cheaters fail.",
+      "Reject the half-right option that stops at the shoppers and the options that invent resistance or reverse customer behavior.",
       "Choose the option that states the full chain."
     ]
   },
@@ -486,45 +486,45 @@
     "difficulty": "Medium",
     "type": "mc",
     "topic": "literature",
-    "stimulus": "In the novel The Lantern Year, the narrator Marit slowly comes to doubt the stories her older brother tells about his years at sea. A critic claims that Marit's doubt first shows up in small, practical actions rather than in any open accusation.",
+    "stimulus": "In the novel The Lantern Year, the narrator Teodor gradually comes to resent his mentor, the lamplighter Hesk. A critic claims that Teodor's resentment first appears in the way he describes Hesk's daily routines, through small shifts in tone, rather than in any open complaint.",
     "questionStem": "Which quotation from The Lantern Year most directly supports the critic's claim?",
     "choices": [
       {
         "letter": "A",
-        "text": "\"Marit stood in the square and told the whole village that her brother had invented every one of his voyages at sea.\"",
+        "text": "\"Teodor told Hesk to his face, in front of the other lamplighters, that he was tired of being treated like a hired hand.\"",
         "isCorrect": false,
         "trapType": "MISMATCHED_EVIDENCE",
-        "rationale": "This is an open accusation, the opposite of the quiet, practical action the critic describes."
+        "rationale": "This is an open complaint spoken aloud, the opposite of the subtle tone the critic describes."
       },
       {
         "letter": "B",
-        "text": "\"She told her mother plainly, over supper that evening, that she no longer believed a single word he said.\"",
+        "text": "\"He admitted to himself, late one night, that he resented the old man's place at the head of the table.\"",
         "isCorrect": false,
         "trapType": "HALF_CORRECT_DETAIL",
-        "rationale": "This shows doubt, but it is stated outright, not expressed through a small practical action."
+        "rationale": "This shows resentment, but it is stated directly rather than conveyed through a shift in how routines are described."
       },
       {
         "letter": "C",
-        "text": "\"When he claimed to have mended the oar, she said nothing, only carried it to the shed and checked the end.\"",
+        "text": "\"Every evening Hesk made his 'rounds,' as he liked to call them, while Teodor carried the ladder.\"",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. Marit expresses doubt through a quiet, practical check rather than an accusation, exactly as the critic claims."
+        "rationale": "Correct. The mocking tone around 'rounds' reveals resentment in the description of a routine, with no open complaint."
       },
       {
         "letter": "D",
-        "text": "\"Her brother's tales of the sea had always made her proud to carry his family name, even as a small child.\"",
+        "text": "\"Teodor watched Hesk trim a wick and thought it the finest and most careful craft in the whole city.\"",
         "isCorrect": false,
         "trapType": "MISMATCHED_EVIDENCE",
-        "rationale": "This shows pride, not doubt, so it cannot support a claim about when doubt appears."
+        "rationale": "This shows admiration, not resentment, so it cannot support a claim about when resentment appears."
       }
     ],
     "correctAnswer": "C",
-    "coreQuestion": "Which quotation shows Marit's doubt appearing in a small, practical act instead of an open accusation?",
+    "coreQuestion": "Which quotation shows Teodor's resentment appearing in a shift of tone about a routine instead of an open complaint?",
     "steps": [
-      "Restate the claim: doubt first appears through quiet, practical actions, not open accusation.",
-      "Test each quotation for two things: does it show doubt, and is the doubt shown indirectly through an action.",
-      "Reject the open accusation, the plain statement of disbelief and the expression of pride.",
-      "Choose the quotation in which Marit checks the oar silently."
+      "Restate the claim: resentment first shows in the tone used to describe Hesk's routines, not in open complaint.",
+      "Test each quotation for two things: does it show resentment, and is it conveyed through tone in describing a routine.",
+      "Reject the spoken complaint, the direct statement of resentment and the expression of admiration.",
+      "Choose the quotation whose scare quotes around 'rounds' mock Hesk's routine."
     ]
   },
   {
@@ -617,10 +617,10 @@
     "choices": [
       {
         "letter": "A",
-        "text": "Watercolor had the highest spring enrollment of any class, with 30 students enrolled.",
+        "text": "Printmaking enrolled 27 students in the fall session, one fewer than watercolor's 28.",
         "isCorrect": false,
         "trapType": "MISMATCHED_EVIDENCE",
-        "rationale": "This is true but concerns spring size, not the change from spring to fall."
+        "rationale": "This is true but compares fall totals, not the change from spring to fall, so it does not show the largest increase."
       },
       {
         "letter": "B",
@@ -738,40 +738,40 @@
     "choices": [
       {
         "letter": "A",
-        "text": "was written by nineteen separate poets, each of whom composed an entire version of the ballad.",
+        "text": "was probably written by nineteen poets, each of whom composed a complete version on his own.",
         "isCorrect": false,
         "trapType": "OVERGENERALIZATION",
-        "rationale": "Matching opening and closing stanzas in all copies point to a shared source, not nineteen independent compositions."
+        "rationale": "Word-for-word matches at the start and end in all nineteen copies point to a shared source, not nineteen independent compositions."
       },
       {
         "letter": "B",
-        "text": "was probably passed along by singers who kept its frame fixed while varying the middle.",
+        "text": "was not preserved as one fixed text, at least in the order of its middle stanzas.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. A fixed frame with a changeable middle is what we would expect from performers recalling and rearranging a familiar song."
+        "rationale": "Correct. No two copies agree on the order of the middle stanzas, so that part was not handed down as a single fixed text, while the frame was."
       },
       {
         "letter": "C",
-        "text": "was originally much shorter than the surviving manuscripts would otherwise lead readers to suspect.",
+        "text": "was probably first composed as a short poem made up of only the opening and closing stanzas.",
         "isCorrect": false,
         "trapType": "UNSUPPORTED_CLAIM",
-        "rationale": "Nothing in the comparison concerns the ballad's original length."
+        "rationale": "The comparison says nothing about the ballad's original length. The identical frame does not show the middle stanzas were added later."
       },
       {
         "letter": "D",
-        "text": "was copied carelessly by scribes who skipped its opening and closing stanzas.",
+        "text": "was copied more accurately in its middle stanzas than in its opening and closing stanzas.",
         "isCorrect": false,
         "trapType": "OPPOSITE_DIRECTION",
-        "rationale": "The opening and closing stanzas are the parts that match exactly, so they were not skipped or carelessly copied."
+        "rationale": "The middle stanzas are the ones that differ widely, so they were copied less consistently, not more."
       }
     ],
     "correctAnswer": "B",
-    "coreQuestion": "What explanation fits manuscripts that agree at the start and end but differ in the middle?",
+    "coreQuestion": "What can be concluded about a ballad whose copies match exactly at the start and end but disagree in the middle?",
     "steps": [
       "Pull out the pattern: identical frame stanzas, widely varying middle stanzas.",
-      "Ask what process produces a fixed frame and a variable middle: performers who remember the frame and rearrange the rest.",
-      "Reject choices that contradict the matching stanzas or bring in outside claims.",
-      "Choose the option about singers passing the ballad along."
+      "Ask what that pattern permits us to say about the middle: it was not a single fixed text.",
+      "Reject choices that contradict the matching frame or the varying middle, or that assume an unstated original form.",
+      "Choose the option limited to the middle stanzas."
     ]
   }
 ]

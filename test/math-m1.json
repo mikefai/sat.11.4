@@ -670,8 +670,8 @@
     "skill": "PSD-2V",
     "difficulty": "Hard",
     "type": "mc",
-    "stimulus": "A typing instructor recorded the number of hours each of six students practiced per week and each student’s typing speed, in words per minute. The line of best fit for the data is y = 4.5x + 24, where x is hours practiced per week and y is the predicted typing speed in words per minute.",
-    "questionStem": "For which student is the line’s prediction farthest from the observed speed, and what is that difference, in words per minute?",
+    "stimulus": "A typing instructor recorded the number of hours each of six students practiced per week and each student’s typing speed, in words per minute. The table shows the data. The linear model y = 4.5x + 24 is used to predict typing speed y, in words per minute, from x hours practiced per week. A seventh student practiced 3 hours per week more than the student who typed 63 words per minute, and this seventh student typed 65 words per minute.",
+    "questionStem": "The seventh student’s observed typing speed is approximately what percent of the speed the model predicts for that student?",
     "table": {
       "caption": "Practice time and typing speed",
       "headers": [
@@ -705,43 +705,43 @@
         ]
       ]
     },
-    "coreQuestion": "How do you measure how far a data point is from a line of best fit, and compare several points?",
+    "coreQuestion": "How do you use a linear model to predict a value for a new input found from a table, and then compare the observed value with the prediction as a percent?",
     "steps": [
-      "For each student, compute the predicted speed 4.5x + 24: 33, 42, 46.5, 55.5, 64.5, 69 for x = 2, 4, 5, 7, 9, 10.",
-      "Subtract from the observed speeds (31, 38, 47, 52, 63, 70): the differences are −2, −4, 0.5, −3.5, −1.5, 1.",
-      "The greatest absolute difference is 4, for the student who practiced 4 hours (predicted 42, observed 38)."
+      "In the table, the student who typed 63 words per minute practiced 9 hours, so the seventh student practiced 9 + 3 = 12 hours per week.",
+      "The model predicts 4.5(12) + 24 = 54 + 24 = 78 words per minute.",
+      "The observed speed as a percent of the predicted speed is 65/78 ≈ 0.833, or about 83%."
     ],
     "choices": [
       {
         "letter": "A",
-        "text": "2",
+        "text": "13",
         "isCorrect": false,
-        "trapType": "CHOSE_FIRST_POINT",
-        "rationale": "2 is the difference for the 2-hour student (33 predicted, 31 observed), which is not the largest gap."
+        "trapType": "REPORTED_DIFFERENCE",
+        "rationale": "78 − 65 = 13 is the difference in words per minute, not a percent."
       },
       {
         "letter": "B",
-        "text": "3.5",
+        "text": "17",
         "isCorrect": false,
-        "trapType": "CHOSE_WRONG_POINT",
-        "rationale": "3.5 is the difference for the 7-hour student (55.5 predicted, 52 observed); the 4-hour student is off by more."
+        "trapType": "PERCENT_BELOW_NOT_PERCENT_OF",
+        "rationale": "13/78 ≈ 17% is how far below the prediction the observed speed is; the question asks what percent of the prediction it is, which is 83%."
       },
       {
         "letter": "C",
-        "text": "4",
-        "isCorrect": true,
-        "trapType": "NONE",
-        "rationale": "At x = 4 the prediction is 42 and the observed speed is 38, a difference of 4, the largest of the six."
+        "text": "20",
+        "isCorrect": false,
+        "trapType": "WRONG_BASE",
+        "rationale": "13/65 = 20% divides the difference by the observed speed instead of comparing the observed speed with the predicted speed."
       },
       {
         "letter": "D",
-        "text": "42",
-        "isCorrect": false,
-        "trapType": "REPORTED_PREDICTED_VALUE",
-        "rationale": "42 is the predicted speed for the 4-hour student; the question asks for the difference between predicted and observed speeds."
+        "text": "83",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "65/78 ≈ 0.833, so the observed speed is about 83% of the predicted 78 words per minute."
       }
     ],
-    "correctAnswer": "C"
+    "correctAnswer": "D"
   },
   {
     "id": "M1-17",
@@ -823,42 +823,42 @@
     "skill": "ALG-SYS",
     "difficulty": "Hard",
     "type": "mc",
-    "stimulus": "In the system of equations 3x + ky = 12 and 9x − 6y = 20, k is a constant.",
-    "questionStem": "For which value of k does the system have no solution?",
-    "coreQuestion": "When does a system of two linear equations have no solution, and how do you find the parameter that causes it?",
+    "stimulus": "In the system of equations ax + 6y = 15 and 4x = 10 − by, a and b are constants.",
+    "questionStem": "If the system has infinitely many solutions, what is the value of a + b?",
+    "coreQuestion": "How do you rewrite two equations in the same form and match every coefficient and the constant to get infinitely many solutions?",
     "steps": [
-      "No solution means the lines are parallel: the coefficients of x and y are proportional, but the constants are not.",
-      "Match the ratios: 3/9 = k/(−6), so k = −6 · (1/3) = −2.",
-      "Check the constants: 12/20 = 3/5, which is not 1/3, so the lines are parallel and distinct. With k = −2, the system has no solution."
+      "Rewrite the second equation in the same form as the first: 4x + by = 10.",
+      "Infinitely many solutions means the equations are multiples of each other. The constants give the ratio 15/10 = 3/2, so a = (3/2)(4) = 6 and 6 = (3/2)b, so b = 4.",
+      "Check: the first equation becomes 6x + 6y = 15, and the second multiplied by 3/2 becomes 6x + 6y = 15, the same line. So a + b = 6 + 4 = 10."
     ],
     "choices": [
       {
         "letter": "A",
-        "text": "−18",
+        "text": "2",
         "isCorrect": false,
-        "trapType": "INVERTED_RATIO",
-        "rationale": "Sets k/(−6) = 9/3, flipping the ratio; with k = −18 the ratios are 3/9 = 1/3 and −18/−6 = 3, which are not equal, so the lines intersect."
+        "trapType": "SIGN_ERROR_ON_B",
+        "rationale": "Reads 4x = 10 − by as 4x − by = 10, so b = −4 and a + b = 2; but with b = −4 the second equation 4x − 4y = 10 is not a multiple of 6x + 6y = 15."
       },
       {
         "letter": "B",
-        "text": "−2",
+        "text": "10",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "3/9 = k/(−6) gives k = −2, and 12/20 ≠ 3/9, so the lines are parallel and distinct."
+        "rationale": "a = 6 and b = 4 make both equations 6x + 6y = 15 after scaling, so a + b = 10."
       },
       {
         "letter": "C",
-        "text": "2",
+        "text": "15",
         "isCorrect": false,
-        "trapType": "SIGN_ERROR",
-        "rationale": "Drops the negative sign on k; with k = 2 the ratios are 3/9 = 1/3 and 2/−6 = −1/3, which are not equal, so the lines intersect."
+        "trapType": "WRONG_RATIO_FOR_B",
+        "rationale": "Finds a = 6 but multiplies 6 by 3/2 to get b = 9; 4x + 9y = 10 is not a multiple of 6x + 6y = 15, so a + b = 15 is wrong."
       },
       {
         "letter": "D",
-        "text": "18",
+        "text": "24",
         "isCorrect": false,
-        "trapType": "INVERTED_RATIO_SIGN",
-        "rationale": "Flips the ratio and drops the sign; with k = 18 the ratios are 1/3 and 18/−6 = −3, so the lines intersect."
+        "trapType": "PRODUCT_NOT_SUM",
+        "rationale": "a · b = 24 is the product, but the question asks for the sum."
       }
     ],
     "correctAnswer": "B"

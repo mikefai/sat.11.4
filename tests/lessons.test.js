@@ -137,4 +137,40 @@ test("INF item", () => {
   assert.match(q.questionStem, /logically|conclusion|follows/i);
 });
 
+test("BND item", () => {
+  const q = get("LESSON-08-BND");
+  assert.ok(q, "LESSON-08-BND exists");
+  assert.ok(q.stimulus.includes("______"));
+  const texts = q.choices.map(c => c.text).join(" ");
+  for (const mark of [";", ":", "."]) assert.ok(texts.includes(mark), "choices use " + mark);
+  assert.match(q.questionStem, /Standard English/);
+});
+
+test("FSS item", () => {
+  const q = get("LESSON-09-FSS");
+  assert.ok(q, "LESSON-09-FSS exists");
+  assert.ok(q.stimulus.includes("______"));
+  assert.match(q.questionStem, /Standard English/);
+});
+
+test("RS item", () => {
+  const q = get("LESSON-10-RS");
+  assert.ok(q, "LESSON-10-RS exists");
+  const bullets = q.stimulus.split("\n").filter(l => l.startsWith("•"));
+  assert.ok(bullets.length >= 4 && bullets.length <= 6, "bullet notes " + bullets.length);
+  assert.match(q.questionStem, /wants to/);
+  const correct = q.choices.find(c => c.isCorrect).text;
+  assert.ok((correct.match(/\.(\s|$)/g) || []).length <= 1, "correct choice is one sentence");
+});
+
+test("TRN item", () => {
+  const q = get("LESSON-11-TRN");
+  assert.ok(q, "LESSON-11-TRN exists");
+  const texts = q.choices.map(c => c.text.trim().toLowerCase());
+  for (const group of [["however", "nevertheless"], ["therefore", "as a result", "consequently"], ["furthermore", "moreover", "in addition"]]) {
+    assert.ok(texts.some(t => group.includes(t)), "choices include one of " + group.join("/"));
+  }
+  assert.match(q.stimulus, /\.\s+______,/);
+});
+
 module.exports = { items, get, wc };

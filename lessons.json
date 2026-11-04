@@ -392,5 +392,234 @@
         "if X, then Y"
       ]
     }
+  },
+  {
+    "id": "LESSON-08-BND",
+    "domain": "Reading and Writing",
+    "skillCategory": "Boundaries",
+    "difficulty": "Medium",
+    "stimulus": "Archaeologists excavating the ruined granaries at Kessa Ridge have worked out how the buildings' thick walls were made. Rather than import stone or timber, the builders relied on just three locally available ______ from the riverbank, sand from the nearby dunes, and straw from the grain harvest.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "materials; clay",
+        "isCorrect": false,
+        "trapType": "SEMICOLON_BEFORE_NON_CLAUSE",
+        "rationale": "A semicolon must have an independent clause on both sides, but the words after it (clay from the riverbank, sand from the nearby dunes, and straw from the grain harvest) are a list of nouns with no verb. A semicolon cannot introduce a list."
+      },
+      {
+        "letter": "B",
+        "text": "materials, they were clay",
+        "isCorrect": false,
+        "trapType": "COMMA_SPLICE",
+        "rationale": "Adding \"they were\" turns the list into a second independent clause (they were clay, sand, and straw). Two independent clauses joined by only a comma form a comma splice."
+      },
+      {
+        "letter": "C",
+        "text": "materials: clay",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. \"The builders relied on just three locally available materials\" is a complete independent clause, and what follows is a list naming those three materials. A colon is the mark that introduces a list after a complete clause."
+      },
+      {
+        "letter": "D",
+        "text": "materials. Clay",
+        "isCorrect": false,
+        "trapType": "FRAGMENT",
+        "rationale": "The period ends the first sentence correctly, but the new sentence (Clay from the riverbank, sand from the nearby dunes, and straw from the grain harvest.) has no main verb. It is a fragment."
+      }
+    ],
+    "correctAnswer": "C",
+    "coreQuestion": "Is the text before the blank a complete clause, is what follows it an independent clause or only a list, and which mark may legally connect those two parts?",
+    "steps": [
+      "Check the part before the blank: \"the builders relied on just three locally available materials\" has a subject (the builders) and a verb (relied), so it is a complete independent clause.",
+      "Check the part after the blank: \"clay from the riverbank, sand from the nearby dunes, and straw from the grain harvest\" has no verb, so it is a list, not an independent clause. It names the three materials just mentioned.",
+      "Apply the rules: a semicolon and a period each need an independent clause after them, so A and D fail; adding \"they were\" in B creates a second clause joined by only a comma, which is a comma splice.",
+      "Choose the colon, which can follow a complete clause to introduce a list or explanation of something named in that clause."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "A colon may follow only a complete independent clause, and it introduces a list, an explanation, or an example of something in that clause. A semicolon or a period needs an independent clause on both sides, and a comma alone cannot join two independent clauses.",
+      "trapAlert": "A semicolon looks formal and can seem right before a long list, but it is not a colon: it needs a complete clause after it, and a list of nouns is not one.",
+      "strategicShortcut": "Cover the choices and ask two questions: Is the left side a complete sentence? Is the right side a complete sentence? Complete plus a list or explanation points to a colon; complete plus complete points to a period or semicolon.",
+      "keyVocabularyOrFormulas": [
+        "independent clause",
+        "colon before a list",
+        "comma splice",
+        "sentence fragment"
+      ]
+    }
+  },
+  {
+    "id": "LESSON-09-FSS",
+    "domain": "Reading and Writing",
+    "skillCategory": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "stimulus": "The town's planning committee, which is made up of eleven residents elected from different neighborhoods, met for more than three hours on Tuesday evening. Afterward, the committee announced that ______ decision about the site of the new public library would be postponed until spring.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "its",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The antecedent is \"the committee,\" a collective noun acting as a single unit, and the text already treats it as singular (\"which is made up of\"). The singular possessive pronoun its agrees with that antecedent."
+      },
+      {
+        "letter": "B",
+        "text": "their",
+        "isCorrect": false,
+        "trapType": "COLLECTIVE_AS_PLURAL",
+        "rationale": "Their is plural. The phrase \"eleven residents\" makes the committee sound plural, but it only describes the members; the antecedent is the committee itself, which the text treats as singular (\"which is\")."
+      },
+      {
+        "letter": "C",
+        "text": "it's",
+        "isCorrect": false,
+        "trapType": "CONTRACTION_CONFUSION",
+        "rationale": "It's is a contraction of \"it is\" or \"it has.\" Expanding it gives \"announced that it is decision,\" which makes no sense; the blank needs a possessive pronoun, and possessive pronouns take no apostrophe."
+      },
+      {
+        "letter": "D",
+        "text": "there",
+        "isCorrect": false,
+        "trapType": "HOMOPHONE",
+        "rationale": "There sounds like their but means \"in that place\" or introduces a sentence (\"there is\"). It cannot show possession, so \"there decision\" is ungrammatical."
+      }
+    ],
+    "correctAnswer": "A",
+    "coreQuestion": "Who owns the decision, is that antecedent singular or plural, and which pronoun form both agrees with it and shows possession?",
+    "steps": [
+      "Find the antecedent: the decision belongs to \"the committee,\" not to the residents, who are mentioned only in a clause describing the committee.",
+      "Decide its number: a collective noun acting as one unit is singular, and the text confirms this with the singular verb in \"which is made up of.\"",
+      "Decide the form: the blank comes right before a noun (decision), so it needs a possessive pronoun, which rules out the contraction it's and the adverb there.",
+      "Choose its, the only singular possessive pronoun, and eliminate their, which is plural."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "A pronoun must agree in number with its antecedent. A collective noun such as committee, team, jury, or board is singular when the group acts as one unit, so it takes it and its.",
+      "trapAlert": "A plural phrase between the noun and the pronoun, such as \"eleven residents,\" can pull you toward their. Trace the pronoun back to the noun it actually replaces, not to the nearest plural word.",
+      "strategicShortcut": "Look for a verb tied to the same noun: \"the committee ... is\" shows the text treats the group as singular, so its pronoun must be singular too. For it's versus its, expand to \"it is\" and see whether the sentence still makes sense.",
+      "keyVocabularyOrFormulas": [
+        "antecedent",
+        "collective noun",
+        "possessive pronoun (its)",
+        "contraction (it's = it is)"
+      ]
+    }
+  },
+  {
+    "id": "LESSON-10-RS",
+    "domain": "Reading and Writing",
+    "skillCategory": "Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n• In 2018, psychologist Hana Ito tested whether a short nap after studying helps people remember new vocabulary words.\n• Ito's study included 42 university students, each of whom studied a list of unfamiliar words.\n• In Ito's study, students who napped for 30 minutes after studying recalled 25 percent more of the words the next day than students who stayed awake.\n• In 2021, psychologist Marcus Bell repeated Ito's experiment with 610 university students.\n• In Bell's study, there was no meaningful difference in next-day recall between students who napped and students who stayed awake.",
+    "questionStem": "The student wants to emphasize a contrast between the two studies' findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "In a 2018 study of 42 university students, Ito found that those who napped for 30 minutes after studying recalled 25 percent more words the next day.",
+        "isCorrect": false,
+        "trapType": "TRUE_BUT_OFF_GOAL",
+        "rationale": "Every detail here comes from the notes, but the choice describes only Ito's study. A contrast between the two studies' findings also needs Bell's result, and Bell is never mentioned."
+      },
+      {
+        "letter": "B",
+        "text": "Ito and Bell each tested whether a 30-minute nap after studying affects how many new words university students can recall the next day.",
+        "isCorrect": false,
+        "trapType": "MISSES_GOAL",
+        "rationale": "This choice uses both studies, but it describes only what they share, the question each one tested. It never states either finding, so it cannot show that the findings differ."
+      },
+      {
+        "letter": "C",
+        "text": "Ito found that students who napped recalled 25 percent more words, but Bell found no meaningful difference, a gap that researchers attribute to the small size of Ito's sample.",
+        "isCorrect": false,
+        "trapType": "OUTSIDE_INFO",
+        "rationale": "The first part does contrast the two findings, but the final clause adds an explanation that is not in the notes. The notes give both sample sizes yet never say that anyone attributes the difference to Ito's sample."
+      },
+      {
+        "letter": "D",
+        "text": "Ito found that students who napped recalled 25 percent more words the next day than those who stayed awake, whereas Bell found no meaningful difference.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The sentence states both findings from the notes, Ito's 25 percent gain and Bell's lack of a meaningful difference, and \"whereas\" signals the contrast between them. It adds nothing the notes do not contain."
+      }
+    ],
+    "correctAnswer": "D",
+    "coreQuestion": "Which choice contains both studies' findings, joined by a word that signals contrast, and nothing that the notes do not say?",
+    "steps": [
+      "Read the goal before the notes: the sentence must emphasize a contrast between the two studies' findings, so it needs Ito's finding, Bell's finding, and a contrast signal.",
+      "Find the two findings in the notes: Ito's nappers recalled 25 percent more words the next day, while Bell found no meaningful difference between nappers and students who stayed awake.",
+      "Check each choice for both findings: A gives only Ito's finding, and B gives only the question both studies tested, so both fail the goal.",
+      "Check the remaining choices for outside information: C adds a claim about what researchers blame for the gap, which is not in the notes, while D uses only note details and signals the contrast with whereas."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "In a Rhetorical Synthesis item, the goal stated in the question decides the answer. The correct choice includes every piece of information the goal requires, in the relationship the goal names, using only information from the notes.",
+      "trapAlert": "A choice that meets the goal and then adds one plausible-sounding explanation is still wrong. If a claim, such as why two studies disagree, does not appear in the notes, the choice cannot be the answer.",
+      "strategicShortcut": "Turn the goal into a checklist (finding 1, finding 2, contrast word, nothing extra) and eliminate any choice that misses an item or adds one.",
+      "keyVocabularyOrFormulas": [
+        "rhetorical goal",
+        "contrast signal (whereas, but, while)",
+        "outside information",
+        "notes-only rule"
+      ]
+    }
+  },
+  {
+    "id": "LESSON-11-TRN",
+    "domain": "Reading and Writing",
+    "skillCategory": "Transitions",
+    "difficulty": "Easy",
+    "stimulus": "The city of Brennick lowered its bus fares in 2019, making a bus ride cheaper than parking downtown for most commuters. ______, ridership rose the following year.",
+    "questionStem": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Therefore",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Lower fares made the bus cheaper than parking, and more riders is the result that change would produce. Therefore signals that sentence 2 is a consequence of sentence 1."
+      },
+      {
+        "letter": "B",
+        "text": "However",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_DIRECTION",
+        "rationale": "However signals a contrast or an unexpected outcome. More people riding a cheaper bus is the expected outcome, not a contrary one, so this transition points the wrong way."
+      },
+      {
+        "letter": "C",
+        "text": "Furthermore",
+        "isCorrect": false,
+        "trapType": "WRONG_RELATIONSHIP",
+        "rationale": "Furthermore adds a separate point of the same kind. The rise in ridership is not an independent second fact listed beside the fare cut; it followed from the fare cut, so an addition transition hides the cause-effect link."
+      },
+      {
+        "letter": "D",
+        "text": "For instance",
+        "isCorrect": false,
+        "trapType": "EXAMPLE_MISREAD",
+        "rationale": "For instance introduces an example of the previous claim. A rise in ridership is not an example of the city lowering its fares; it is a result of it."
+      }
+    ],
+    "correctAnswer": "A",
+    "coreQuestion": "What is the relationship between sentence 2 and sentence 1: contrast, cause and effect, addition, or example?",
+    "steps": [
+      "Ignore the blank and state each sentence's idea: sentence 1, the city made bus rides cheaper than parking; sentence 2, more people rode the bus the next year.",
+      "Name the relationship: the second event follows from the first, so sentence 2 is an effect of sentence 1.",
+      "Match the relationship to a transition family: contrast (However), addition (Furthermore), and example (For instance) do not describe a cause-effect link.",
+      "Choose Therefore, the only cause-effect transition."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "A transition must name the logical relationship between the two ideas it connects: contrast (however, nevertheless), cause and effect (therefore, as a result, consequently), addition (furthermore, moreover), or example (for instance).",
+      "trapAlert": "Do not pick a transition because it sounds formal. Furthermore and however are both formal, but each states a specific relationship, and only the one that matches the sentences is correct.",
+      "strategicShortcut": "Before reading the choices, join the two sentences with \"and so,\" \"but,\" \"and also,\" or \"for example\" and keep the one that sounds logical; then pick the transition from that family.",
+      "keyVocabularyOrFormulas": [
+        "cause and effect",
+        "contrast",
+        "addition",
+        "example",
+        "transition families"
+      ]
+    }
   }
 ]

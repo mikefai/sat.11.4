@@ -1,1 +1,777 @@
-[]
+[
+  {
+    "id": "RW1-01",
+    "section": "rw",
+    "skill": "WIC",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "When the lights came up on opening night, Odalys, who had rehearsed her lines for weeks, stood frozen at center stage with a ______ expression, unable to recall even the first word of her speech while the audience waited in silence.",
+    "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "confident",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_DIRECTION",
+        "rationale": "Confident is the reverse of the scene: a performer who is frozen and cannot recall a single word is not showing assurance."
+      },
+      {
+        "letter": "B",
+        "text": "vacant",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. A person who has gone blank and cannot remember any words would look empty of thought, which is what vacant means here."
+      },
+      {
+        "letter": "C",
+        "text": "playful",
+        "isCorrect": false,
+        "trapType": "IGNORES_CONTEXT_CLUE",
+        "rationale": "Playful has no support in the sentence. Nothing about the frozen, silent moment suggests lightheartedness."
+      },
+      {
+        "letter": "D",
+        "text": "defiant",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_EMOTION",
+        "rationale": "Defiant suggests resisting someone on purpose. Odalys is unable to speak, not refusing to."
+      }
+    ],
+    "correctAnswer": "B",
+    "coreQuestion": "What kind of expression would a person have who is frozen and cannot recall a single word?",
+    "steps": [
+      "Find the clues: frozen at center stage, unable to recall even the first word, audience waiting in silence.",
+      "Predict a word meaning empty or blank before reading the choices.",
+      "Test each choice against the clues: confident, playful and defiant all clash with a person who has lost her words.",
+      "Choose vacant, which matches the blank, thoughtless look."
+    ]
+  },
+  {
+    "id": "RW1-02",
+    "section": "rw",
+    "skill": "WIC",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "Deep-sea biologists have long wondered why the anglerfish dangles a glowing lure above its mouth. Observations suggest the light is far from decorative: in the lightless water, it ______ small fish, drawing them close enough to be snapped up in a single bite.",
+    "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "repels",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_DIRECTION",
+        "rationale": "Repels means pushes away, but the sentence says the fish are drawn close enough to be bitten."
+      },
+      {
+        "letter": "B",
+        "text": "disguises",
+        "isCorrect": false,
+        "trapType": "SOUNDS_RIGHT_NO_CUE",
+        "rationale": "Disguises sounds like predator behavior, but nothing in the sentence says the lure hides or imitates anything. The fish are drawn in by the light."
+      },
+      {
+        "letter": "C",
+        "text": "warns",
+        "isCorrect": false,
+        "trapType": "IGNORES_CONTEXT_CLUE",
+        "rationale": "Warning would send fish away rather than draw them near, and a predator gains nothing by alerting its prey."
+      },
+      {
+        "letter": "D",
+        "text": "attracts",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The light is not decorative, and the clause \"drawing them close\" shows that it pulls small fish toward the angler."
+      }
+    ],
+    "correctAnswer": "D",
+    "coreQuestion": "What does a lure do if it draws small fish close enough to be bitten?",
+    "steps": [
+      "Read the clause after the comma: drawing them close enough to be snapped up.",
+      "Predict a verb meaning pulls toward.",
+      "Eliminate repels, disguises and warns, which describe pushing away, hiding or alerting.",
+      "Choose attracts."
+    ]
+  },
+  {
+    "id": "RW1-03",
+    "section": "rw",
+    "skill": "WIC",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "Historians often describe the printing press as a ______ force in sixteenth-century Europe: by making inexpensive pamphlets widely available, it did not simply spread existing ideas but broke the hold that a small circle of scribes and clergy had long held over information.",
+    "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "disruptive",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. A technology that breaks an established group's hold over information is a force that upsets the existing order, which is what disruptive means."
+      },
+      {
+        "letter": "B",
+        "text": "reassuring",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_DIRECTION",
+        "rationale": "Reassuring means comforting. The passage describes the press as overturning an old arrangement, not calming anyone."
+      },
+      {
+        "letter": "C",
+        "text": "marginal",
+        "isCorrect": false,
+        "trapType": "IGNORES_CONTEXT_CLUE",
+        "rationale": "Marginal means minor, but a force that broke a long-held monopoly on information was major."
+      },
+      {
+        "letter": "D",
+        "text": "ornamental",
+        "isCorrect": false,
+        "trapType": "SOUNDS_RIGHT_NO_CUE",
+        "rationale": "Ornamental means decorative. Pamphlets are mentioned as inexpensive and useful, not as decoration."
+      }
+    ],
+    "correctAnswer": "A",
+    "coreQuestion": "Which word fits a force that broke the long-held control of scribes and clergy over information?",
+    "steps": [
+      "Identify the key phrase: broke the hold that scribes and clergy had long held.",
+      "Notice the contrast: not simply spread ideas, but overturned an arrangement.",
+      "Predict a word meaning upsetting the established order.",
+      "Eliminate reassuring, marginal and ornamental, then choose disruptive."
+    ]
+  },
+  {
+    "id": "RW1-04",
+    "section": "rw",
+    "skill": "WIC",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "Although the review of the choreographer's debut was largely favorable, the critic's final paragraph was notably ______: it conceded the dancers' remarkable discipline yet stopped short of claiming that the piece had advanced the art form in any lasting way.",
+    "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "effusive",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_DIRECTION",
+        "rationale": "Effusive means gushing. A paragraph that stops short of claiming the piece advanced the form is the opposite of gushing."
+      },
+      {
+        "letter": "B",
+        "text": "scathing",
+        "isCorrect": false,
+        "trapType": "EXTREME_OVERSTATEMENT",
+        "rationale": "Scathing means harshly critical. The critic concedes the dancers' discipline and the review is largely favorable, so harsh is too strong."
+      },
+      {
+        "letter": "C",
+        "text": "tempered",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Tempered means moderated: the critic grants real praise but holds back a stronger claim, which fits \"conceded ... yet stopped short.\""
+      },
+      {
+        "letter": "D",
+        "text": "careless",
+        "isCorrect": false,
+        "trapType": "IGNORES_CONTEXT_CLUE",
+        "rationale": "Careless describes poor attention. The paragraph is careful, deliberately conceding one point and withholding another."
+      }
+    ],
+    "correctAnswer": "C",
+    "coreQuestion": "Which word describes praise that is real but deliberately held back from a stronger claim?",
+    "steps": [
+      "Locate the two halves of the clause: conceded the discipline, yet stopped short of claiming lasting advance.",
+      "Combine them into one idea: favorable but restrained.",
+      "Reject effusive (too warm), scathing (too harsh) and careless (not about attention).",
+      "Choose tempered, which means moderated."
+    ]
+  },
+  {
+    "id": "RW1-05",
+    "section": "rw",
+    "skill": "TSP",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "Many people assume that bats are blind, but this is a myth. Bats can see, and some species see quite well in dim light. What makes bats remarkable is that they also use echolocation, emitting high-pitched calls and listening for the returning echoes to locate insects in total darkness.",
+    "questionStem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "It dismisses a common misconception and then describes an additional ability that bats have.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The text corrects the belief that bats are blind, then adds that bats also use echolocation."
+      },
+      {
+        "letter": "B",
+        "text": "It proposes a hypothesis about bats and then rejects it using laboratory data from several studies.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_STRUCTURE",
+        "rationale": "No hypothesis or laboratory data appears. The text corrects a popular belief and adds information."
+      },
+      {
+        "letter": "C",
+        "text": "It compares the hunting methods of several bat species and ranks them by how successful each one is.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_STRUCTURE",
+        "rationale": "Species are not compared or ranked. The text discusses bats in general."
+      },
+      {
+        "letter": "D",
+        "text": "It narrates one researcher's experiment on bat vision in the order that the steps were carried out.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_STRUCTURE",
+        "rationale": "No researcher or experiment is mentioned, and nothing is told in time order."
+      }
+    ],
+    "correctAnswer": "A",
+    "coreQuestion": "How is the passage organized from its first sentence to its last?",
+    "steps": [
+      "Summarize each sentence: a myth is stated, rejected, and then a further fact is added.",
+      "Name the structure: correct a misconception, then add information.",
+      "Check each choice for details the passage never gives (hypothesis, ranking, experiment).",
+      "Choose the first option."
+    ]
+  },
+  {
+    "id": "RW1-06",
+    "section": "rw",
+    "skill": "TSP",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "In 1858, the town council of Harlow Ferry voted on whether to replace its wooden toll bridge with one built of iron. <u>Supporters pointed out that the wooden bridge had been rebuilt three times in twenty years after spring floods.</u> Opponents argued that the cost would fall mostly on farmers who crossed the river only a few times a year. The council eventually approved a plan that split the expense between the town and the ferry company.",
+    "questionStem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "It disputes the claim made in the preceding sentence about the council's vote.",
+        "isCorrect": false,
+        "trapType": "MISREAD_RELATIONSHIP",
+        "rationale": "The preceding sentence only reports that a vote took place. The underlined sentence does not argue with it."
+      },
+      {
+        "letter": "B",
+        "text": "It explains why the council later chose to divide the cost between two parties.",
+        "isCorrect": false,
+        "trapType": "MISREAD_RELATIONSHIP",
+        "rationale": "The cost split answers the opponents' concern, not the flood history in the underlined sentence."
+      },
+      {
+        "letter": "C",
+        "text": "It gives a reason that was offered in favor of replacing the bridge.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The underlined sentence reports the supporters' argument that repeated flood damage made the wooden bridge a poor investment."
+      },
+      {
+        "letter": "D",
+        "text": "It shows that the objection raised by the opponents was mistaken in its main point.",
+        "isCorrect": false,
+        "trapType": "MISREAD_RELATIONSHIP",
+        "rationale": "The sentence says nothing about farmers or cost, so it does not answer the opponents."
+      }
+    ],
+    "correctAnswer": "C",
+    "coreQuestion": "What job does the sentence about repeated rebuilding do in the passage?",
+    "steps": [
+      "Read the underlined sentence: it begins with \"Supporters pointed out\".",
+      "Notice it supplies an argument for the iron bridge, set against the opponents' argument that follows.",
+      "Rule out choices that make it a rebuttal, an explanation of the cost split, or an answer to the opponents.",
+      "Choose the option naming it a reason offered by supporters."
+    ]
+  },
+  {
+    "id": "RW1-07",
+    "section": "rw",
+    "skill": "TSP",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "When Ines returned to the village after thirty years, she expected the orchard behind her grandmother's house to have vanished, as so much else had. Instead she found it intact, though the trees had grown so tall that their branches no longer bent within reach. She stood beneath them for a long while and understood that what she had missed was not the orchard itself but her own smallness beneath it.",
+    "questionStem": "Which choice best states the main purpose of the text?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "To suggest that the village has changed far less than Ines had feared it would",
+        "isCorrect": false,
+        "trapType": "SIDE_DETAIL_AS_MAIN_POINT",
+        "rationale": "The intact orchard is a detail used to make a larger point. The closing lines are about Ines's change, not the village's."
+      },
+      {
+        "letter": "B",
+        "text": "To portray Ines realizing that her sense of a place was tied to her younger self",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The orchard is unchanged, and Ines concludes that she missed her childhood vantage point beneath the trees."
+      },
+      {
+        "letter": "C",
+        "text": "To argue that remembered places are always more beautiful than the real ones are",
+        "isCorrect": false,
+        "trapType": "OVERGENERALIZATION",
+        "rationale": "The text never compares beauty and never claims anything about all remembered places."
+      },
+      {
+        "letter": "D",
+        "text": "To show that Ines regrets her decision to leave the village thirty years earlier",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_EMOTION",
+        "rationale": "Regret about leaving is never stated. The final reflection concerns her growth, not the departure."
+      }
+    ],
+    "correctAnswer": "B",
+    "coreQuestion": "What is the passage as a whole trying to convey through Ines's visit to the orchard?",
+    "steps": [
+      "Track the arc: expects loss, finds the orchard intact, trees taller, reflects on herself.",
+      "Notice the key sentence: what she missed was her own smallness beneath it.",
+      "Eliminate choices that rest on a minor detail, a sweeping generalization or an unmentioned regret.",
+      "Choose the option about her sense of the place being tied to her younger self."
+    ]
+  },
+  {
+    "id": "RW1-08",
+    "section": "rw",
+    "skill": "CTC",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "Text 1: Gallery designer Lena Voss argues that museum rooms should have no windows. Daylight, she says, shifts constantly and pulls visitors' eyes away from the artworks, so a gallery's walls should be solid and its lighting entirely controlled.\n\nText 2: A team observing visitors in twelve galleries recorded how long people looked at each painting. Visitors in rooms with large windows lingered as long as those in windowless rooms, and many said the changing daylight made long visits more pleasant.",
+    "questionStem": "Based on the texts, how would the author of Text 2 most likely respond to Voss's recommendation in Text 1?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "By agreeing that daylight is the main reason visitors leave a gallery early",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_DIRECTION",
+        "rationale": "Text 2 reports that visitors lingered as long in windowed rooms, so it does not blame daylight for early departures."
+      },
+      {
+        "letter": "B",
+        "text": "By insisting that galleries should install as many large windows as they possibly can",
+        "isCorrect": false,
+        "trapType": "EXTREME_OVERSTATEMENT",
+        "rationale": "Text 2 finds windows harmless and pleasant, not necessary. It does not recommend maximizing them."
+      },
+      {
+        "letter": "C",
+        "text": "By claiming that windowless rooms cause many visitors to dislike the artworks they see",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_CLAIM",
+        "rationale": "Text 2 says nothing about visitors disliking art in windowless rooms."
+      },
+      {
+        "letter": "D",
+        "text": "By observing that windows do not seem to shorten how long visitors look at art",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Text 2 found equal looking time in windowed and windowless rooms, which undercuts Voss's claim that daylight distracts from the art."
+      }
+    ],
+    "correctAnswer": "D",
+    "coreQuestion": "How would the researchers in Text 2 react to the claim in Text 1 that windows distract visitors?",
+    "steps": [
+      "Summarize Text 1: Voss says daylight distracts, so galleries should be windowless.",
+      "Summarize Text 2: visitors with windows looked as long, and liked the daylight.",
+      "Predict the response: windows do not seem to harm attention.",
+      "Eliminate choices that overstate Text 2 or invent claims, and choose the last option."
+    ]
+  },
+  {
+    "id": "RW1-09",
+    "section": "rw",
+    "skill": "CID",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "Salt marsh cordgrass grows where seawater floods its roots twice a day, an environment that would kill most plants. The grass copes by pumping excess salt out through glands in its leaves; on hot afternoons the leaves glitter with tiny crystals of the salt it has expelled.",
+    "questionStem": "According to the text, how does salt marsh cordgrass cope with the salt in seawater?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "It expels excess salt through glands in its leaves.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The text says the grass pumps excess salt out through glands in its leaves."
+      },
+      {
+        "letter": "B",
+        "text": "It grows its roots deeper than the tide can reach.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_CLAIM",
+        "rationale": "The text says seawater floods the roots twice a day, so the roots are not kept out of reach of the tide."
+      },
+      {
+        "letter": "C",
+        "text": "It stores the salt it absorbs inside its roots.",
+        "isCorrect": false,
+        "trapType": "DETAIL_MISMATCH",
+        "rationale": "The salt is pushed out through the leaves, not stored in the roots."
+      },
+      {
+        "letter": "D",
+        "text": "It grows only during the hours when the tide is out.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_CLAIM",
+        "rationale": "The text never describes growth timing. The tide floods its roots daily and the grass survives that."
+      }
+    ],
+    "correctAnswer": "A",
+    "coreQuestion": "What does the passage say the cordgrass does with excess salt?",
+    "steps": [
+      "Find the sentence that begins \"The grass copes by\".",
+      "Note the method: pumping salt out through glands in the leaves.",
+      "Check the other choices against the text: roots are flooded, salt is expelled, timing is not mentioned.",
+      "Choose the first option."
+    ]
+  },
+  {
+    "id": "RW1-10",
+    "section": "rw",
+    "skill": "CID",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "When the Kessler Canal opened in 1841, many in the town of Brandt expected its merchants to prosper, and they did. But the canal's greater effect was on the town's workers: by cutting the cost of hauling coal, it brought cheap fuel to Brandt's small foundries, which expanded and hired hundreds of laborers who had once worked the surrounding farms. Within a generation, Brandt was known less as a trading post than as a manufacturing center.",
+    "questionStem": "Which choice best states the main idea of the text?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "The canal benefited Brandt's merchants more than it benefited any other group in the town.",
+        "isCorrect": false,
+        "trapType": "HALF_CORRECT_DETAIL",
+        "rationale": "Merchants did prosper, but the text calls the canal's greater effect the one on workers and industry."
+      },
+      {
+        "letter": "B",
+        "text": "By lowering fuel costs, the canal helped turn Brandt from a trading post into a factory town.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Cheaper coal let the foundries grow, and within a generation the town was known for manufacturing."
+      },
+      {
+        "letter": "C",
+        "text": "Farm laborers in Brandt resisted taking jobs in the new foundries when they were first offered.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_CLAIM",
+        "rationale": "The text says the laborers took foundry jobs but never mentions resistance."
+      },
+      {
+        "letter": "D",
+        "text": "Coal became more valuable to Brandt than the goods that its merchants had once traded.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_CLAIM",
+        "rationale": "The text compares no values of coal and merchant goods. It describes cheaper coal helping foundries."
+      }
+    ],
+    "correctAnswer": "B",
+    "coreQuestion": "What is the central point about the canal's effect on Brandt?",
+    "steps": [
+      "Mark the contrast signal: merchants prospered, but the greater effect was on workers.",
+      "Follow the chain: cheaper coal, bigger foundries, more jobs, manufacturing identity.",
+      "Reject the half-right option that stops at the merchants and the options that invent resistance or comparisons.",
+      "Choose the option that states the full chain."
+    ]
+  },
+  {
+    "id": "RW1-11",
+    "section": "rw",
+    "skill": "COE-T",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "In the novel The Lantern Year, the narrator Marit slowly comes to doubt the stories her older brother tells about his years at sea. A critic claims that Marit's doubt first shows up in small, practical actions rather than in any open accusation.",
+    "questionStem": "Which quotation from The Lantern Year most directly supports the critic's claim?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "\"Marit stood in the square and told the whole village that her brother had invented every one of his voyages at sea.\"",
+        "isCorrect": false,
+        "trapType": "MISMATCHED_EVIDENCE",
+        "rationale": "This is an open accusation, the opposite of the quiet, practical action the critic describes."
+      },
+      {
+        "letter": "B",
+        "text": "\"She told her mother plainly, over supper that evening, that she no longer believed a single word he said.\"",
+        "isCorrect": false,
+        "trapType": "HALF_CORRECT_DETAIL",
+        "rationale": "This shows doubt, but it is stated outright, not expressed through a small practical action."
+      },
+      {
+        "letter": "C",
+        "text": "\"When he claimed to have mended the oar, she said nothing, only carried it to the shed and checked the end.\"",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Marit expresses doubt through a quiet, practical check rather than an accusation, exactly as the critic claims."
+      },
+      {
+        "letter": "D",
+        "text": "\"Her brother's tales of the sea had always made her proud to carry his family name, even as a small child.\"",
+        "isCorrect": false,
+        "trapType": "MISMATCHED_EVIDENCE",
+        "rationale": "This shows pride, not doubt, so it cannot support a claim about when doubt appears."
+      }
+    ],
+    "correctAnswer": "C",
+    "coreQuestion": "Which quotation shows Marit's doubt appearing in a small, practical act instead of an open accusation?",
+    "steps": [
+      "Restate the claim: doubt first appears through quiet, practical actions, not open accusation.",
+      "Test each quotation for two things: does it show doubt, and is the doubt shown indirectly through an action.",
+      "Reject the open accusation, the plain statement of disbelief and the expression of pride.",
+      "Choose the quotation in which Marit checks the oar silently."
+    ]
+  },
+  {
+    "id": "RW1-12",
+    "section": "rw",
+    "skill": "COE-T",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "Historian Dara Quill argues that the decline of the river town of Merrow in the 1870s resulted chiefly from a railroad's decision to route its main line ten miles to the north, which drained the town of freight and travelers. Quill notes that Merrow's population fell by nearly half between 1872 and 1885.",
+    "questionStem": "Which finding, if true, would most directly weaken Quill's argument?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Several other towns that the railroad bypassed also lost population during the very same period.",
+        "isCorrect": false,
+        "trapType": "SUPPORTS_INSTEAD_OF_WEAKENS",
+        "rationale": "This pattern would support Quill's argument by showing that bypassed towns declined."
+      },
+      {
+        "letter": "B",
+        "text": "Merrow's freight traffic dropped sharply after the railroad opened its northern line.",
+        "isCorrect": false,
+        "trapType": "SUPPORTS_INSTEAD_OF_WEAKENS",
+        "rationale": "A freight drop that follows the rerouting is consistent with Quill's causal account."
+      },
+      {
+        "letter": "C",
+        "text": "Some families who left Merrow after 1872 resettled in towns along the new rail line.",
+        "isCorrect": false,
+        "trapType": "SUPPORTS_INSTEAD_OF_WEAKENS",
+        "rationale": "Families moving toward the railroad is consistent with the line drawing people away from Merrow."
+      },
+      {
+        "letter": "D",
+        "text": "Merrow's population had been falling steadily since 1866, well before the route was chosen.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. A decline that started before the rerouting suggests another cause was already at work, weakening the claim that the railroad chiefly caused it."
+      }
+    ],
+    "correctAnswer": "D",
+    "coreQuestion": "Which finding would cast doubt on the railroad being the main cause of Merrow's decline?",
+    "steps": [
+      "Identify the claim: the railroad's routing was the chief cause of Merrow's decline.",
+      "Look for evidence that breaks the causal link, such as a decline beginning before the cause.",
+      "Notice that the first three choices are consistent with, or support, the railroad explanation.",
+      "Choose the finding that places the start of the decline before the route was chosen."
+    ]
+  },
+  {
+    "id": "RW1-13",
+    "section": "rw",
+    "skill": "COE-Q",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "A community arts center tracks enrollment in its evening classes. A staff member claims that the printmaking class showed the largest increase in enrollment from the spring session to the fall session.",
+    "questionStem": "Which choice most effectively uses data from the table to support the staff member's claim?",
+    "table": {
+      "caption": "Enrollment in evening classes, by session",
+      "headers": [
+        "Class",
+        "Spring",
+        "Fall"
+      ],
+      "rows": [
+        [
+          "Pottery",
+          "18",
+          "22"
+        ],
+        [
+          "Printmaking",
+          "15",
+          "27"
+        ],
+        [
+          "Watercolor",
+          "30",
+          "28"
+        ],
+        [
+          "Weaving",
+          "12",
+          "14"
+        ]
+      ]
+    },
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Watercolor had the highest spring enrollment of any class, with 30 students enrolled.",
+        "isCorrect": false,
+        "trapType": "MISMATCHED_EVIDENCE",
+        "rationale": "This is true but concerns spring size, not the change from spring to fall."
+      },
+      {
+        "letter": "B",
+        "text": "Pottery enrollment rose from 18 in spring to 22 in fall, an increase of 4.",
+        "isCorrect": false,
+        "trapType": "HALF_CORRECT_DETAIL",
+        "rationale": "This is a true increase, but 4 is smaller than printmaking's gain of 12."
+      },
+      {
+        "letter": "C",
+        "text": "Printmaking enrollment rose from 15 in spring to 27 in fall, the largest gain.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The gain of 12 is the largest: pottery gained 4, weaving gained 2, and watercolor fell by 2."
+      },
+      {
+        "letter": "D",
+        "text": "Weaving enrollment rose from 12 in spring to 14 in fall, an increase of 2.",
+        "isCorrect": false,
+        "trapType": "MISMATCHED_EVIDENCE",
+        "rationale": "This is a true increase, but 2 is the smallest gain and does not involve printmaking."
+      }
+    ],
+    "correctAnswer": "C",
+    "coreQuestion": "Which data point shows that printmaking had the greatest rise in enrollment?",
+    "steps": [
+      "Read the claim: printmaking had the largest increase from spring to fall.",
+      "Compute each change from the table: pottery +4, printmaking +12, watercolor −2, weaving +2.",
+      "Check which choice reports printmaking's change and correctly says it is the largest.",
+      "Choose the third option."
+    ]
+  },
+  {
+    "id": "RW1-14",
+    "section": "rw",
+    "skill": "COE-Q",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "Researchers measured how much tomato seedlings grew over six weeks under three soil treatments, watering each group either daily or weekly. A student hypothesizes that adding compost improves seedling growth only when watering is frequent.",
+    "questionStem": "Which choice most effectively uses data from the table to support the student's hypothesis?",
+    "table": {
+      "caption": "Mean height gain (cm) of tomato seedlings over six weeks",
+      "headers": [
+        "Soil treatment",
+        "Watered daily",
+        "Watered weekly"
+      ],
+      "rows": [
+        [
+          "No compost",
+          "14",
+          "9"
+        ],
+        [
+          "Compost",
+          "21",
+          "10"
+        ],
+        [
+          "Compost plus mulch",
+          "22",
+          "17"
+        ]
+      ]
+    },
+    "choices": [
+      {
+        "letter": "A",
+        "text": "With daily watering, compost raised mean growth from 14 cm to 21 cm; with weekly watering, from 9 cm to 10 cm.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Compost helped a lot (+7 cm) under daily watering and barely at all (+1 cm) under weekly watering, matching the hypothesis."
+      },
+      {
+        "letter": "B",
+        "text": "Seedlings that received no compost grew a mean of 14 cm with daily watering and 9 cm with weekly watering.",
+        "isCorrect": false,
+        "trapType": "MISMATCHED_EVIDENCE",
+        "rationale": "This shows that watering frequency matters, but it has no compost comparison and so says nothing about compost."
+      },
+      {
+        "letter": "C",
+        "text": "Compost plus mulch produced the largest mean growth under both watering schedules, 22 cm and 17 cm respectively.",
+        "isCorrect": false,
+        "trapType": "HALF_CORRECT_DETAIL",
+        "rationale": "These figures are accurate, but they combine compost with mulch, and the large weekly result of 17 cm does not show compost helping only under frequent watering."
+      },
+      {
+        "letter": "D",
+        "text": "With weekly watering, compost plus mulch raised mean growth from 9 cm to 17 cm over the no-compost group.",
+        "isCorrect": false,
+        "trapType": "DETAIL_MISMATCH",
+        "rationale": "This is accurate (+8 cm), but it describes a gain under weekly watering and gives no daily comparison, so it cannot show that the benefit depends on watering frequency."
+      }
+    ],
+    "correctAnswer": "A",
+    "coreQuestion": "Which data comparison shows compost helping with daily watering but not with weekly watering?",
+    "steps": [
+      "Restate the hypothesis: compost helps only if watering is frequent, so compare compost against no compost under each schedule.",
+      "Daily: 21 minus 14 is 7 cm. Weekly: 10 minus 9 is 1 cm.",
+      "Check the other choices: one omits compost, one adds mulch, one lacks the daily comparison.",
+      "Choose the first option."
+    ]
+  },
+  {
+    "id": "RW1-15",
+    "section": "rw",
+    "skill": "INF",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "Literary historians long assumed that the anonymous ballad The Weaver's Return was composed by a single poet, since every surviving manuscript opens and closes with the same stanzas. But a comparison of the nineteen surviving manuscripts found that the opening and closing stanzas match word for word, while the middle stanzas differ widely, with no two copies agreeing on their order. This pattern suggests that the ballad ______",
+    "questionStem": "Which choice most logically completes the text?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "was written by nineteen separate poets, each of whom composed an entire version of the ballad.",
+        "isCorrect": false,
+        "trapType": "OVERGENERALIZATION",
+        "rationale": "Matching opening and closing stanzas in all copies point to a shared source, not nineteen independent compositions."
+      },
+      {
+        "letter": "B",
+        "text": "was probably passed along by singers who kept its frame fixed while varying the middle.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. A fixed frame with a changeable middle is what we would expect from performers recalling and rearranging a familiar song."
+      },
+      {
+        "letter": "C",
+        "text": "was originally much shorter than the surviving manuscripts would otherwise lead readers to suspect.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_CLAIM",
+        "rationale": "Nothing in the comparison concerns the ballad's original length."
+      },
+      {
+        "letter": "D",
+        "text": "was copied carelessly by scribes who skipped its opening and closing stanzas.",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_DIRECTION",
+        "rationale": "The opening and closing stanzas are the parts that match exactly, so they were not skipped or carelessly copied."
+      }
+    ],
+    "correctAnswer": "B",
+    "coreQuestion": "What explanation fits manuscripts that agree at the start and end but differ in the middle?",
+    "steps": [
+      "Pull out the pattern: identical frame stanzas, widely varying middle stanzas.",
+      "Ask what process produces a fixed frame and a variable middle: performers who remember the frame and rearrange the rest.",
+      "Reject choices that contradict the matching stanzas or bring in outside claims.",
+      "Choose the option about singers passing the ballad along."
+    ]
+  }
+]

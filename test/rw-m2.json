@@ -28,7 +28,7 @@
         "text": "deserved",
         "isCorrect": false,
         "trapType": "CONTRADICTS_CONTRAST",
-        "rationale": "Her harsh grading fits a severe reputation, but the 'although' clause signals contrast, and her extra help shows the reputation was not the whole truth."
+        "rationale": "Her harsh grading fits a severe reputation, but the 'although' clause signals contrast, and her extra help shows the reputation is not the whole truth."
       },
       {
         "letter": "C",
@@ -42,7 +42,7 @@
         "text": "celebrated",
         "isCorrect": false,
         "trapType": "IGNORES_CONTEXT_CLUE",
-        "rationale": "Nothing suggests the reputation was praised or famous; the sentence is about whether it was accurate."
+        "rationale": "Nothing suggests the reputation is praised or famous; the sentence is about whether it is accurate."
       }
     ],
     "correctAnswer": "A"
@@ -765,16 +765,592 @@
         "text": "her silence about her own feelings may reflect constant vigilance that leaves little room for introspection.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. Her safety-oriented attention to others takes one inference step to vigilance, a better explanation than coldness, and the choice stays tentative."
+        "rationale": "Correct. Her attention to whether rooms are safe points to vigilance, which explains her silence better than coldness does, and the choice stays tentative."
       },
       {
         "letter": "D",
         "text": "her close attention to others may be compensation for a genuine emotional detachment that she cannot overcome.",
         "isCorrect": false,
         "trapType": "REVERSES_LOGIC",
-        "rationale": "This assumes the coldness the details call into question; the danger-watching pattern suggests wariness, not detachment."
+        "rationale": "This assumes the coldness the details call into question; the safety-judging pattern suggests wariness, not detachment."
       }
     ],
     "correctAnswer": "C"
+  },
+  {
+    "id": "RW2-16",
+    "section": "rw",
+    "skill": "BND",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "The oldest workshop of the Sarn Valley dyers—a narrow stone building beside the river ______ supplied blue cloth to three villages for nearly two centuries.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "coreQuestion": "Which punctuation correctly closes the phrase that the dash opened?",
+    "steps": [
+      "Notice the dash after \"dyers\" opens an interruption describing the workshop.",
+      "An interruption opened with a dash must be closed with a matching dash.",
+      "Place the dash after \"river\" so the main clause (\"workshop ... supplied\") reads cleanly without the description.",
+      "Reject the comma, semicolon, and colon, none of which can close a dash."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "river,",
+        "isCorrect": false,
+        "trapType": "MISMATCHED_PUNCTUATION",
+        "rationale": "A comma cannot close an interruption that a dash opened; the pair must match."
+      },
+      {
+        "letter": "B",
+        "text": "river;",
+        "isCorrect": false,
+        "trapType": "MISMATCHED_PUNCTUATION",
+        "rationale": "A semicolon joins independent clauses, and the words before \"supplied\" are only a description, not a clause."
+      },
+      {
+        "letter": "C",
+        "text": "river—",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The dash after \"dyers\" opens the description, and a second dash after \"river\" closes it before the verb \"supplied\"."
+      },
+      {
+        "letter": "D",
+        "text": "river:",
+        "isCorrect": false,
+        "trapType": "MISMATCHED_PUNCTUATION",
+        "rationale": "A colon must follow a complete clause and introduce an explanation or list; here it would split the subject from its verb."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "RW2-17",
+    "section": "rw",
+    "skill": "BND",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "The lower tongue of the Kelvane Glacier has retreated more than two kilometers since 1980 ______ its upper basin has thickened slightly under heavier snowfall, according to the monitoring teams.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "coreQuestion": "How can two independent clauses be joined with a transition word like \"however\"?",
+    "steps": [
+      "Split the sentence: \"The lower tongue ... since 1980\" and \"its upper basin has thickened\" are each complete clauses.",
+      "Two complete clauses need a semicolon (or a period) before a conjunctive adverb such as \"however.\"",
+      "Put a comma after \"however\" to set it off.",
+      "Reject choices that use only a comma before \"however,\" which creates a comma splice, or that omit the break entirely."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "1980; however,",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. A semicolon correctly joins the two independent clauses, and a comma sets off \"however.\""
+      },
+      {
+        "letter": "B",
+        "text": "1980, however,",
+        "isCorrect": false,
+        "trapType": "COMMA_SPLICE",
+        "rationale": "The commas around \"however\" look tidy, but a comma before it cannot join two independent clauses."
+      },
+      {
+        "letter": "C",
+        "text": "1980 however,",
+        "isCorrect": false,
+        "trapType": "RUN_ON",
+        "rationale": "With no stop before \"however,\" the two independent clauses run together."
+      },
+      {
+        "letter": "D",
+        "text": "1980, however",
+        "isCorrect": false,
+        "trapType": "COMMA_SPLICE",
+        "rationale": "A comma alone cannot join the two clauses, and \"however\" also needs a comma after it."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "RW2-18",
+    "section": "rw",
+    "skill": "BND",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "In 1847 the Orvane road commission inspected three river crossings: the northern ford, which flooded every spring; the stone bridge, which had been rebuilt twice ______ the ferry landing, which was the only crossing open all winter.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "coreQuestion": "Which punctuation separates the items of a list whose items already contain commas?",
+    "steps": [
+      "Identify the three listed crossings, each followed by a comma-set description.",
+      "Because the items contain internal commas, the earlier break uses a semicolon.",
+      "Use a semicolon before the final item (with \"and\") to keep the pattern consistent and the items distinct.",
+      "Reject the comma, bare \"and,\" and colon choices because each blurs or breaks the list."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "twice, and",
+        "isCorrect": false,
+        "trapType": "INCONSISTENT_LIST_PUNCTUATION",
+        "rationale": "A comma here would match the commas inside the descriptions, making it unclear where one crossing ends and the next begins; the first break already used a semicolon."
+      },
+      {
+        "letter": "B",
+        "text": "twice and",
+        "isCorrect": false,
+        "trapType": "MISSING_PUNCTUATION",
+        "rationale": "With no punctuation the stone bridge and the ferry landing merge into one item."
+      },
+      {
+        "letter": "C",
+        "text": "twice: and",
+        "isCorrect": false,
+        "trapType": "MISUSED_COLON",
+        "rationale": "A colon was already used correctly to introduce the list; a second one cannot separate list items."
+      },
+      {
+        "letter": "D",
+        "text": "twice; and",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Semicolons separate items that contain commas, so this one matches the earlier semicolon and sets off the final item."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "RW2-19",
+    "section": "rw",
+    "skill": "BND",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "The prompt-book that the playwright's youngest sister found in a trunk of unsorted papers decades after the playwright's death ______ the earliest known version of the final act, complete with the author's marginal cuts.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "coreQuestion": "Should any punctuation separate this long subject from its verb?",
+    "steps": [
+      "Find the verb (\"is\") and trace back to its subject, \"prompt-book.\"",
+      "Notice that \"that ... death\" is a restrictive clause identifying which prompt-book, not an interruption.",
+      "Conclude that no punctuation may come between the subject (with its modifier) and the verb.",
+      "Reject the comma, semicolon, and colon, which each wrongly split subject from verb."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "death, is",
+        "isCorrect": false,
+        "trapType": "UNNECESSARY_COMMA",
+        "rationale": "A single comma cannot split the subject from its verb, and no opening comma exists for it to close."
+      },
+      {
+        "letter": "B",
+        "text": "death is",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The \"that\" clause is restrictive and part of the subject, so the verb follows with no punctuation."
+      },
+      {
+        "letter": "C",
+        "text": "death; is",
+        "isCorrect": false,
+        "trapType": "MISUSED_SEMICOLON",
+        "rationale": "A semicolon needs a complete clause on each side, but \"is the earliest known version\" has no subject of its own."
+      },
+      {
+        "letter": "D",
+        "text": "death: is",
+        "isCorrect": false,
+        "trapType": "MISUSED_COLON",
+        "rationale": "A colon must follow a complete clause, and this one would cut the subject off from its verb."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "RW2-20",
+    "section": "rw",
+    "skill": "FSS",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "At the end of each spring, the two ______ studios on Lamplight Row open their doors, and visitors can watch clay being shaped, glazed, and fired.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "coreQuestion": "Which form shows that the studios belong to more than one sculptor?",
+    "steps": [
+      "Notice \"two\" signals more than one sculptor.",
+      "The studios belong to them, so a possessive is needed.",
+      "Place the apostrophe after the plural \"s\" to make \"sculptors'.\"",
+      "Reject the singular possessive, the bare plural, and the doubled ending."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "sculptors'",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. \"Two\" makes the noun plural, and the apostrophe after the s shows the studios belong to them."
+      },
+      {
+        "letter": "B",
+        "text": "sculptor's",
+        "isCorrect": false,
+        "trapType": "SINGULAR_POSSESSIVE",
+        "rationale": "This shows ownership by one sculptor, which conflicts with \"two.\""
+      },
+      {
+        "letter": "C",
+        "text": "sculptors",
+        "isCorrect": false,
+        "trapType": "MISSING_APOSTROPHE",
+        "rationale": "This plural has no possessive marker, so it cannot show that the studios belong to the sculptors."
+      },
+      {
+        "letter": "D",
+        "text": "sculptors's",
+        "isCorrect": false,
+        "trapType": "DOUBLED_POSSESSIVE",
+        "rationale": "This adds an extra \"s\" after a plural that already ends in s; it is not standard."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "RW2-21",
+    "section": "rw",
+    "skill": "FSS",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "Since its founding in 1971, the Alder Quarterly, a small literary journal, ______ the early work of more than two hundred poets and story writers, and several of them went on to win national prizes.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "coreQuestion": "Which verb form fits an action that began in 1971 and continues to the present?",
+    "steps": [
+      "Spot \"Since its founding in 1971,\" which marks a span running up to now.",
+      "Match that span with the present perfect (\"has\" plus the past participle).",
+      "Check the choice agrees with the singular subject \"journal.\"",
+      "Reject the simple past, past perfect, and future forms."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "published",
+        "isCorrect": false,
+        "trapType": "WRONG_TENSE",
+        "rationale": "The simple past treats the publishing as finished, which does not fit \"since 1971\" for a journal still operating."
+      },
+      {
+        "letter": "B",
+        "text": "had published",
+        "isCorrect": false,
+        "trapType": "WRONG_TENSE",
+        "rationale": "The past perfect needs a later past event to look back from, and none is given."
+      },
+      {
+        "letter": "C",
+        "text": "has published",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The present perfect pairs with \"since\" for a span that began in 1971 and extends to now."
+      },
+      {
+        "letter": "D",
+        "text": "will publish",
+        "isCorrect": false,
+        "trapType": "WRONG_TENSE",
+        "rationale": "The future cannot describe work already done since 1971."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "RW2-22",
+    "section": "rw",
+    "skill": "FSS",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "Embedded in the thin sediment layers that the survey team sampled beneath the dry lake's central basin ______ fragments of a freshwater sponge, whose microscopic glass needles allowed the researchers to date each layer.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "coreQuestion": "Which verb agrees with the true subject of this inverted sentence?",
+    "steps": [
+      "Find the verb's real subject: the phrase before the blank is a long modifier, so the subject comes after the verb.",
+      "The subject is \"fragments,\" which is plural.",
+      "Pick the plural past form that agrees with it.",
+      "Reject the singular choices, which agree with the nearby noun \"basin\" instead."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "was",
+        "isCorrect": false,
+        "trapType": "SUBJECT_VERB_AGREEMENT",
+        "rationale": "\"Was\" is singular and agrees with the nearby \"basin,\" not with the plural subject \"fragments.\""
+      },
+      {
+        "letter": "B",
+        "text": "were",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The subject \"fragments\" follows the verb, and \"were\" agrees with it in number."
+      },
+      {
+        "letter": "C",
+        "text": "has been",
+        "isCorrect": false,
+        "trapType": "SUBJECT_VERB_AGREEMENT",
+        "rationale": "\"Has been\" is singular, so it does not agree with \"fragments.\""
+      },
+      {
+        "letter": "D",
+        "text": "is",
+        "isCorrect": false,
+        "trapType": "SUBJECT_VERB_AGREEMENT",
+        "rationale": "\"Is\" is singular and present, so it neither agrees with \"fragments\" nor matches the finished survey."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "RW2-23",
+    "section": "rw",
+    "skill": "TRN",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "Engineers in the port of Carrow Bay predicted that the new harbor wall would cut storm damage to moored boats by half. ______ the damage in the first winter after its completion was nearly the same as in the year before.",
+    "questionStem": "Which choice completes the text with the most logical transition?",
+    "coreQuestion": "How does the second sentence relate to the engineers' prediction?",
+    "steps": [
+      "Read the first sentence: engineers expected damage to be cut in half.",
+      "Read the second: damage was almost unchanged.",
+      "The second sentence shows reality differing from expectation, so choose a transition that signals that.",
+      "Reject transitions of similarity, example, or consequence."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Similarly,",
+        "isCorrect": false,
+        "trapType": "WRONG_RELATIONSHIP",
+        "rationale": "\"Similarly\" signals a likeness, but the outcome contradicts the prediction."
+      },
+      {
+        "letter": "B",
+        "text": "For example,",
+        "isCorrect": false,
+        "trapType": "WRONG_RELATIONSHIP",
+        "rationale": "The second sentence is not a case of the prediction; it is the opposite of what was predicted."
+      },
+      {
+        "letter": "C",
+        "text": "Accordingly,",
+        "isCorrect": false,
+        "trapType": "WRONG_RELATIONSHIP",
+        "rationale": "\"Accordingly\" signals a result that follows from the first sentence, but the damage did not follow the prediction."
+      },
+      {
+        "letter": "D",
+        "text": "In practice,",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. It contrasts what was expected with what actually happened."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "RW2-24",
+    "section": "rw",
+    "skill": "TRN",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "Visitors to the sculptor Neve Aldous's retrospective often assume her rough, unfinished surfaces came from haste, and some critics have called the technique careless. ______ her letters show that she regularly spent months deciding which surfaces to leave untouched, treating restraint as the hardest part of the work.",
+    "questionStem": "Which choice completes the text with the most logical transition?",
+    "coreQuestion": "What relationship does the evidence in her letters have to the viewers' and critics' assumption?",
+    "steps": [
+      "Identify the assumption: the roughness came from haste or carelessness.",
+      "Read the letters' claim: she took months deliberately choosing what to leave rough.",
+      "The letters correct the assumption by stating what was really true.",
+      "Choose the transition that introduces a correction and reject example, result, and parallel markers."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "In fact,",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. It introduces what is actually true, correcting the assumption of haste."
+      },
+      {
+        "letter": "B",
+        "text": "Therefore,",
+        "isCorrect": false,
+        "trapType": "WRONG_RELATIONSHIP",
+        "rationale": "\"Therefore\" would make the letters a consequence of the assumption, but they refute it."
+      },
+      {
+        "letter": "C",
+        "text": "For instance,",
+        "isCorrect": false,
+        "trapType": "WRONG_RELATIONSHIP",
+        "rationale": "The letters are not an example of haste or carelessness; they contradict both."
+      },
+      {
+        "letter": "D",
+        "text": "Likewise,",
+        "isCorrect": false,
+        "trapType": "WRONG_RELATIONSHIP",
+        "rationale": "\"Likewise\" signals agreement with the assumption, but the letters oppose it."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "RW2-25",
+    "section": "rw",
+    "skill": "RS",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n• Hydrologist Tomas Ekwueme studied eight streams in 2019.\n• One spring-fed stream stayed near 9 degrees Celsius all year.\n• Nearby streams swung between 1 and 19 degrees Celsius over the same year.\n• The spring-fed stream held twice as many insect species as the nearby streams.\n• Ekwueme counted insects each month from March to October.",
+    "questionStem": "The student wants to emphasize the difference in yearly temperature between the spring-fed stream and the nearby streams. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "coreQuestion": "Which sentence sets the spring-fed stream's steady temperature against the nearby streams' range?",
+    "steps": [
+      "Identify the goal: a temperature contrast between the spring-fed stream and nearby streams.",
+      "Locate the two notes that give those temperatures.",
+      "Combine them in one sentence that sets them side by side.",
+      "Reject sentences about insects, the study design, or only one stream's temperature."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Studying eight streams in 2019, hydrologist Tomas Ekwueme found that the spring-fed stream held twice as many insect species as the nearby streams did.",
+        "isCorrect": false,
+        "trapType": "OFF_GOAL_DETAIL",
+        "rationale": "This reports the insect finding and the study design, but gives no temperatures at all."
+      },
+      {
+        "letter": "B",
+        "text": "The spring-fed stream stayed near 9 degrees Celsius all year, and it also held twice as many insect species as the nearby streams did.",
+        "isCorrect": false,
+        "trapType": "INCOMPLETE_CONTRAST",
+        "rationale": "It gives only the spring-fed stream's temperature, so no temperature difference is shown, and the insect detail is off-goal."
+      },
+      {
+        "letter": "C",
+        "text": "Over the year, nearby streams swung between 1 and 19 degrees Celsius, while the spring-fed stream stayed near 9 degrees.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. It sets the nearby streams' wide range against the spring-fed stream's steady temperature."
+      },
+      {
+        "letter": "D",
+        "text": "Nearby streams swung between 1 and 19 degrees Celsius, and Ekwueme counted their insects each month from March to October of 2019.",
+        "isCorrect": false,
+        "trapType": "INCOMPLETE_CONTRAST",
+        "rationale": "It gives the nearby range but not the spring-fed stream's temperature, and it drifts to insect counting."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "RW2-26",
+    "section": "rw",
+    "skill": "RS",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n• In 1838 the Dunmore Mail Coach Company began a route between Alder Cross and the coastal town of Vessing.\n• The route covered 96 miles.\n• Before the coach, the trip by wagon took four days.\n• The coach completed the trip in 14 hours, using relay stations for fresh horses.\n• The company's founder, Edith Rawle, had earlier run a freight business.",
+    "questionStem": "The student wants to emphasize how much the coach shortened the trip between the two towns. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "coreQuestion": "Which sentence compares the wagon's travel time with the coach's?",
+    "steps": [
+      "Identify the goal: how much shorter the trip became.",
+      "Find the two travel times: four days by wagon and 14 hours by coach.",
+      "Put both in one sentence about the same route.",
+      "Reject sentences that give only one of the times or only background about the company."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Beginning in 1838, the Dunmore Mail Coach Company, founded by freight operator Edith Rawle, ran a 96-mile route between Alder Cross and the coastal town of Vessing.",
+        "isCorrect": false,
+        "trapType": "OFF_GOAL_DETAIL",
+        "rationale": "It covers the company's start and founder, but gives no travel times."
+      },
+      {
+        "letter": "B",
+        "text": "Using relay stations for fresh horses, the coach covered the 96-mile route from Alder Cross to Vessing in only 14 hours, a speed no earlier traveler had reached.",
+        "isCorrect": false,
+        "trapType": "INCOMPLETE_CONTRAST",
+        "rationale": "It gives the coach's time but no earlier time to compare, and its last claim is not in the notes."
+      },
+      {
+        "letter": "C",
+        "text": "The 96-mile trip between Alder Cross and Vessing, which had taken four days by wagon, became the route that Edith Rawle's company began serving in 1838.",
+        "isCorrect": false,
+        "trapType": "INCOMPLETE_CONTRAST",
+        "rationale": "It gives the wagon's time but not the coach's, so no shortening is shown."
+      },
+      {
+        "letter": "D",
+        "text": "The 96-mile trip between Alder Cross and Vessing took four days by wagon but only 14 hours by coach, which used relay stations for fresh horses.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. It places both travel times side by side for the same route."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "RW2-27",
+    "section": "rw",
+    "skill": "RS",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n• The Brantwick Press commissioned the typeface Halden from designer Rafa Oduya in 1962.\n• Halden has narrow letters and tall ascenders.\n• Oduya designed it so that newspaper columns could fit more words per line.\n• Printers who tested Halden found that small sizes remained legible.\n• The Brantwick evening paper set its text in Halden from 1963 until 1989.",
+    "questionStem": "The student wants to explain why the designer made the typeface's letters narrow and what printers found when they tested it at small sizes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "coreQuestion": "Which sentence gives the designer's reason for narrow letters and the printers' test result, each correctly attributed?",
+    "steps": [
+      "Identify the two required pieces: why the letters are narrow, and what printers found at small sizes.",
+      "From the notes, the reason is fitting more words per line; the test result is legibility at small sizes.",
+      "Choose the sentence that attributes each fact correctly.",
+      "Reject sentences that omit one piece, or that mention both but swap the reason and the result."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Commissioned in 1962, Halden has narrow letters and tall ascenders that let newspaper columns fit more words per line, which is what Oduya set out to do.",
+        "isCorrect": false,
+        "trapType": "OMITS_REQUIRED_ELEMENT",
+        "rationale": "It states the reason for narrow letters but never mentions the printers' test."
+      },
+      {
+        "letter": "B",
+        "text": "Oduya narrowed Halden's letters so newspaper columns could fit more words per line, and printers who tested it found that small sizes remained legible.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. It gives the design reason and the test finding, each matched to the notes."
+      },
+      {
+        "letter": "C",
+        "text": "Printers who tested Halden, with its narrow letters and tall ascenders, found that small sizes remained legible, and the evening paper used it until 1989.",
+        "isCorrect": false,
+        "trapType": "OMITS_REQUIRED_ELEMENT",
+        "rationale": "It gives the test result and later use, but not why the letters are narrow."
+      },
+      {
+        "letter": "D",
+        "text": "Oduya made Halden's letters narrow so that small sizes would stay legible, and printers who tested it found that newspaper columns fit more words per line.",
+        "isCorrect": false,
+        "trapType": "SWAPPED_RELATIONSHIP",
+        "rationale": "It mentions both elements but swaps them: the notes say the design aimed at more words per line and the test found legibility."
+      }
+    ],
+    "correctAnswer": "B"
   }
 ]

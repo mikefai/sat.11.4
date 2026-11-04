@@ -6,7 +6,7 @@
     "difficulty": "Easy",
     "type": "mc",
     "topic": "literature",
-    "stimulus": "Professor Adeyemi's reputation for severity was ______: although she graded harshly and rarely smiled in lecture, she stayed in her office long after hours each week to help any student who asked.",
+    "stimulus": "In the novel A Winter at Pell Academy, the headmistress's reputation for severity is ______: although she grades harshly and rarely smiles in assembly, she stays in her study long after hours each week to help any pupil who asks.",
     "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
     "coreQuestion": "What does the contrast between her stern manner and her after-hours help imply about her reputation?",
     "steps": [
@@ -54,14 +54,14 @@
     "difficulty": "Medium",
     "type": "mc",
     "topic": "science",
-    "stimulus": "Because the desert shrub's seeds germinate only after a rare flood, botanists regard its reproduction as ______ rainfall: in years of drought, entire populations may exist solely as dormant seeds buried in the soil.",
+    "stimulus": "Because the resin sealing the pine's cones melts only at temperatures reached in a wildfire, botanists regard its seed release as ______ fire: in decades without a burn, mature trees may hold closed cones that keep their seeds locked inside.",
     "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
-    "coreQuestion": "Which phrase captures how the shrub's reproduction relates to rainfall?",
+    "coreQuestion": "Which phrase captures how the pine's seed release relates to fire?",
     "steps": [
-      "Find the clue: seeds germinate 'only after a rare flood'.",
-      "Infer that reproduction happens only when a condition (flood) is met.",
-      "Eliminate 'resistant to' and 'indifferent to', which say rainfall does not matter.",
-      "Reject 'proportional to': the trigger is a threshold event, not a gradual scaling. Choose 'contingent on'."
+      "Find the clue: resin melts 'only at temperatures reached in a wildfire'.",
+      "Infer that seed release happens only when a condition (fire heat) is met.",
+      "Eliminate 'resistant to' and 'indifferent to', which say fire does not matter.",
+      "Reject 'proportional to': the trigger is a threshold event, not gradual scaling. Choose 'contingent on'."
     ],
     "choices": [
       {
@@ -69,28 +69,28 @@
         "text": "resistant to",
         "isCorrect": false,
         "trapType": "CONTRADICTS_CONTEXT",
-        "rationale": "If reproduction resisted rainfall, drought years would not suspend it, but the text says drought leaves only dormant seeds."
+        "rationale": "If seed release resisted fire, burning would not matter, but the text says the cones open only when heat melts the resin."
       },
       {
         "letter": "B",
         "text": "proportional to",
         "isCorrect": false,
         "trapType": "HALF_RIGHT_PARTIAL_FIT",
-        "rationale": "Rainfall does matter, but 'proportional' implies output rises smoothly with each increase in rain; the text describes an all-or-nothing trigger (germination only after a rare flood)."
+        "rationale": "Fire does matter, but 'proportional' implies release rises smoothly with the amount of fire; the text describes a threshold (resin melts only at wildfire temperatures)."
       },
       {
         "letter": "C",
         "text": "contingent on",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. Germination happens only if a flood occurs, so reproduction depends on rainfall as a condition."
+        "rationale": "Correct. Seeds are released only if a fire supplies enough heat, so seed release depends on fire as a condition."
       },
       {
         "letter": "D",
         "text": "indifferent to",
         "isCorrect": false,
         "trapType": "CONTRADICTS_CONTEXT",
-        "rationale": "The shrub's seeds wait for a flood, so its reproduction clearly responds to rainfall."
+        "rationale": "The cones stay sealed without fire, so seed release clearly responds to it."
       }
     ],
     "correctAnswer": "C"
@@ -124,7 +124,7 @@
         "text": "ambivalent",
         "isCorrect": false,
         "trapType": "WRONG_SUBJECT_FOR_WORD",
-        "rationale": "Ambivalent describes a person's conflicting feelings; clauses of a document cannot hold mixed emotions, although the effect resembles divided attitudes."
+        "rationale": "Ambivalent describes mixed attitudes held by a person or group; the text describes wording open to several readings, which is a different thing."
       },
       {
         "letter": "C",
@@ -179,7 +179,7 @@
         "text": "scholarly",
         "isCorrect": false,
         "trapType": "LITERAL_MEANING_TRAP",
-        "rationale": "'Scholarly' is the more common sense of the idea of study, but it means relating to academic learning, not deliberately contrived."
+        "rationale": "'Scholarly' relates to academic study; it echoes 'studied' in its more familiar sense, but the intended sense here is deliberately contrived."
       },
       {
         "letter": "D",
@@ -198,7 +198,7 @@
     "difficulty": "Medium",
     "type": "mc",
     "topic": "science",
-    "stimulus": "Soil scientists have long assumed that earthworms improve farmland by aerating the ground. In boreal forests, however, where no earthworms lived before European settlement, invasive worms have stripped away the thick layer of leaf litter that once sheltered seedlings, leaving bare, compacted soil. A creature prized in gardens can therefore act as a destructive force in ecosystems that evolved without it.",
+    "stimulus": "Soil scientists have long assumed that earthworms improve farmland by aerating the ground. In parts of North America's boreal forest, however, where no earthworms lived before European settlement, invasive worms have stripped away the thick layer of leaf litter that once sheltered seedlings, leaving bare, compacted soil. A creature prized in gardens can therefore act as a destructive force in ecosystems that evolved without it.",
     "questionStem": "Which choice best describes the overall structure of the text?",
     "coreQuestion": "How is the passage organized from beginning to end?",
     "steps": [
@@ -246,7 +246,7 @@
     "difficulty": "Hard",
     "type": "mc",
     "topic": "history",
-    "stimulus": "In the 1790s, the Calden Valley ironworks recorded a steady rise in output, and later chroniclers took this as proof of the region's industrial vigor. <u>Yet the ledgers record output only for the master's own forges, omitting the dozens of small smithies that sold to the same merchants.</u> The apparent growth may therefore reflect the master's widening share of the trade rather than any increase in the region's total production.",
+    "stimulus": "In the 1790s, the Hollin Dale ironworks recorded a steady rise in output, and later chroniclers took this as proof of the region's industrial vigor. <u>Yet the ledgers record output only for the master's own forges, omitting the dozens of small smithies that sold to the same merchants.</u> The apparent growth may therefore reflect the master's widening share of the trade rather than any increase in the region's total production.",
     "questionStem": "Which choice best states the function of the underlined sentence in the text?",
     "coreQuestion": "What job does the underlined sentence do in the argument?",
     "steps": [
@@ -294,13 +294,13 @@
     "difficulty": "Hard",
     "type": "mc",
     "topic": "literature",
-    "stimulus": "In the closing chapter of the novel Salt and Ledger, the bookkeeper Teodor burns the account books he has kept for forty years, a gesture the narrator reports in a single flat sentence. Readers expecting catharsis may be disappointed, but the restraint is deliberate: the narrator treats the fire as one more entry, suggesting that Teodor's long habit of recording has outlasted his capacity for protest.",
+    "stimulus": "In the closing chapter of the novel The Weight of Pewter, the bookkeeper Casimir burns the account books he has kept for forty years, a gesture the narrator reports in a single flat sentence. Readers expecting catharsis may be disappointed, but the restraint is deliberate: the narrator treats the fire as one more entry, suggesting that Casimir's long habit of recording has outlasted his capacity for protest.",
     "questionStem": "Which choice best states the main purpose of the text?",
     "coreQuestion": "What is the writer trying to accomplish with this description of the novel's ending?",
     "steps": [
-      "Identify the event: Teodor burns his books and the narrator reports it flatly.",
+      "Identify the event: Casimir burns his books and the narrator reports it flatly.",
       "Notice 'but the restraint is deliberate': the writer answers a possible complaint.",
-      "The explanation ties the flat tone to Teodor's habit of recording, so the purpose is interpretation.",
+      "The explanation ties the flat tone to Casimir's habit of recording, so the purpose is interpretation.",
       "Reject choices that condemn the ending, merely summarize, or compare with chapters never mentioned."
     ],
     "choices": [
@@ -323,7 +323,7 @@
         "text": "To interpret a narrative choice that might seem anticlimactic as consistent with the character's psychology.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. The flat narration looks anticlimactic, and the text explains it as reflecting Teodor's ingrained habit."
+        "rationale": "Correct. The flat narration looks anticlimactic, and the text explains it as reflecting Casimir's ingrained habit."
       },
       {
         "letter": "D",
@@ -390,43 +390,43 @@
     "difficulty": "Medium",
     "type": "mc",
     "topic": "science",
-    "stimulus": "In a six-year study of mountain streams, hydrologist Yara Lindqvist found that stonefly nymphs thrive not in the fastest water but in the turbulent margins where debris slows the current. When she transplanted nymphs to fast, open channels, they vanished within days, even though oxygen levels there were higher. She concluded that the nymphs depend less on oxygen-rich flow than on shelter from being swept downstream.",
-    "questionStem": "According to the text, what does Lindqvist conclude about stonefly nymphs?",
-    "coreQuestion": "What is Lindqvist's conclusion about what the nymphs need most?",
+    "stimulus": "In a six-year study of a rocky coast, ecologist Yara Lindqvist found that juvenile rockfish gather not on the open reef, where plankton is most abundant, but within dense kelp stands. When she moved juveniles to the open reef, most were gone within days, even though plankton there was more plentiful. She concluded that the fish depend less on food-rich water than on cover from predators.",
+    "questionStem": "According to the text, what does Lindqvist conclude about juvenile rockfish?",
+    "coreQuestion": "What is Lindqvist's conclusion about what the juvenile fish need most?",
     "steps": [
       "Find the conclusion sentence beginning 'She concluded'.",
-      "Restate it: shelter from downstream sweeping matters more than oxygen-rich flow.",
+      "Restate it: cover from predators matters more than food-rich water.",
       "Match it to the choice that makes the same comparison.",
-      "Reject choices claiming a fast-channel preference, food, or low-oxygen tolerance."
+      "Reject choices claiming an open-reef preference, kelp as food, or tolerance of scarce food."
     ],
     "choices": [
       {
         "letter": "A",
-        "text": "Their survival depends more on protection from being swept away than on oxygen-rich water.",
+        "text": "Their survival depends more on cover from predators than on abundant food.",
         "isCorrect": true,
         "trapType": "NONE",
         "rationale": "Correct. This restates her conclusion in the last sentence."
       },
       {
         "letter": "B",
-        "text": "They prefer fast, open channels because the higher oxygen levels there support quicker growth.",
+        "text": "They prefer the open reef because the plentiful plankton there supports faster growth.",
         "isCorrect": false,
         "trapType": "CONTRADICTS_TEXT",
-        "rationale": "The nymphs vanished from fast channels despite higher oxygen; growth is never discussed."
+        "rationale": "The juveniles vanished from the open reef despite more plankton; growth is never discussed."
       },
       {
         "letter": "C",
-        "text": "They survive only where debris provides a source of food as well as a supply of oxygen.",
+        "text": "They survive only where kelp provides a supply of food as well as cover from predators.",
         "isCorrect": false,
         "trapType": "UNSUPPORTED_DETAIL",
-        "rationale": "Debris is linked to slowing the current, not to food."
+        "rationale": "Kelp is linked to cover, not to food."
       },
       {
         "letter": "D",
-        "text": "They can tolerate low oxygen levels only in streams where the current has been slowed.",
+        "text": "They can tolerate scarce food only in waters that are shallow and well warmed.",
         "isCorrect": false,
         "trapType": "UNSUPPORTED_DETAIL",
-        "rationale": "The study did not test tolerance of low oxygen; it found oxygen mattered less than shelter."
+        "rationale": "The study did not test tolerance of scarce food or water temperature; it found food mattered less than cover."
       }
     ],
     "correctAnswer": "A"
@@ -438,36 +438,36 @@
     "difficulty": "Hard",
     "type": "mc",
     "topic": "history",
-    "stimulus": "Chroniclers of the Teshan Assembly often credited its authority to the formal powers granted by its founding charter. Yet the assembly kept no standing force, and its rulings were obeyed chiefly because defiance carried a commercial penalty: any lord or merchant who ignored a verdict could be barred from the assembly's annual trade fairs. When the fairs declined in the assembly's final decades, compliance with its rulings declined with them.",
+    "stimulus": "Though its founding charter granted the Teshan Assembly broad formal powers, the assembly kept no standing force. Its rulings were obeyed chiefly because defiance carried a commercial penalty: any lord or merchant who ignored a verdict could be barred from the annual trade fairs. In the assembly's final decades, as the fairs declined, compliance with its rulings declined as well.",
     "questionStem": "Based on the text, which claim about the Teshan Assembly is best supported?",
     "coreQuestion": "What does the text indicate was the real basis of the assembly's authority?",
     "steps": [
-      "Note the contrast: chroniclers credit the charter, 'Yet' there was no standing force.",
-      "Find the enforcement mechanism: being barred from trade fairs.",
-      "Find the supporting evidence: compliance fell when the fairs declined.",
-      "Choose the claim tying authority to fair access; reject unsupported claims about the charter, armies or relocation."
+      "Note the contrast: broad formal powers, yet no standing force.",
+      "Find the enforcement mechanism: being barred from trade fairs by any lord or merchant who defied a verdict.",
+      "Find the supporting pattern: compliance fell as the fairs declined, so the fairs gave the penalty its force.",
+      "Choose the claim tying authority to fair access; reject the charter claim, the lords-excluded claim, and the reversed cause."
     ],
     "choices": [
       {
         "letter": "A",
-        "text": "Its charter conferred little formal power, which is why the assembly relied on commercial pressure instead.",
+        "text": "Its broad charter powers were the main reason that lords and merchants complied with its verdicts.",
         "isCorrect": false,
-        "trapType": "UNSUPPORTED_DETAIL",
-        "rationale": "The text says the chroniclers credited the charter, not that the charter was weak."
+        "trapType": "CONTRADICTS_TEXT",
+        "rationale": "The text says rulings were obeyed chiefly because of the commercial penalty, not the charter's formal powers."
       },
       {
         "letter": "B",
-        "text": "Its verdicts were enforced mainly by lords who feared military reprisal from rival lords.",
+        "text": "Merchants, but not lords, risked exclusion from the trade fairs for ignoring a verdict.",
         "isCorrect": false,
-        "trapType": "CONTRADICTS_TEXT",
-        "rationale": "The text states the assembly kept no standing force and enforcement was commercial."
+        "trapType": "NARROWS_THE_DETAIL",
+        "rationale": "The text says any lord or merchant could be barred, so lords were also exposed."
       },
       {
         "letter": "C",
-        "text": "It lost its authority because its trade fairs were relocated to another region.",
+        "text": "The fairs declined because lords and merchants stopped complying with the assembly's rulings.",
         "isCorrect": false,
-        "trapType": "UNSUPPORTED_DETAIL",
-        "rationale": "The fairs 'declined'; relocation is not mentioned."
+        "trapType": "REVERSED_CAUSATION",
+        "rationale": "The text reports the fairs declining and compliance declining with them; it gives no support for compliance loss causing the fairs' decline."
       },
       {
         "letter": "D",
@@ -515,7 +515,7 @@
         "text": "\"How bright the yard is in memory, and how oddly every window turns its back.\"",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. Brightness in memory shows fondness, while windows that 'turn their back' signal distance and unease within the same memory."
+        "rationale": "Correct. Brightness in memory shows fondness, while 'every window turns its back' signals distance and unease within the same memory."
       },
       {
         "letter": "D",
@@ -655,7 +655,7 @@
     "difficulty": "Medium",
     "type": "mc",
     "topic": "history",
-    "stimulus": "A historian studying the port town of Orsen Landing claims that its population grew faster in the 1870s, the decade in which the railway reached the town, than in any other decade between 1850 and 1900.",
+    "stimulus": "A historian studying the port town of Orsen Landing claims that its population grew faster in the 1880s, the decade in which a fish cannery opened on its waterfront, than in any other decade between 1850 and 1900.",
     "questionStem": "Which choice most effectively uses data from the table to support the historian's claim?",
     "table": {
       "caption": "Population of Orsen Landing, by census year",
@@ -678,11 +678,11 @@
         ],
         [
           "1880",
-          "5200"
+          "3600"
         ],
         [
           "1890",
-          "6000"
+          "5700"
         ],
         [
           "1900",
@@ -690,10 +690,10 @@
         ]
       ]
     },
-    "coreQuestion": "Which choice compares the 1870s gain with the other decades?",
+    "coreQuestion": "Which choice compares the 1880s gain with the other decades?",
     "steps": [
-      "Compute each decade's gain: 500, 500 (1850-1870), 2100 (1870s), 800, 500.",
-      "Identify the largest gain: the 1870s at 2100.",
+      "Compute each decade's gain: 500, 500, 500 (1850-1880), 2100 (1880s), 800 (1890s).",
+      "Identify the largest gain: the 1880s at 2100.",
       "Choose the statement that names that decade and compares it with the others.",
       "Reject statements that cover the whole period or the wrong decades."
     ],
@@ -707,24 +707,24 @@
       },
       {
         "letter": "B",
-        "text": "The population grew by 500 from 1850 to 1860 and by 500 from 1860 to 1870, before the railway came.",
+        "text": "The population grew by 500 from 1850 to 1860 and by 500 from 1860 to 1870, before the cannery opened.",
         "isCorrect": false,
         "trapType": "WRONG_DECADE",
-        "rationale": "True, but these are decades before the railway and do not show the 1870s as fastest."
+        "rationale": "True, but these are decades before the cannery and do not show the 1880s as fastest."
       },
       {
         "letter": "C",
-        "text": "The population was 6000 in 1890, up from 5200 in 1880.",
+        "text": "The population was 6500 in 1900, up from 5700 in 1890, after the cannery had opened.",
         "isCorrect": false,
         "trapType": "WRONG_DECADE",
-        "rationale": "True, but it concerns the 1880s, not the 1870s."
+        "rationale": "True, but it concerns the 1890s, not the 1880s."
       },
       {
         "letter": "D",
-        "text": "The population rose by 2100 between 1870 and 1880, far more than its gain in any other decade.",
+        "text": "The population rose by 2100 between 1880 and 1890, far more than its gain in any other decade.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. 5200 minus 3100 is 2100, while the other decades gained 500, 500, 800 and 500."
+        "rationale": "Correct. 5700 minus 3600 is 2100, while the other decades gained 500, 500, 500 and 800."
       }
     ],
     "correctAnswer": "D"
@@ -736,43 +736,43 @@
     "difficulty": "Hard",
     "type": "mc",
     "topic": "literature",
-    "stimulus": "Critics have long read the sparse punctuation of the poet Ilse Varga's late work as a sign of failing health, noting that her earliest manuscripts are densely punctuated. But newly digitized letters show that Varga, while in robust health, told a friend she was \"stripping the commas out\" of her old poems to let the lines breathe, and she reworked several early poems this way. This suggests that",
+    "stimulus": "Readers of the novel A Season of Borrowed Rooms often call its narrator, Marit, emotionally cold, since she never names a feeling of her own. Yet she describes other people with painstaking attention: who lingers in a doorway, whose hands are unsteady, who stops mid-sentence. Nearly every detail she records is one that a person watching for danger would notice. This suggests that",
     "questionStem": "Which choice most logically completes the text?",
-    "coreQuestion": "What follows from learning she stripped out commas while healthy?",
+    "coreQuestion": "What do her vigilant observations suggest about her silence on her own feelings?",
     "steps": [
-      "Note the critics' inference: sparse punctuation signals failing health.",
-      "Note the new evidence: Varga removed commas deliberately while in robust health.",
-      "Conclude only that sparse punctuation is not reliable proof of illness.",
-      "Reject sweeping or unsupported claims about illness, critics or confidence."
+      "Note the readers' view: she is cold because she never names her feelings.",
+      "Note the evidence: she notices precisely what someone alert to danger would notice.",
+      "Infer that the silence may come from watchfulness, which crowds out reflection, rather than from lack of feeling.",
+      "Reject options about authorial intent, hidden wrongdoing, or compensating detachment, none of which the evidence supports."
     ],
     "choices": [
       {
         "letter": "A",
-        "text": "Varga's illness had no effect on any aspect of her late poetry.",
+        "text": "her silence about her own feelings may be an authorial device meant to make her unlikable to readers.",
         "isCorrect": false,
-        "trapType": "OVERSTATES_CLAIM",
-        "rationale": "The letters weaken one inference from punctuation; they do not show illness had no effect on any aspect of her work."
+        "trapType": "UNSUPPORTED_DETAIL",
+        "rationale": "Nothing in the text concerns the author's aim or readers' sympathy; the evidence is about what Marit notices."
       },
       {
         "letter": "B",
-        "text": "Varga reworked her early poems because critics had complained for years that their punctuation was too dense.",
+        "text": "her silence about her own feelings may conceal a specific wrongdoing that she is hiding from the reader.",
         "isCorrect": false,
         "trapType": "UNSUPPORTED_DETAIL",
-        "rationale": "Her stated reason was to let the lines breathe; critics' complaints are not mentioned."
+        "rationale": "The details point to watchfulness, not to any concealed act."
       },
       {
         "letter": "C",
-        "text": "sparse punctuation in Varga's late work is not, by itself, reliable evidence that her health was failing.",
+        "text": "her silence about her own feelings may reflect constant vigilance that leaves little room for introspection.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. She chose to remove commas while healthy, so sparse punctuation could reflect style."
+        "rationale": "Correct. Her danger-oriented attention to others offers a better explanation than coldness, and the choice stays tentative."
       },
       {
         "letter": "D",
-        "text": "Varga's early manuscripts were densely punctuated because she was less confident in her style then.",
+        "text": "her close attention to others may be compensation for a genuine emotional detachment that she cannot overcome.",
         "isCorrect": false,
-        "trapType": "UNSUPPORTED_DETAIL",
-        "rationale": "Her confidence is never discussed."
+        "trapType": "REVERSES_LOGIC",
+        "rationale": "This assumes the coldness the details call into question; the danger-watching pattern suggests wariness, not detachment."
       }
     ],
     "correctAnswer": "C"

@@ -217,45 +217,45 @@
     "skill": "ADV-EQ",
     "difficulty": "Easy",
     "type": "mc",
-    "stimulus": "A rectangular garden is 5 meters longer than it is wide. Its area is 84 square meters.",
-    "questionStem": "What is the width, in meters, of the garden?",
-    "coreQuestion": "How do you set up and solve a quadratic equation from an area relationship?",
+    "stimulus": "A square patio has an area of 169 square meters. The side length s, in meters, satisfies s² = 169.",
+    "questionStem": "What is the side length, in meters, of the patio?",
+    "coreQuestion": "How do you solve a simple squared equation when only a positive length makes sense?",
     "steps": [
-      "Let w be the width, so the length is w + 5 and w(w + 5) = 84.",
-      "Rewrite as w² + 5w − 84 = 0, which factors as (w + 12)(w − 7) = 0.",
-      "Width cannot be negative, so w = 7. Check: 7 · 12 = 84."
+      "Take the square root of both sides of s² = 169: s = 13 or s = −13.",
+      "A length cannot be negative, so s = 13.",
+      "Check: 13 · 13 = 169."
     ],
     "choices": [
       {
         "letter": "A",
-        "text": "5",
-        "isCorrect": false,
-        "trapType": "USED_GIVEN_DIFFERENCE",
-        "rationale": "Reports the 5 meter difference; a width of 5 gives length 10 and area 50, not 84."
+        "text": "13",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "13 · 13 = 169."
       },
       {
         "letter": "B",
-        "text": "7",
-        "isCorrect": true,
-        "trapType": "NONE",
-        "rationale": "7 · 12 = 84."
+        "text": "52",
+        "isCorrect": false,
+        "trapType": "REPORTED_PERIMETER",
+        "rationale": "4 · 13 = 52 is the perimeter, not the side length."
       },
       {
         "letter": "C",
-        "text": "12",
+        "text": "84.5",
         "isCorrect": false,
-        "trapType": "LENGTH_NOT_WIDTH",
-        "rationale": "12 is the length (7 + 5), not the width."
+        "trapType": "HALVED_INSTEAD_OF_ROOT",
+        "rationale": "Divides 169 by 2 as if s² meant 2s; 84.5 squared is not 169."
       },
       {
         "letter": "D",
-        "text": "84",
+        "text": "169",
         "isCorrect": false,
         "trapType": "REPORTED_AREA",
-        "rationale": "84 is the area, not a side length."
+        "rationale": "169 is the area, not a side length."
       }
     ],
-    "correctAnswer": "B"
+    "correctAnswer": "A"
   },
   {
     "id": "M1-07",
@@ -263,42 +263,42 @@
     "skill": "ALG-LF",
     "difficulty": "Easy",
     "type": "mc",
-    "stimulus": "The function f is linear. f(1) = 7 and f(4) = 19.",
-    "questionStem": "What is the value of f(6)?",
-    "coreQuestion": "How do you find a linear function from two points and then evaluate it?",
+    "stimulus": "The linear function g models the depth of water, in centimeters, in a rain barrel t hours after a storm begins: g(t) = 3t + 14.",
+    "questionStem": "What is the depth of the water, in centimeters, 5 hours after the storm begins?",
+    "coreQuestion": "How do you evaluate a linear model at a given input?",
     "steps": [
-      "Slope: (19 − 7) / (4 − 1) = 12 / 3 = 4.",
-      "Intercept: 7 = 4(1) + b, so b = 3 and f(x) = 4x + 3.",
-      "f(6) = 4(6) + 3 = 27."
+      "Substitute t = 5: g(5) = 3(5) + 14.",
+      "Multiply first: 3(5) = 15.",
+      "Add: 15 + 14 = 29 centimeters."
     ],
     "choices": [
       {
         "letter": "A",
-        "text": "24",
+        "text": "17",
         "isCorrect": false,
-        "trapType": "FORGOT_INTERCEPT",
-        "rationale": "Computes 4 · 6 and leaves out the +3."
+        "trapType": "DROPPED_INPUT",
+        "rationale": "Adds 3 + 14 without multiplying the rate by 5 hours."
       },
       {
         "letter": "B",
-        "text": "26",
+        "text": "19",
         "isCorrect": false,
-        "trapType": "ADDED_WRONG_VALUE",
-        "rationale": "Adds f(1) = 7 to f(4) = 19 instead of using the slope: 19 + 7 = 26."
+        "trapType": "ADDED_INPUT",
+        "rationale": "Adds 5 + 14, ignoring the rate of 3 centimeters per hour."
       },
       {
         "letter": "C",
-        "text": "27",
+        "text": "29",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "4(6) + 3 = 27."
+        "rationale": "3(5) + 14 = 29."
       },
       {
         "letter": "D",
-        "text": "42",
+        "text": "85",
         "isCorrect": false,
-        "trapType": "MULTIPLIED_VALUES",
-        "rationale": "Multiplies 6 by f(1) = 7, which is not how a linear function behaves."
+        "trapType": "MULTIPLIED_WHOLE_SUM",
+        "rationale": "Multiplies (3 + 14) by 5 instead of only the 3."
       }
     ],
     "correctAnswer": "C"

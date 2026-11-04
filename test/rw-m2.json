@@ -1,1 +1,780 @@
-[]
+[
+  {
+    "id": "RW2-01",
+    "section": "rw",
+    "skill": "WIC",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "Professor Adeyemi's reputation for severity was ______: although she graded harshly and rarely smiled in lecture, she stayed in her office long after hours each week to help any student who asked.",
+    "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "coreQuestion": "What does the contrast between her stern manner and her after-hours help imply about her reputation?",
+    "steps": [
+      "Notice 'although': the sentence sets her harsh grading against her generous help.",
+      "Decide what that contrast implies about the reputation for severity: it does not tell the whole story.",
+      "Choose the word meaning 'giving a false impression': misleading.",
+      "Check the other choices against the contrast; none captures the gap between reputation and reality."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "misleading",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The 'although' clause contrasts her stern public manner with her generosity, so the reputation gave a false impression of her."
+      },
+      {
+        "letter": "B",
+        "text": "deserved",
+        "isCorrect": false,
+        "trapType": "CONTRADICTS_CONTRAST",
+        "rationale": "Her harsh grading fits a severe reputation, but the 'although' clause signals contrast, and her extra help shows the reputation was not the whole truth."
+      },
+      {
+        "letter": "C",
+        "text": "temporary",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_DETAIL",
+        "rationale": "Nothing says her reputation changed over time; the text describes behavior that exists at the same time as her stern manner."
+      },
+      {
+        "letter": "D",
+        "text": "celebrated",
+        "isCorrect": false,
+        "trapType": "IGNORES_CONTEXT_CLUE",
+        "rationale": "Nothing suggests the reputation was praised or famous; the sentence is about whether it was accurate."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "RW2-02",
+    "section": "rw",
+    "skill": "WIC",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "Because the desert shrub's seeds germinate only after a rare flood, botanists regard its reproduction as ______ rainfall: in years of drought, entire populations may exist solely as dormant seeds buried in the soil.",
+    "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "coreQuestion": "Which phrase captures how the shrub's reproduction relates to rainfall?",
+    "steps": [
+      "Find the clue: seeds germinate 'only after a rare flood'.",
+      "Infer that reproduction happens only when a condition (flood) is met.",
+      "Eliminate 'resistant to' and 'indifferent to', which say rainfall does not matter.",
+      "Reject 'proportional to': the trigger is a threshold event, not a gradual scaling. Choose 'contingent on'."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "resistant to",
+        "isCorrect": false,
+        "trapType": "CONTRADICTS_CONTEXT",
+        "rationale": "If reproduction resisted rainfall, drought years would not suspend it, but the text says drought leaves only dormant seeds."
+      },
+      {
+        "letter": "B",
+        "text": "proportional to",
+        "isCorrect": false,
+        "trapType": "HALF_RIGHT_PARTIAL_FIT",
+        "rationale": "Rainfall does matter, but 'proportional' implies output rises smoothly with each increase in rain; the text describes an all-or-nothing trigger (germination only after a rare flood)."
+      },
+      {
+        "letter": "C",
+        "text": "contingent on",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Germination happens only if a flood occurs, so reproduction depends on rainfall as a condition."
+      },
+      {
+        "letter": "D",
+        "text": "indifferent to",
+        "isCorrect": false,
+        "trapType": "CONTRADICTS_CONTEXT",
+        "rationale": "The shrub's seeds wait for a flood, so its reproduction clearly responds to rainfall."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "RW2-03",
+    "section": "rw",
+    "skill": "WIC",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "Historians of a seventeenth-century commercial treaty between two port cities note that its tariff clauses were deliberately ______: each signatory could cite a different provision as proof that its own demands had prevailed, and neither therefore felt compelled to repudiate the agreement.",
+    "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "coreQuestion": "What kind of wording lets both signatories claim victory?",
+    "steps": [
+      "Locate the clue: each side 'could cite a different provision' as proof it prevailed.",
+      "Infer that the wording supported more than one reading.",
+      "Reject 'conclusive' (it would settle the matter) and 'punitive' (nothing about penalties).",
+      "Reject 'ambivalent' because it describes people's feelings, not a text's wording; choose 'equivocal'."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "conclusive",
+        "isCorrect": false,
+        "trapType": "CONTRADICTS_CONTEXT",
+        "rationale": "Conclusive clauses would settle which side prevailed; here each side could claim victory, so the clauses settled nothing."
+      },
+      {
+        "letter": "B",
+        "text": "ambivalent",
+        "isCorrect": false,
+        "trapType": "WRONG_SUBJECT_FOR_WORD",
+        "rationale": "Ambivalent describes a person's conflicting feelings; clauses of a document cannot hold mixed emotions, although the effect resembles divided attitudes."
+      },
+      {
+        "letter": "C",
+        "text": "punitive",
+        "isCorrect": false,
+        "trapType": "IGNORES_CONTEXT_CLUE",
+        "rationale": "Punitive clauses would impose penalties; the text is about how the wording let both sides feel satisfied."
+      },
+      {
+        "letter": "D",
+        "text": "equivocal",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Equivocal wording can be read in more than one way, which let each signatory find support for its own position."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "RW2-04",
+    "section": "rw",
+    "skill": "WIC",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "The catalog describes the potter's late glazes as spontaneous, but the apparent spontaneity was in fact ______: her notebooks log kiln temperatures, mineral ratios, and firing times for nearly every piece.",
+    "questionStem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "coreQuestion": "Which word describes spontaneity that was really planned?",
+    "steps": [
+      "Note the contrast signal 'but': the catalog says spontaneous, the notebooks say otherwise.",
+      "The notebooks record temperatures, ratios and times, so the effects were deliberate.",
+      "Recognize the second meaning of 'studied': carefully cultivated, not learned or academic.",
+      "Eliminate 'scholarly' (academic), 'inadvertent' and 'improvised' (both mean unplanned)."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "inadvertent",
+        "isCorrect": false,
+        "trapType": "CONTRADICTS_CONTEXT",
+        "rationale": "Inadvertent means unintended; the careful notebooks show the effects were intended."
+      },
+      {
+        "letter": "B",
+        "text": "studied",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. 'Studied' here means deliberately cultivated, which fits the detailed records of every variable."
+      },
+      {
+        "letter": "C",
+        "text": "scholarly",
+        "isCorrect": false,
+        "trapType": "LITERAL_MEANING_TRAP",
+        "rationale": "'Scholarly' is the more common sense of the idea of study, but it means relating to academic learning, not deliberately contrived."
+      },
+      {
+        "letter": "D",
+        "text": "improvised",
+        "isCorrect": false,
+        "trapType": "CONTRADICTS_CONTEXT",
+        "rationale": "Improvised repeats the catalog's claim of spontaneity; the 'but' signals the notebooks contradict it."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "RW2-05",
+    "section": "rw",
+    "skill": "TSP",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "Soil scientists have long assumed that earthworms improve farmland by aerating the ground. In boreal forests, however, where no earthworms lived before European settlement, invasive worms have stripped away the thick layer of leaf litter that once sheltered seedlings, leaving bare, compacted soil. A creature prized in gardens can therefore act as a destructive force in ecosystems that evolved without it.",
+    "questionStem": "Which choice best describes the overall structure of the text?",
+    "coreQuestion": "How is the passage organized from beginning to end?",
+    "steps": [
+      "Summarize sentence 1: the common belief that earthworms help soil.",
+      "Summarize sentence 2: 'however' introduces forests where worms do damage.",
+      "Summarize sentence 3: a general conclusion about ecosystems.",
+      "Match that sequence (assumption, exception, conclusion) to the choice that names it."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "It proposes a hypothesis about earthworm behavior, describes an experiment testing it, and reports inconclusive results.",
+        "isCorrect": false,
+        "trapType": "DESCRIBES_ABSENT_STRUCTURE",
+        "rationale": "No hypothesis or experiment appears; the text reports an ecological observation."
+      },
+      {
+        "letter": "B",
+        "text": "It outlines a traditional farming method and then recommends a modern replacement that avoids its drawbacks.",
+        "isCorrect": false,
+        "trapType": "DESCRIBES_ABSENT_STRUCTURE",
+        "rationale": "The text does not recommend any replacement method."
+      },
+      {
+        "letter": "C",
+        "text": "It identifies a puzzling phenomenon in boreal forests and then offers two competing explanations for it.",
+        "isCorrect": false,
+        "trapType": "DESCRIBES_ABSENT_STRUCTURE",
+        "rationale": "Only one account of the forest change is given; no competing explanations appear."
+      },
+      {
+        "letter": "D",
+        "text": "It states a common assumption, presents a setting where that assumption fails, and draws a broader conclusion.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The assumption (worms help soil) is introduced, boreal forests show a case where worms harm, and the last sentence generalizes."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "RW2-06",
+    "section": "rw",
+    "skill": "TSP",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "In the 1790s, the Calden Valley ironworks recorded a steady rise in output, and later chroniclers took this as proof of the region's industrial vigor. <u>Yet the ledgers record output only for the master's own forges, omitting the dozens of small smithies that sold to the same merchants.</u> The apparent growth may therefore reflect the master's widening share of the trade rather than any increase in the region's total production.",
+    "questionStem": "Which choice best states the function of the underlined sentence in the text?",
+    "coreQuestion": "What job does the underlined sentence do in the argument?",
+    "steps": [
+      "Read the underlined sentence: ledgers cover only the master's forges and omit the smithies.",
+      "Read what follows: growth 'may therefore reflect' a bigger share, not more total production.",
+      "So the sentence exposes a gap in the evidence and prepares a new interpretation.",
+      "Reject choices that claim a decline, affirm the chroniclers, or explain the master's motives."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "It exposes a gap in the chroniclers' evidence, setting up an alternative reading of the growth.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The sentence shows the ledgers are incomplete, and the next sentence uses that gap to propose a different interpretation."
+      },
+      {
+        "letter": "B",
+        "text": "It offers a counterexample showing that the region's iron output actually fell during the decade.",
+        "isCorrect": false,
+        "trapType": "OVERSTATES_CLAIM",
+        "rationale": "The text never says output fell; it only says the growth may reflect a larger share for one master."
+      },
+      {
+        "letter": "C",
+        "text": "It admits a weakness in the chroniclers' method before affirming that their conclusion was still sound.",
+        "isCorrect": false,
+        "trapType": "HALF_RIGHT_PARTIAL_FIT",
+        "rationale": "It does identify a weakness, but the following sentence questions the conclusion rather than affirming it."
+      },
+      {
+        "letter": "D",
+        "text": "It explains why the master chose to concentrate production in his own forges instead of the smithies.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_DETAIL",
+        "rationale": "The master's motives are never discussed; the sentence concerns what the ledgers omit."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "RW2-07",
+    "section": "rw",
+    "skill": "TSP",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "In the closing chapter of the novel Salt and Ledger, the bookkeeper Teodor burns the account books he has kept for forty years, a gesture the narrator reports in a single flat sentence. Readers expecting catharsis may be disappointed, but the restraint is deliberate: the narrator treats the fire as one more entry, suggesting that Teodor's long habit of recording has outlasted his capacity for protest.",
+    "questionStem": "Which choice best states the main purpose of the text?",
+    "coreQuestion": "What is the writer trying to accomplish with this description of the novel's ending?",
+    "steps": [
+      "Identify the event: Teodor burns his books and the narrator reports it flatly.",
+      "Notice 'but the restraint is deliberate': the writer answers a possible complaint.",
+      "The explanation ties the flat tone to Teodor's habit of recording, so the purpose is interpretation.",
+      "Reject choices that condemn the ending, merely summarize, or compare with chapters never mentioned."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "To argue that the novel's ending is a failure because it withholds the emotional release readers anticipate.",
+        "isCorrect": false,
+        "trapType": "HALF_RIGHT_PARTIAL_FIT",
+        "rationale": "The text acknowledges readers may be disappointed, but it defends the restraint as deliberate rather than faulting the ending."
+      },
+      {
+        "letter": "B",
+        "text": "To summarize the events of the final chapter without assessing the narrator's choices.",
+        "isCorrect": false,
+        "trapType": "MISSES_EVALUATION",
+        "rationale": "The text does summarize an event, but most of it interprets the narrator's tone, so summary is not its main purpose."
+      },
+      {
+        "letter": "C",
+        "text": "To interpret a narrative choice that might seem anticlimactic as consistent with the character's psychology.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The flat narration looks anticlimactic, and the text explains it as reflecting Teodor's ingrained habit."
+      },
+      {
+        "letter": "D",
+        "text": "To contrast the narrator's detached style here with a more emotional tone earlier in the novel.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_DETAIL",
+        "rationale": "No earlier chapters or earlier tone are mentioned."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "RW2-08",
+    "section": "rw",
+    "skill": "CTC",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "Text 1: Critic Imani Roche contends that poetry in translation should reproduce the original's rhyme scheme wherever possible, because rhyme is not ornament but a structural element that shapes how a poem's meaning unfolds. A translation that abandons rhyme, she argues, amounts to a paraphrase of the poem rather than a version of it.\n\nText 2: Translator Piotr Hallen agrees that rhyme carries meaning in many poems but doubts it can be transferred intact. In his experience, forcing rhymes into a language that has fewer of them compels translators to add or alter images the poet never wrote, so fidelity to sound is purchased at the price of fidelity to sense.",
+    "questionStem": "Based on the texts, how would the author of Text 2 most likely respond to the argument in Text 1?",
+    "coreQuestion": "How does Text 2's author relate to Text 1's claim about rhyme?",
+    "steps": [
+      "Summarize Text 1: rhyme is structural, so dropping it yields a paraphrase.",
+      "Summarize Text 2: rhyme matters, but forcing it distorts images and sense.",
+      "So Hallen partly agrees yet qualifies the recommendation.",
+      "Eliminate options that deny rhyme's value, adopt Roche's 'paraphrase' label, or invent a rule Hallen never states."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "By denying that rhyme shapes meaning in the original poem, which would make reproducing it unnecessary.",
+        "isCorrect": false,
+        "trapType": "CONTRADICTS_TEXT",
+        "rationale": "Hallen explicitly agrees that rhyme carries meaning in many poems."
+      },
+      {
+        "letter": "B",
+        "text": "By granting that rhyme matters while cautioning that preserving it can compromise what the poem says.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. He accepts Roche's premise about rhyme's importance but argues the cost to the poem's content can be too high."
+      },
+      {
+        "letter": "C",
+        "text": "By accepting that rhyme-free versions are mere paraphrases but defending them as an acceptable outcome.",
+        "isCorrect": false,
+        "trapType": "HALF_RIGHT_PARTIAL_FIT",
+        "rationale": "Hallen shares Roche's view that rhyme matters, but he never calls rhyme-free versions paraphrases or defends them as acceptable."
+      },
+      {
+        "letter": "D",
+        "text": "By proposing that translators reproduce rhyme only when the target language has as many rhymes as the original.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_DETAIL",
+        "rationale": "Hallen describes a difficulty with languages having fewer rhymes but offers no such rule."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "RW2-09",
+    "section": "rw",
+    "skill": "CID",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "In a six-year study of mountain streams, hydrologist Yara Lindqvist found that stonefly nymphs thrive not in the fastest water but in the turbulent margins where debris slows the current. When she transplanted nymphs to fast, open channels, they vanished within days, even though oxygen levels there were higher. She concluded that the nymphs depend less on oxygen-rich flow than on shelter from being swept downstream.",
+    "questionStem": "According to the text, what does Lindqvist conclude about stonefly nymphs?",
+    "coreQuestion": "What is Lindqvist's conclusion about what the nymphs need most?",
+    "steps": [
+      "Find the conclusion sentence beginning 'She concluded'.",
+      "Restate it: shelter from downstream sweeping matters more than oxygen-rich flow.",
+      "Match it to the choice that makes the same comparison.",
+      "Reject choices claiming a fast-channel preference, food, or low-oxygen tolerance."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Their survival depends more on protection from being swept away than on oxygen-rich water.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. This restates her conclusion in the last sentence."
+      },
+      {
+        "letter": "B",
+        "text": "They prefer fast, open channels because the higher oxygen levels there support quicker growth.",
+        "isCorrect": false,
+        "trapType": "CONTRADICTS_TEXT",
+        "rationale": "The nymphs vanished from fast channels despite higher oxygen; growth is never discussed."
+      },
+      {
+        "letter": "C",
+        "text": "They survive only where debris provides a source of food as well as a supply of oxygen.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_DETAIL",
+        "rationale": "Debris is linked to slowing the current, not to food."
+      },
+      {
+        "letter": "D",
+        "text": "They can tolerate low oxygen levels only in streams where the current has been slowed.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_DETAIL",
+        "rationale": "The study did not test tolerance of low oxygen; it found oxygen mattered less than shelter."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "RW2-10",
+    "section": "rw",
+    "skill": "CID",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "Chroniclers of the Teshan Assembly often credited its authority to the formal powers granted by its founding charter. Yet the assembly kept no standing force, and its rulings were obeyed chiefly because defiance carried a commercial penalty: any lord or merchant who ignored a verdict could be barred from the assembly's annual trade fairs. When the fairs declined in the assembly's final decades, compliance with its rulings declined with them.",
+    "questionStem": "Based on the text, which claim about the Teshan Assembly is best supported?",
+    "coreQuestion": "What does the text indicate was the real basis of the assembly's authority?",
+    "steps": [
+      "Note the contrast: chroniclers credit the charter, 'Yet' there was no standing force.",
+      "Find the enforcement mechanism: being barred from trade fairs.",
+      "Find the supporting evidence: compliance fell when the fairs declined.",
+      "Choose the claim tying authority to fair access; reject unsupported claims about the charter, armies or relocation."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Its charter conferred little formal power, which is why the assembly relied on commercial pressure instead.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_DETAIL",
+        "rationale": "The text says the chroniclers credited the charter, not that the charter was weak."
+      },
+      {
+        "letter": "B",
+        "text": "Its verdicts were enforced mainly by lords who feared military reprisal from rival lords.",
+        "isCorrect": false,
+        "trapType": "CONTRADICTS_TEXT",
+        "rationale": "The text states the assembly kept no standing force and enforcement was commercial."
+      },
+      {
+        "letter": "C",
+        "text": "It lost its authority because its trade fairs were relocated to another region.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_DETAIL",
+        "rationale": "The fairs 'declined'; relocation is not mentioned."
+      },
+      {
+        "letter": "D",
+        "text": "Its practical authority depended largely on the commercial value of access to its trade fairs.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Obedience rested on the threat of exclusion from the fairs, and compliance fell when the fairs declined."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "RW2-11",
+    "section": "rw",
+    "skill": "COE-T",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "Critic Hana Brandt claims that in the poem \"Chaff Season,\" the speaker's fondness for the farm of her youth is quietly undercut by unease: the memories are warm, yet something in them keeps the speaker at a distance.",
+    "questionStem": "Which quotation from the poem most directly supports Brandt's claim?",
+    "coreQuestion": "Which line shows fondness and unease together?",
+    "steps": [
+      "Break Brandt's claim into two parts: warm memory and an undercutting unease.",
+      "Test each quotation for both parts.",
+      "Only the third quotation pairs a bright memory with windows that turn away.",
+      "Reject quotations showing only fondness (A, D) or only unease (B)."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "\"My father sang while he worked, and the whole yard sang back to him each dawn.\"",
+        "isCorrect": false,
+        "trapType": "FONDNESS_ONLY",
+        "rationale": "Shows warmth and nothing unsettling, so it supports only half of the claim."
+      },
+      {
+        "letter": "B",
+        "text": "\"Now the barn leans, and no one answers when I call across the field.\"",
+        "isCorrect": false,
+        "trapType": "UNEASE_ONLY",
+        "rationale": "Conveys loss and unease but no fondness for the remembered farm."
+      },
+      {
+        "letter": "C",
+        "text": "\"How bright the yard is in memory, and how oddly every window turns its back.\"",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Brightness in memory shows fondness, while windows that 'turn their back' signal distance and unease within the same memory."
+      },
+      {
+        "letter": "D",
+        "text": "\"The chaff rose gold above the floor, and we counted harvest in handfuls.\"",
+        "isCorrect": false,
+        "trapType": "FONDNESS_ONLY",
+        "rationale": "A pleasant image of the harvest with no hint of unease."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "RW2-12",
+    "section": "rw",
+    "skill": "COE-T",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "Art historian Cleo Maren argues that the abrupt shift to a muted, earth-toned palette in the workshop of the painter Ansel Ruys after 1624 reflected a change in taste rather than the cost or scarcity of materials. She points to Ruys's account books, which show no rise in the price of blue pigment during those years.",
+    "questionStem": "Which finding, if true, would most directly weaken Maren's argument?",
+    "coreQuestion": "Which finding undermines the claim that taste, not materials, explains the palette change?",
+    "steps": [
+      "Identify the claim: taste, not cost or scarcity, caused the shift.",
+      "Notice her evidence covers price only, not availability.",
+      "Look for a finding showing scarcity despite stable prices: the supplier stopped stocking blue.",
+      "Reject findings that concern other cities or support taste (A, C, D)."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "The price of blue pigment rose sharply in neighboring cities in 1624 but not in Ruys's own.",
+        "isCorrect": false,
+        "trapType": "HALF_RIGHT_PARTIAL_FIT",
+        "rationale": "This raises the cost theme but concerns other cities; in Ruys's city price stayed flat, which actually matches Maren's evidence."
+      },
+      {
+        "letter": "B",
+        "text": "Ruys's only local supplier stopped stocking blue pigment in 1624, and no other shop in the city sold it.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Scarcity could force a muted palette even with unchanged prices, so Maren's price evidence no longer rules out material causes."
+      },
+      {
+        "letter": "C",
+        "text": "Ruys's letters show that his patrons began requesting darker interiors at about the same time.",
+        "isCorrect": false,
+        "trapType": "STRENGTHENS_INSTEAD",
+        "rationale": "This supports a change in taste and so strengthens Maren's argument."
+      },
+      {
+        "letter": "D",
+        "text": "Other painters in the city also adopted muted palettes after 1624, though blue pigment remained available to them.",
+        "isCorrect": false,
+        "trapType": "STRENGTHENS_INSTEAD",
+        "rationale": "Wider adoption despite available pigment points to taste, supporting Maren."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "RW2-13",
+    "section": "rw",
+    "skill": "COE-Q",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "A botanist counted pollinator visits to four flower species during one morning. She claims that lavender received more than twice as many visits per hour as foxglove.",
+    "questionStem": "Which choice most effectively uses data from the table to support the botanist's claim?",
+    "table": {
+      "caption": "Pollinator visits per hour, by flower species",
+      "headers": [
+        "Flower species",
+        "Visits per hour"
+      ],
+      "rows": [
+        [
+          "Lavender",
+          "48"
+        ],
+        [
+          "Foxglove",
+          "20"
+        ],
+        [
+          "Clover",
+          "35"
+        ],
+        [
+          "Thyme",
+          "27"
+        ]
+      ]
+    },
+    "coreQuestion": "Which pair of table values shows lavender at more than double foxglove?",
+    "steps": [
+      "Locate lavender (48) and foxglove (20) in the table.",
+      "Compute twice foxglove: 40.",
+      "Since 48 is greater than 40, the claim holds.",
+      "Choose the option citing both species' values."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Lavender received 48 visits per hour, while foxglove received 20.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. 48 is more than twice 20 (which would be 40)."
+      },
+      {
+        "letter": "B",
+        "text": "Clover received 35 visits per hour, more than thyme at 27.",
+        "isCorrect": false,
+        "trapType": "WRONG_SPECIES",
+        "rationale": "Accurate figures, but they do not involve lavender or foxglove."
+      },
+      {
+        "letter": "C",
+        "text": "Lavender received 48 visits per hour, compared with 35 for clover.",
+        "isCorrect": false,
+        "trapType": "WRONG_COMPARISON",
+        "rationale": "Accurate figures, but clover is not the species in the claim, and 48 is under twice 35."
+      },
+      {
+        "letter": "D",
+        "text": "Foxglove received the fewest visits, at 20 per hour.",
+        "isCorrect": false,
+        "trapType": "OFF_CLAIM",
+        "rationale": "True, but it says nothing about lavender or the ratio."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "RW2-14",
+    "section": "rw",
+    "skill": "COE-Q",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "A historian studying the port town of Orsen Landing claims that its population grew faster in the 1870s, the decade in which the railway reached the town, than in any other decade between 1850 and 1900.",
+    "questionStem": "Which choice most effectively uses data from the table to support the historian's claim?",
+    "table": {
+      "caption": "Population of Orsen Landing, by census year",
+      "headers": [
+        "Census year",
+        "Population"
+      ],
+      "rows": [
+        [
+          "1850",
+          "2100"
+        ],
+        [
+          "1860",
+          "2600"
+        ],
+        [
+          "1870",
+          "3100"
+        ],
+        [
+          "1880",
+          "5200"
+        ],
+        [
+          "1890",
+          "6000"
+        ],
+        [
+          "1900",
+          "6500"
+        ]
+      ]
+    },
+    "coreQuestion": "Which choice compares the 1870s gain with the other decades?",
+    "steps": [
+      "Compute each decade's gain: 500, 500 (1850-1870), 2100 (1870s), 800, 500.",
+      "Identify the largest gain: the 1870s at 2100.",
+      "Choose the statement that names that decade and compares it with the others.",
+      "Reject statements that cover the whole period or the wrong decades."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "The population rose from 2100 in 1850 to 6500 in 1900, an increase of 4400 over fifty years.",
+        "isCorrect": false,
+        "trapType": "TOO_BROAD",
+        "rationale": "True, but it covers the whole half century and says nothing about one decade versus others."
+      },
+      {
+        "letter": "B",
+        "text": "The population grew by 500 from 1850 to 1860 and by 500 from 1860 to 1870, before the railway came.",
+        "isCorrect": false,
+        "trapType": "WRONG_DECADE",
+        "rationale": "True, but these are decades before the railway and do not show the 1870s as fastest."
+      },
+      {
+        "letter": "C",
+        "text": "The population was 6000 in 1890, up from 5200 in 1880.",
+        "isCorrect": false,
+        "trapType": "WRONG_DECADE",
+        "rationale": "True, but it concerns the 1880s, not the 1870s."
+      },
+      {
+        "letter": "D",
+        "text": "The population rose by 2100 between 1870 and 1880, far more than its gain in any other decade.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. 5200 minus 3100 is 2100, while the other decades gained 500, 500, 800 and 500."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "RW2-15",
+    "section": "rw",
+    "skill": "INF",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "Critics have long read the sparse punctuation of the poet Ilse Varga's late work as a sign of failing health, noting that her earliest manuscripts are densely punctuated. But newly digitized letters show that Varga, while in robust health, told a friend she was \"stripping the commas out\" of her old poems to let the lines breathe, and she reworked several early poems this way. This suggests that",
+    "questionStem": "Which choice most logically completes the text?",
+    "coreQuestion": "What follows from learning she stripped out commas while healthy?",
+    "steps": [
+      "Note the critics' inference: sparse punctuation signals failing health.",
+      "Note the new evidence: Varga removed commas deliberately while in robust health.",
+      "Conclude only that sparse punctuation is not reliable proof of illness.",
+      "Reject sweeping or unsupported claims about illness, critics or confidence."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Varga's illness had no effect on any aspect of her late poetry.",
+        "isCorrect": false,
+        "trapType": "OVERSTATES_CLAIM",
+        "rationale": "The letters weaken one inference from punctuation; they do not show illness had no effect on any aspect of her work."
+      },
+      {
+        "letter": "B",
+        "text": "Varga reworked her early poems because critics had complained for years that their punctuation was too dense.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_DETAIL",
+        "rationale": "Her stated reason was to let the lines breathe; critics' complaints are not mentioned."
+      },
+      {
+        "letter": "C",
+        "text": "sparse punctuation in Varga's late work is not, by itself, reliable evidence that her health was failing.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. She chose to remove commas while healthy, so sparse punctuation could reflect style."
+      },
+      {
+        "letter": "D",
+        "text": "Varga's early manuscripts were densely punctuated because she was less confident in her style then.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_DETAIL",
+        "rationale": "Her confidence is never discussed."
+      }
+    ],
+    "correctAnswer": "C"
+  }
+]

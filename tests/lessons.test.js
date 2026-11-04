@@ -88,4 +88,53 @@ test("WIC seed item", () => {
   for (const c of q.choices) assert.equal(wc(c.text), 1, c.letter + " single word");
 });
 
+test("TSP item", () => {
+  const q = get("LESSON-02-TSP");
+  assert.ok(q, "LESSON-02-TSP exists");
+  const n = wc(q.stimulus);
+  assert.ok(n >= 60 && n <= 120, "stimulus word count " + n);
+  assert.match(q.questionStem, /structure|purpose|function/i);
+});
+
+test("CTC item", () => {
+  const q = get("LESSON-03-CTC");
+  assert.ok(q, "LESSON-03-CTC exists");
+  assert.ok(q.stimulus.includes("Text 1:") && q.stimulus.includes("Text 2:"));
+  const [t1, t2] = q.stimulus.split("Text 1:")[1].split("Text 2:");
+  for (const t of [t1, t2]) {
+    const n = wc(t);
+    assert.ok(n >= 40 && n <= 80, "text word count " + n);
+  }
+  assert.match(q.questionStem, /Text 2/);
+  assert.match(q.questionStem, /respond/i);
+});
+
+test("CID item", () => {
+  const q = get("LESSON-04-CID");
+  assert.ok(q, "LESSON-04-CID exists");
+  const n = wc(q.stimulus);
+  assert.ok(n >= 60 && n <= 100, "stimulus word count " + n);
+});
+
+test("COE-TEXT item", () => {
+  const q = get("LESSON-05-COE-TEXT");
+  assert.ok(q, "LESSON-05-COE-TEXT exists");
+  for (const c of q.choices) assert.ok(c.text.startsWith("\"") && c.text.endsWith("\""), c.letter + " is a direct quote");
+  assert.match(q.questionStem, /support|weaken/i);
+});
+
+test("COE-QUANT item", () => {
+  const q = get("LESSON-06-COE-QUANT");
+  assert.ok(q, "LESSON-06-COE-QUANT exists");
+  const bullets = q.stimulus.split("\n").filter(l => l.startsWith("•"));
+  assert.ok(bullets.length >= 3, "bullet rows " + bullets.length);
+  for (const c of q.choices) assert.match(c.text, /\d/, c.letter + " cites a number");
+});
+
+test("INF item", () => {
+  const q = get("LESSON-07-INF");
+  assert.ok(q, "LESSON-07-INF exists");
+  assert.match(q.questionStem, /logically|conclusion|follows/i);
+});
+
 module.exports = { items, get, wc };

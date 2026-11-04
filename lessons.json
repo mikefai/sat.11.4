@@ -50,5 +50,347 @@
       "strategicShortcut": "Find the contrast or continuation signal (yet, however, in fact, because), decide whether the blank agrees or disagrees with the nearby clue, and predict before reading the choices.",
       "keyVocabularyOrFormulas": ["mundane", "contrast signal", "predict before you look", "in-sentence clue"]
     }
+  },
+  {
+    "id": "LESSON-02-TSP",
+    "domain": "Reading and Writing",
+    "skillCategory": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "stimulus": "Many flowering plants on temperate forest floors bloom in early spring, before the trees above them leaf out and shade the ground. The woodland herb Veria tardiflora, however, waits until midsummer to flower, when the canopy is at its densest and light near the ground is scarce. Botanist Lena Okafor has proposed an explanation for this unusual timing: the herb's only known pollinator, a small hoverfly, does not emerge until midsummer, so blossoms that opened earlier would have no visitors to carry their pollen. On this view, the herb gives up abundant light in exchange for reliable pollination.",
+    "questionStem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "It describes a problem that forest plants face and then explains how botanists have worked to solve that problem.",
+        "isCorrect": false,
+        "trapType": "PROBLEM_SOLUTION_MISREAD",
+        "rationale": "Scarce light might look like a problem, but no one in the text solves anything. Okafor explains why the herb flowers late; she does not describe any remedy that botanists have developed."
+      },
+      {
+        "letter": "B",
+        "text": "It traces the growth of a single plant species through one season, moving in order from early spring to midsummer.",
+        "isCorrect": false,
+        "trapType": "CHRONOLOGY_MISREAD",
+        "rationale": "The words early spring and midsummer suggest a timeline, but they mark a contrast, not a sequence. The first sentence is about many plants, and the text never follows one species' growth through a season."
+      },
+      {
+        "letter": "C",
+        "text": "It presents a widely accepted view of how forest plants behave and then offers evidence showing that this view is false.",
+        "isCorrect": false,
+        "trapType": "EXCEPTION_AS_REFUTATION",
+        "rationale": "One late-blooming herb is an exception, not a refutation. The text never says the spring-blooming pattern is false, and the rest of the passage explains the exception instead of overturning the pattern."
+      },
+      {
+        "letter": "D",
+        "text": "It states a general pattern, introduces an exception to that pattern, and then proposes an explanation for it.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Sentence 1 gives the pattern (many plants bloom in early spring), \"however\" in sentence 2 introduces the exception (Veria tardiflora flowers in midsummer), and sentences 3 and 4 give Okafor's proposed explanation (its pollinator emerges only in midsummer)."
+      }
+    ],
+    "correctAnswer": "D",
+    "coreQuestion": "Sentence by sentence, what job does each part of the text do, and what is the overall path from the first sentence to the last?",
+    "steps": [
+      "Label sentence 1: it describes what many forest plants do, so it is a general pattern.",
+      "Label sentence 2: the signal word \"however\" and the midsummer flowering show an exception to that pattern.",
+      "Label sentences 3 and 4: \"proposed an explanation\" and \"On this view\" show a possible reason for the exception.",
+      "Combine the labels (pattern, exception, explanation) and pick the choice that names all three in that order; reject choices that add a solution, a timeline, or a disproof."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "For an overall-structure question, describe the job of each sentence in a word or two, then match the whole sequence of jobs, not just one part of it.",
+      "trapAlert": "An exception is not a refutation. A text that explains why one case differs from a pattern is not claiming the pattern is false.",
+      "strategicShortcut": "Circle the pivot words (however, but, yet) and the explanation markers (because, so, proposed, on this view); they usually mark the boundaries between the text's parts.",
+      "keyVocabularyOrFormulas": [
+        "general pattern",
+        "exception",
+        "proposed explanation",
+        "pivot word"
+      ]
+    }
+  },
+  {
+    "id": "LESSON-03-CTC",
+    "domain": "Reading and Writing",
+    "skillCategory": "Cross-Text Connections",
+    "difficulty": "Hard",
+    "stimulus": "Text 1: In a survey of 1,200 residents across fourteen neighborhoods of the city of Port Alder, sociologist Dana Whitcomb found that members of community gardens could name, on average, nearly twice as many neighbors as nonmembers could. Whitcomb concludes that shared gardens build social ties by giving residents a regular reason to meet and work side by side.\nText 2: Whitcomb's figures are not in question; the gap she reports is real. But community gardens depend on volunteers, and the residents most willing to volunteer for a neighborhood project tend to be those who already know many people nearby. If such residents are overrepresented among garden members, the survey would show the same gap even if gardening did nothing to widen anyone's circle of acquaintances.",
+    "questionStem": "Based on the texts, how would the author of Text 2 most likely respond to Whitcomb's conclusion in Text 1?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "By arguing that the gap may reflect which residents choose to join gardens rather than an effect of the gardens themselves",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Text 2 accepts the numbers (\"the gap she reports is real\") but says well-connected residents may be the ones who join, so the survey \"would show the same gap even if gardening did nothing.\" That challenges Whitcomb's causal interpretation, not her data."
+      },
+      {
+        "letter": "B",
+        "text": "By rejecting the survey results as unreliable, since residents may have overstated how many of their neighbors they know",
+        "isCorrect": false,
+        "trapType": "TOO_BROAD_EXTREME",
+        "rationale": "Text 2 explicitly says \"Whitcomb's figures are not in question.\" Its author disputes what the figures mean, not whether they are accurate, and never mentions residents overstating anything."
+      },
+      {
+        "letter": "C",
+        "text": "By agreeing that gardens likely strengthen social ties, while adding that volunteers are the members who benefit most from them",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_DIRECTION",
+        "rationale": "Text 2 does not grant that gardens strengthen ties; it says the gap could appear even if gardening did nothing. It mentions volunteers to explain who joins gardens, not to say who benefits most from them."
+      },
+      {
+        "letter": "D",
+        "text": "By pointing out that gardens may require more volunteer labor than many neighborhoods are able to sustain over time",
+        "isCorrect": false,
+        "trapType": "OFF_TOPIC",
+        "rationale": "Text 2 mentions that gardens depend on volunteers, but only to explain why already well-connected people may be the ones who join. It raises no objection about the cost or sustainability of the labor gardens need."
+      }
+    ],
+    "correctAnswer": "A",
+    "coreQuestion": "Does the author of Text 2 dispute Whitcomb's data, her interpretation of that data, or neither, and what alternative does Text 2 offer?",
+    "steps": [
+      "State Text 1's claim in two parts: the data (members can name nearly twice as many neighbors) and the conclusion (gardens cause the stronger ties).",
+      "Find Text 2's stance on each part: \"Whitcomb's figures are not in question\" accepts the data, while \"even if gardening did nothing\" rejects the causal conclusion.",
+      "Name Text 2's alternative: people who already know many neighbors are more likely to volunteer, so who joins could produce the gap (a selection effect).",
+      "Eliminate choices that dispute the data (B), concede the causal claim (C), or shift to a different objection about volunteer labor (D); keep the choice that challenges only the interpretation."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "In a cross-text response question, separate a study's data from the conclusion drawn from it. A critic can accept the numbers and still reject the explanation of them.",
+      "trapAlert": "A choice can echo a word from Text 2, such as volunteers, while assigning it a role Text 2 never gives it. Check what job the word does in the argument, not just whether it appears.",
+      "strategicShortcut": "Before reading the choices, write Text 2's response as \"accepts X, rejects Y because Z,\" then match that pattern.",
+      "keyVocabularyOrFormulas": [
+        "selection effect",
+        "correlation versus causation",
+        "data versus interpretation",
+        "alternative explanation"
+      ]
+    }
+  },
+  {
+    "id": "LESSON-04-CID",
+    "domain": "Reading and Writing",
+    "skillCategory": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "stimulus": "Historian Teodora Vance argues that the canal towns of the Ressel Valley grew prosperous less from the goods the canal carried than from the services that arose around it. Boat crews needed lodging, meals, and repairs at every lock, and the inns and workshops that met those needs employed far more townspeople than loading and unloading cargo ever did. Vance notes, for example, that the lock town of Hallow Bend had eleven inns by 1840. In her account, the canal enriched these towns chiefly by bringing travelers who had to stop.",
+    "questionStem": "Which choice best states the main idea of the text?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Throughout history, canal towns have depended more on service businesses than on the trade in goods.",
+        "isCorrect": false,
+        "trapType": "TOO_BROAD_EXTREME",
+        "rationale": "The text discusses only the canal towns of the Ressel Valley. Extending Vance's argument to canal towns throughout history adds a universal claim that the text never makes."
+      },
+      {
+        "letter": "B",
+        "text": "By 1840, the lock town of Hallow Bend had eleven inns that served the boat crews passing through it.",
+        "isCorrect": false,
+        "trapType": "TRUE_BUT_MINOR_DETAIL",
+        "rationale": "The text does say this, but it is offered \"for example\" to illustrate Vance's argument. A single supporting detail about one town cannot be the main idea of the whole text."
+      },
+      {
+        "letter": "C",
+        "text": "Vance holds that the valley's canal towns prospered mainly from serving passing crews, not from the freight.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. This restates the claim in the first and last sentences: the towns grew prosperous \"less from the goods the canal carried than from the services that arose around it.\" The inn and workshop details support this claim."
+      },
+      {
+        "letter": "D",
+        "text": "The canal towns grew wealthy because their inns drew boat crews away from the other routes through the valley.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_CAUSE",
+        "rationale": "The text never mentions other routes or competition for crews. Crews stopped because they needed lodging, meals, and repairs at the locks, so this choice invents a cause the text does not state."
+      }
+    ],
+    "correctAnswer": "C",
+    "coreQuestion": "What claim could serve as a one-sentence summary of the whole text without adding anything the text never says?",
+    "steps": [
+      "Find the argument signal: \"Historian Teodora Vance argues that\" introduces the central claim, and the last sentence restates it.",
+      "Sort the middle sentences: the crews' needs and the Hallow Bend inns are support for the claim, introduced with \"for example.\"",
+      "Test each choice for scope: it must cover the whole text, stay limited to the Ressel Valley towns, and add no cause the text never gives.",
+      "Keep the choice that restates Vance's claim (services, not freight, made the towns prosperous) and nothing more."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "The main idea is the claim that the rest of the text supports. It is usually stated near the start and often restated at the end.",
+      "trapAlert": "A detail can be true and still be the wrong answer. If a choice is something the text uses \"for example,\" it is support, not the main idea.",
+      "strategicShortcut": "Ask of each choice: is it too narrow (one detail), too broad (all places or all times), or does it add a cause? Only a choice that is none of these survives.",
+      "keyVocabularyOrFormulas": [
+        "main idea",
+        "supporting detail",
+        "scope",
+        "argue that"
+      ]
+    }
+  },
+  {
+    "id": "LESSON-05-COE-TEXT",
+    "domain": "Reading and Writing",
+    "skillCategory": "Command of Evidence: Textual",
+    "difficulty": "Medium",
+    "stimulus": "In the city of Marrowgate, some crows cross busy streets on foot at marked crosswalks, usually while cars are stopped. Biologist Ines Corvo hypothesizes that young crows acquire this habit by watching experienced crows rather than through their own trial and error. To test the idea, Corvo's team tracked 60 banded juvenile crows for one year, recording which juveniles were observed watching adults use crosswalks and how often each juvenile later used a crosswalk itself.",
+    "questionStem": "Which quotation from the research team's report most effectively supports Corvo's hypothesis?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "\"Over the year, the juveniles in the study crossed streets on foot at marked crosswalks a total of 412 times.\"",
+        "isCorrect": false,
+        "trapType": "TRUE_BUT_IRRELEVANT",
+        "rationale": "This is on topic, but a total count cannot show how the juveniles learned. Without comparing juveniles that watched adults with juveniles that did not, the number says nothing about learning by observation."
+      },
+      {
+        "letter": "B",
+        "text": "\"Juveniles that had watched adults use crosswalks were no more likely to use crosswalks themselves than juveniles that had not.\"",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_DIRECTION",
+        "rationale": "This finding points the wrong way. If watching adults made no difference, the result would weaken the hypothesis that young crows learn the habit by observation."
+      },
+      {
+        "letter": "C",
+        "text": "\"Adult crows used crosswalks most often at intersections where traffic signals kept cars stopped for the longest periods.\"",
+        "isCorrect": false,
+        "trapType": "WRONG_CLAIM",
+        "rationale": "This supports a different claim, about where and when adults choose to cross. It says nothing about how juveniles acquire the habit, which is what Corvo's hypothesis is about."
+      },
+      {
+        "letter": "D",
+        "text": "\"Juveniles that had watched adults use crosswalks later used crosswalks nearly three times as often as juveniles that had not.\"",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. This compares observers with non-observers and shows the observers crossing far more often, which is the pattern expected if young crows learn the habit by watching adults."
+      }
+    ],
+    "correctAnswer": "D",
+    "coreQuestion": "Which quotation shows, through a comparison, that juveniles who watched adults use crosswalks picked up the habit more than juveniles who did not?",
+    "steps": [
+      "Restate the hypothesis precisely: juveniles learn crosswalk use by watching adults, not by trial and error.",
+      "Predict the evidence that would support it: juveniles that watched adults should use crosswalks more often than juveniles that did not.",
+      "Check each quotation for both a comparison between watchers and non-watchers and the right direction: A has no comparison, B shows no difference, and C is about adults rather than learning.",
+      "Choose the quotation in which watchers cross nearly three times as often as non-watchers."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "Evidence supports a hypothesis only if it is the result the hypothesis predicts. For a claim about a cause, that usually means a comparison between a group with the factor and a group without it.",
+      "trapAlert": "A quotation on the same topic, such as a total count of crossings, can feel relevant while proving nothing about the specific claim.",
+      "strategicShortcut": "Write a one-line prediction (\"watchers cross more than non-watchers\") before reading the quotations, then look for the one that matches it.",
+      "keyVocabularyOrFormulas": [
+        "hypothesis",
+        "comparison group",
+        "supports versus weakens",
+        "prediction"
+      ]
+    }
+  },
+  {
+    "id": "LESSON-06-COE-QUANT",
+    "domain": "Reading and Writing",
+    "skillCategory": "Command of Evidence: Quantitative",
+    "difficulty": "Easy",
+    "stimulus": "The school district of Elm Hollow surveyed students about their average daily reading time outside class in 2015 and again in 2023. District analyst Priya Sand reports that over this period, reading time rose for sixth graders but fell for eighth graders.\n• Row 1: Grade 6, 2015 = 24 min/day, 2023 = 31 min/day\n• Row 2: Grade 8, 2015 = 19 min/day, 2023 = 17 min/day\n• Row 3: Grade 10, 2015 = 15 min/day, 2023 = 15 min/day",
+    "questionStem": "Which choice most effectively uses data from the survey results to support Sand's claim?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Grade 6 reading time increased from 24 to 31 minutes per day, while grade 8 reading time decreased from 19 to 17 minutes per day.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. Row 1 shows grade 6 going from 24 (2015) to 31 (2023), a rise, and Row 2 shows grade 8 going from 19 (2015) to 17 (2023), a fall. The choice supports both halves of the claim with accurate numbers."
+      },
+      {
+        "letter": "B",
+        "text": "Grade 6 reading time decreased from 31 to 24 minutes per day, while grade 8 reading time increased from 17 to 19 minutes per day.",
+        "isCorrect": false,
+        "trapType": "SWAPPED_YEARS",
+        "rationale": "This reads the 2023 values as the starting points. Grade 6 actually went from 24 to 31 and grade 8 from 19 to 17, so this choice reverses both changes and contradicts Sand's claim."
+      },
+      {
+        "letter": "C",
+        "text": "Grade 6 reading time increased from 24 minutes per day in 2015 to 31 minutes per day in 2023.",
+        "isCorrect": false,
+        "trapType": "TRUE_BUT_INCOMPLETE",
+        "rationale": "The numbers are accurate, but they support only the first half of the claim. The claim also says reading time fell for eighth graders, and this choice says nothing about grade 8."
+      },
+      {
+        "letter": "D",
+        "text": "Grade 6 reading time increased from 24 to 31 minutes per day, while grade 10 reading time stayed at 15 minutes per day.",
+        "isCorrect": false,
+        "trapType": "WRONG_ROW",
+        "rationale": "The grade 6 figures are right, but the second half uses Row 3 (grade 10), which did not change. The claim is about eighth graders falling, so the grade 8 row (19 to 17) is the one needed."
+      }
+    ],
+    "correctAnswer": "A",
+    "coreQuestion": "Which choice reads the correct rows and years, in the correct direction, for both halves of Sand's claim?",
+    "steps": [
+      "Split the claim into two parts: (1) grade 6 reading time rose, and (2) grade 8 reading time fell, both from 2015 to 2023.",
+      "Find the matching rows: Row 1 (grade 6) goes from 24 to 31, a rise; Row 2 (grade 8) goes from 19 to 17, a fall. Row 3 (grade 10) is not part of the claim.",
+      "Check each choice for the right rows, the right order of years (2015 first), and both parts of the claim: B swaps the years, C covers only grade 6, and D uses grade 10.",
+      "Choose the only choice that accurately states both changes."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "For a quantitative evidence item, the correct choice must match every part of the claim with accurate data from the correct rows.",
+      "trapAlert": "Watch the direction of time. A choice can quote the right numbers in the wrong order (31 to 24 instead of 24 to 31) and so describe the opposite change.",
+      "strategicShortcut": "Underline each group and direction in the claim (grade 6 up, grade 8 down), then eliminate any choice that misses one of them or names a group the claim never mentions.",
+      "keyVocabularyOrFormulas": [
+        "claim parts",
+        "row and column",
+        "direction of change",
+        "2015 to 2023"
+      ]
+    }
+  },
+  {
+    "id": "LESSON-07-INF",
+    "domain": "Reading and Writing",
+    "skillCategory": "Inferences",
+    "difficulty": "Medium",
+    "stimulus": "The lichen Calvaria petrae grows only on limestone; surveys have never found it on granite, sandstone, or any other type of rock. During a recent mapping project along Tarn Ridge, geologist Owen Reyes confirmed that the ridge's north cliff face is composed entirely of limestone. Taken together, these facts suggest that ______",
+    "questionStem": "Which choice most logically completes the text?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "every limestone cliff in the region, including the north face of Tarn Ridge, is likely covered with C. petrae.",
+        "isCorrect": false,
+        "trapType": "TOO_BROAD_EXTREME",
+        "rationale": "The text describes only one cliff face and says nothing about other limestone cliffs in the region or about how much lichen any of them hold. \"Every\" and \"covered\" go far beyond the two facts."
+      },
+      {
+        "letter": "B",
+        "text": "the north cliff face of Tarn Ridge is made of a type of rock on which C. petrae could potentially grow.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The lichen is found only on limestone, and the cliff is limestone, so the cliff's rock meets the one requirement the text gives. That makes the cliff a possible site for the lichen, which is all the facts guarantee."
+      },
+      {
+        "letter": "C",
+        "text": "C. petrae must already be growing on the north cliff face, since that cliff face is made entirely of limestone.",
+        "isCorrect": false,
+        "trapType": "REVERSED_LOGIC",
+        "rationale": "\"Only on limestone\" means that where the lichen grows, there is limestone. It does not mean that wherever there is limestone, the lichen grows. This choice reverses that relationship."
+      },
+      {
+        "letter": "D",
+        "text": "C. petrae grows only on limestone because that rock supplies a mineral the lichen cannot obtain from other rocks.",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_CLAIM",
+        "rationale": "The text reports where the lichen has been found but never explains why. A mineral the lichen needs is a cause the text does not mention, so this conclusion cannot be drawn from the facts given."
+      }
+    ],
+    "correctAnswer": "B",
+    "coreQuestion": "Given only that the lichen grows on limestone alone and that this cliff is limestone, what is the most that these two facts guarantee?",
+    "steps": [
+      "Write the first fact as a conditional: if C. petrae is growing on a rock, that rock is limestone. Limestone is required, not a guarantee.",
+      "Add the second fact: the north cliff face is limestone, so it meets the requirement.",
+      "Combine them carefully: meeting a requirement makes the lichen possible on the cliff, not certain, and says nothing about why the lichen needs limestone.",
+      "Eliminate choices that generalize to every cliff (A), reverse the conditional (C), or invent a cause (D); keep the choice that says the lichen could grow there."
+    ],
+    "studyNote": {
+      "ruleOrPrinciple": "An inference must follow from the stated facts alone. \"X occurs only on Y\" makes Y a requirement for X; it does not mean every Y has X.",
+      "trapAlert": "Reversing a conditional is the classic inference trap: \"only on limestone\" does not mean \"on all limestone.\"",
+      "strategicShortcut": "Ask what the facts guarantee, then choose the most modest conclusion they fully support. Treat words such as must, every, and because as prompts to check whether a choice claims more than the text proves.",
+      "keyVocabularyOrFormulas": [
+        "only if (necessary condition)",
+        "reversed conditional",
+        "most modest conclusion",
+        "if X, then Y"
+      ]
+    }
   }
 ]

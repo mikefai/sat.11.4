@@ -21,7 +21,7 @@
         "text": "misleading",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. The 'although' clause contrasts her stern public manner with her generosity, so the reputation gave a false impression of her."
+        "rationale": "Correct. The 'although' clause contrasts her stern public manner with her generosity, so the reputation gives a false impression of her."
       },
       {
         "letter": "B",
@@ -35,7 +35,7 @@
         "text": "temporary",
         "isCorrect": false,
         "trapType": "UNSUPPORTED_DETAIL",
-        "rationale": "Nothing says her reputation changed over time; the text describes behavior that exists at the same time as her stern manner."
+        "rationale": "Nothing says her reputation changes over time; the text describes behavior that exists at the same time as her stern manner."
       },
       {
         "letter": "D",
@@ -443,9 +443,9 @@
     "coreQuestion": "What does the text indicate was the real basis of the assembly's authority?",
     "steps": [
       "Note the contrast: broad formal powers, yet no standing force.",
-      "Find the enforcement mechanism: being barred from trade fairs by any lord or merchant who defied a verdict.",
+      "Find the enforcement mechanism: any lord or merchant who defied a verdict could be barred from the trade fairs.",
       "Find the supporting pattern: compliance fell as the fairs declined, so the fairs gave the penalty its force.",
-      "Choose the claim tying authority to fair access; reject the charter claim, the lords-excluded claim, and the reversed cause."
+      "Choose the claim tying authority to fair access; reject the charter claim, the claim that only merchants were barred, and the reversed cause."
     ],
     "choices": [
       {
@@ -736,36 +736,36 @@
     "difficulty": "Hard",
     "type": "mc",
     "topic": "literature",
-    "stimulus": "Readers of the novel A Season of Borrowed Rooms often call its narrator, Marit, emotionally cold, since she never names a feeling of her own. Yet she describes other people with painstaking attention: who lingers in a doorway, whose hands are unsteady, who stops mid-sentence. Nearly every detail she records is one that a person watching for danger would notice. This suggests that",
+    "stimulus": "Readers of the novel A Season of Borrowed Rooms often call its narrator, Marit, emotionally cold, since she never names a feeling of her own. Yet she describes other people with painstaking attention: who lingers in a doorway, whose hands are unsteady, who stops mid-sentence. Nearly every detail she records is one that would matter to someone judging whether a room is safe to stay in. This suggests that",
     "questionStem": "Which choice most logically completes the text?",
     "coreQuestion": "What do her vigilant observations suggest about her silence on her own feelings?",
     "steps": [
       "Note the readers' view: she is cold because she never names her feelings.",
-      "Note the evidence: she notices precisely what someone alert to danger would notice.",
+      "Note the evidence: nearly everything she records matters to someone judging whether a room is safe.",
       "Infer that the silence may come from watchfulness, which crowds out reflection, rather than from lack of feeling.",
-      "Reject options about authorial intent, hidden wrongdoing, or compensating detachment, none of which the evidence supports."
+      "Reject empathy (never mentioned), an aim of persuading readers (no such aim is given), and compensating detachment (assumes the coldness the evidence questions)."
     ],
     "choices": [
       {
         "letter": "A",
-        "text": "her silence about her own feelings may be an authorial device meant to make her unlikable to readers.",
+        "text": "her silence about her own feelings may stem from an empathy that keeps her focused on other people's distress.",
         "isCorrect": false,
-        "trapType": "UNSUPPORTED_DETAIL",
-        "rationale": "Nothing in the text concerns the author's aim or readers' sympathy; the evidence is about what Marit notices."
+        "trapType": "WRONG_MOTIVE",
+        "rationale": "Unsteady hands and broken-off sentences could signal distress, but the text says these are details relevant to judging safety; empathy is never mentioned."
       },
       {
         "letter": "B",
-        "text": "her silence about her own feelings may conceal a specific wrongdoing that she is hiding from the reader.",
+        "text": "her careful descriptions of others may be her way of proving to readers that she is not emotionally cold.",
         "isCorrect": false,
-        "trapType": "UNSUPPORTED_DETAIL",
-        "rationale": "The details point to watchfulness, not to any concealed act."
+        "trapType": "OVERREADS_INTENT",
+        "rationale": "It accepts the passage's push against 'cold', but nothing gives Marit any aim toward readers; the text explains what she notices, not why she tells it."
       },
       {
         "letter": "C",
         "text": "her silence about her own feelings may reflect constant vigilance that leaves little room for introspection.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. Her danger-oriented attention to others offers a better explanation than coldness, and the choice stays tentative."
+        "rationale": "Correct. Her safety-oriented attention to others takes one inference step to vigilance, a better explanation than coldness, and the choice stays tentative."
       },
       {
         "letter": "D",

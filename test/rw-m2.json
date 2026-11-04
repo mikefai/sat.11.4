@@ -1168,43 +1168,43 @@
     "difficulty": "Hard",
     "type": "mc",
     "topic": "humanities",
-    "stimulus": "Many listeners assume that the plain, repetitive openings of Lucia Verhaal's string quartets reveal a lack of invention. ______ the repetition is the organizing idea of each work: every movement returns to its opening phrase in a new key, so that the same notes are heard differently.",
+    "stimulus": "Each of Lucia Verhaal's string quartets opens with a plain, repetitive phrase that a beginning student could play. ______ the quartets are among the most demanding works that professional ensembles perform: every movement returns to that phrase in a new key, and the players must make the same notes sound different each time.",
     "questionStem": "Which choice completes the text with the most logical transition?",
-    "coreQuestion": "What relationship does the second sentence have to the listeners' assumption?",
+    "coreQuestion": "How does the claim about the quartets' difficulty relate to the simple opening phrase?",
     "steps": [
-      "Identify the assumption: repetition shows a lack of invention.",
-      "Read the second sentence: the repetition is the organizing idea, so the assumption is false.",
-      "The second sentence denies the assumption outright, so it needs a transition that asserts the opposite is true, not one that grants the point.",
-      "Reject concession markers that accept the assumption, and result or addition markers."
+      "Read the first sentence: each quartet opens with a phrase simple enough for a beginner.",
+      "Read the second: the quartets are among the hardest works professionals perform, because the phrase must sound different in each new key.",
+      "The first sentence stays true, and the second holds despite it, so the transition must grant the first sentence and then contrast with it.",
+      "Reject \"In fact\" (nothing is corrected or intensified), \"Granted\" (it would concede the writer's own main claim), and \"Specifically\" (the second sentence is not a detail of the first)."
     ],
     "choices": [
       {
         "letter": "A",
-        "text": "In fact,",
+        "text": "Even so,",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. It introduces what is actually true, correcting the assumption of haste."
+        "rationale": "Correct. It grants that the opening phrase is simple and signals that the quartets are demanding anyway."
       },
       {
         "letter": "B",
-        "text": "Nevertheless,",
+        "text": "In fact,",
         "isCorrect": false,
         "trapType": "WRONG_RELATIONSHIP",
-        "rationale": "\"Nevertheless\" treats the openings as a real drawback that the quartets overcome, but the sentence denies the assumption instead of granting it."
+        "rationale": "\"In fact\" would present the second sentence as correcting or intensifying the first, but the phrase really is simple; the difficulty comes from how it returns."
       },
       {
         "letter": "C",
-        "text": "Even so,",
+        "text": "Granted,",
         "isCorrect": false,
         "trapType": "WRONG_RELATIONSHIP",
-        "rationale": "\"Even so\" concedes that the openings lack invention, but the sentence says the repetition is the invention."
+        "rationale": "\"Granted\" would concede the second sentence as a point against the writer, yet that sentence is the writer's main claim, supported by the explanation after the colon."
       },
       {
         "letter": "D",
-        "text": "Admittedly,",
+        "text": "Specifically,",
         "isCorrect": false,
         "trapType": "WRONG_RELATIONSHIP",
-        "rationale": "\"Admittedly\" would grant the assumption, yet the sentence rejects it."
+        "rationale": "\"Specifically\" would make the second sentence a detail of the first, but it makes a new and opposing claim about the quartets as a whole."
       }
     ],
     "correctAnswer": "A"

@@ -52,6 +52,8 @@
   }
 
   function commit(next) {
+    // blocking dialogs and phase changes must not leak elapsed time into the next phase
+    if (next.phase !== session.phase || next.moduleIndex !== session.moduleIndex) lastTick = Date.now();
     session = next;
     save();
     render();
@@ -69,6 +71,7 @@
     }).join("");
     var saved = loadSaved();
     var ready = !problems.length;
+    var resumable = !!saved && (saved.phase === "module" || saved.phase === "break");
     var html = '<section class="tm-card"><h1>DSAT Full-Length Practice Test</h1>' +
       '<table class="data-table tm-overview"><thead><tr><th>Section</th><th>Modules</th><th>Questions</th><th>Minutes</th></tr></thead><tbody>' +
       rows + "</tbody></table>" +
@@ -79,8 +82,9 @@
       html += '<p class="tm-error" role="alert">The test forms are not ready yet:</p><ul class="tm-error">' +
         problems.map(function (p) { return "<li>" + p + "</li>"; }).join("") + "</ul>";
     }
-    html += '<div class="tm-actions"><button type="button" class="tm-btn tm-primary" data-action="begin"' + (ready ? "" : " disabled") + ">Begin test</button>";
-    if (saved && saved.phase !== "intro") {
+    html += '<div class="tm-actions">';
+    if (!resumable) html += '<button type="button" class="tm-btn tm-primary" data-action="begin"' + (ready ? "" : " disabled") + ">Begin test</button>";
+    if (resumable) {
       html += '<button type="button" class="tm-btn" data-action="resume"' + (ready ? "" : " disabled") + '>Resume</button>' +
         '<button type="button" class="tm-btn" data-action="startover">Start over</button>';
     }
@@ -222,6 +226,7 @@
     if (!window.confirm("Submit this module? You have " + open + " unanswered question" + (open === 1 ? "" : "s") +
       ". You cannot return to it after submitting.")) return;
     if (session.phase !== "module") return;
+    lastTick = Date.now();
     navOpen = false;
     commit(E.submitModule(session));
   }
@@ -244,8 +249,17 @@
     var a = el.getAttribute("data-action");
     var inMod = session.phase === "module";
     if (a === "begin" && !problems.length) startSession();
-    else if (a === "resume") { lastTick = Date.now(); session = loadSaved(); render(); }
-    else if (a === "startover") { clearSaved(); session = E.newSession(); render(); }
+    else if (a === "resume") {
+      var sv = loadSaved();
+      session = sv || E.newSession();
+      if (sv && sv.phase === "module") session.position = Math.min(session.position, curItems().length);
+      lastTick = Date.now();
+      render();
+    } else if (a === "startover") {
+      var ok = window.confirm("Start over? Your saved progress will be erased.");
+      lastTick = Date.now();
+      if (ok) { clearSaved(); session = E.newSession(); navOpen = false; render(); }
+    }
     else if (a === "openref") document.getElementById("tmRef").showModal();
     else if (a === "closeref") document.getElementById("tmRef").close();
     else if (a === "endbreak" && session.phase === "break") commit(E.endBreak(session));
@@ -293,8 +307,8 @@
     Promise.all(reqs).then(function () {
       problems = errs.filter(Boolean);
       var saved = loadSaved();
-      session = problems.length || !saved ? E.newSession() : saved;
-      if (session.phase === "module") session.position = Math.min(session.position, forms[curModule().id].length);
+      // results restore directly; an in-progress session waits on the intro (Resume / Start over)
+      session = !problems.length && saved && saved.phase === "results" ? saved : E.newSession();
       lastTick = Date.now();
       render();
       timerId = setInterval(onTick, 1000);

@@ -1,1 +1,483 @@
-[]
+[
+  {
+    "id": "M2-01",
+    "section": "math",
+    "skill": "ALG-1V",
+    "difficulty": "Easy",
+    "type": "mc",
+    "stimulus": "Consider the equation (5x + 3)/2 = x + 9.",
+    "questionStem": "What is the solution to the given equation?",
+    "coreQuestion": "How do you solve a linear equation that has a fraction on one side?",
+    "steps": [
+      "Multiply both sides by 2 to clear the fraction: 5x + 3 = 2(x + 9) = 2x + 18.",
+      "Subtract 2x from both sides: 3x + 3 = 18.",
+      "Subtract 3, then divide by 3: 3x = 15, so x = 5."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "1.5",
+        "isCorrect": false,
+        "trapType": "FORGOT_TO_MULTIPLY_RIGHT_SIDE",
+        "rationale": "Multiplies only the left side by 2 and writes 5x + 3 = x + 9, which gives 4x = 6; checking x = 1.5 in the original gives 5.25 on the left and 10.5 on the right."
+      },
+      {
+        "letter": "B",
+        "text": "2",
+        "isCorrect": false,
+        "trapType": "DISTRIBUTION_ERROR",
+        "rationale": "Writes 5x + 3 = 2x + 9 (the 2 is not applied to the 9), which gives x = 2; checking x = 2 gives 6.5 on the left and 11 on the right."
+      },
+      {
+        "letter": "C",
+        "text": "5",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Clearing the fraction gives 5x + 3 = 2x + 18, so x = 5. Check: (25 + 3)/2 = 14 = 5 + 9."
+      },
+      {
+        "letter": "D",
+        "text": "7",
+        "isCorrect": false,
+        "trapType": "SIGN_ERROR_MOVING_TERM",
+        "rationale": "Reaches 3x + 3 = 18 but adds 3 instead of subtracting it, getting 3x = 21; checking x = 7 gives 19 on the left and 16 on the right."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "M2-02",
+    "section": "math",
+    "skill": "PSD-RATE",
+    "difficulty": "Easy",
+    "type": "mc",
+    "stimulus": "A pump fills a storage tank at a constant rate of 18 liters per minute.",
+    "questionStem": "At this rate, how many hours will it take the pump to deliver 3240 liters?",
+    "coreQuestion": "How do you combine a rate with a unit conversion?",
+    "steps": [
+      "Convert the volume to time in minutes by dividing by the rate: 3240 / 18 = 180 minutes.",
+      "Convert minutes to hours by dividing by 60: 180 / 60 = 3 hours.",
+      "Check: 18 liters per minute for 3 hours is 18 · 180 = 3240 liters."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "3",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "3240 / 18 = 180 minutes, and 180 / 60 = 3 hours."
+      },
+      {
+        "letter": "B",
+        "text": "54",
+        "isCorrect": false,
+        "trapType": "CONVERTED_VOLUME_NOT_TIME",
+        "rationale": "3240 / 60 = 54 divides the liters by 60 instead of dividing by the rate; it is neither minutes nor hours."
+      },
+      {
+        "letter": "C",
+        "text": "180",
+        "isCorrect": false,
+        "trapType": "FORGOT_UNIT_CONVERSION",
+        "rationale": "180 is the time in minutes, but the question asks for hours."
+      },
+      {
+        "letter": "D",
+        "text": "972",
+        "isCorrect": false,
+        "trapType": "MULTIPLIED_BY_RATE",
+        "rationale": "3240 · 18 / 60 = 972 multiplies by the rate instead of dividing, so the units do not work out to a time."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "M2-03",
+    "section": "math",
+    "skill": "ADV-EXP",
+    "difficulty": "Easy",
+    "type": "spr",
+    "stimulus": "The equation (x + 5)² − (x − 3)² = px + q is true for all values of x, where p and q are constants.",
+    "questionStem": "What is the value of p + q?",
+    "coreQuestion": "How do you find the coefficients of an expression written as a difference of two squared binomials?",
+    "steps": [
+      "Expand each square: (x + 5)² = x² + 10x + 25 and (x − 3)² = x² − 6x + 9.",
+      "Subtract, distributing the negative sign to every term: x² + 10x + 25 − x² + 6x − 9 = 16x + 16.",
+      "So p = 16 and q = 16, and p + q = 32."
+    ],
+    "acceptedAnswers": [
+      "32"
+    ],
+    "commonErrors": [
+      {
+        "value": "16",
+        "why": "Gives only p (or only q); the question asks for p + q."
+      },
+      {
+        "value": "38",
+        "why": "Subtracts only the x² term of (x − 3)², getting 4x + 34 instead of 16x + 16, so p + q = 38."
+      }
+    ]
+  },
+  {
+    "id": "M2-04",
+    "section": "math",
+    "skill": "ALG-2V",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "A hiker plans a 270-kilometer trek. She walks for x hours at 6 kilometers per hour and bikes for y hours at 15 kilometers per hour, so that 6x + 15y = 270. The graph of this equation in the xy-plane passes through the point (0, 18).",
+    "questionStem": "Which statement is the best interpretation of the point (0, 18) in this context?",
+    "coreQuestion": "How do you interpret a point on the graph of a linear equation in two variables in context?",
+    "steps": [
+      "Substitute the point: 6(0) + 15(18) = 270, so the equation is satisfied.",
+      "The x-value is the walking time and the y-value is the biking time, so (0, 18) means 0 hours of walking and 18 hours of biking.",
+      "Check the distance: 15 · 18 = 270 kilometers, the whole trek."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "The hiker walks for 18 hours and does not bike.",
+        "isCorrect": false,
+        "trapType": "SWAPPED_VARIABLES",
+        "rationale": "Swaps the variables: x is the walking time and y is the biking time, so x = 0 means no walking and y = 18 means 18 hours of biking."
+      },
+      {
+        "letter": "B",
+        "text": "The hiker bikes for 18 hours and does not walk.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "With x = 0 and y = 18, she bikes 18 hours at 15 kilometers per hour and covers 15 · 18 = 270 kilometers, the entire trek."
+      },
+      {
+        "letter": "C",
+        "text": "The hiker covers 18 kilometers by biking and none by walking.",
+        "isCorrect": false,
+        "trapType": "TIME_CONFUSED_WITH_DISTANCE",
+        "rationale": "The y-value is a time in hours, not a distance; 18 hours of biking covers 270 kilometers, not 18."
+      },
+      {
+        "letter": "D",
+        "text": "Each additional hour of walking requires 18 fewer hours of biking.",
+        "isCorrect": false,
+        "trapType": "MISREAD_RATE_OF_CHANGE",
+        "rationale": "Along the line, each additional hour of walking lowers the biking time by 6/15 = 0.4 hour, not 18 hours."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "M2-05",
+    "section": "math",
+    "skill": "GEO-RT",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "A support cable runs from the top of a vertical pole to a point on level ground. The pole is perpendicular to the ground, and the cable makes an angle θ with the ground, where tan θ = 15/8. The cable is 51 meters long.",
+    "questionStem": "How high above the ground, in meters, is the point where the cable meets the top of the pole?",
+    "coreQuestion": "How do you use a tangent ratio to find the sides of a right triangle when the hypotenuse is known?",
+    "steps": [
+      "Since tan θ = 15/8, the legs are in the ratio 15 : 8, and the hypotenuse is √(15² + 8²) = 17 in the same units.",
+      "So sin θ = 15/17.",
+      "The pole height is 51 · sin θ = 51 · 15/17 = 45 meters."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "15",
+        "isCorrect": false,
+        "trapType": "USED_RATIO_NUMBER_AS_LENGTH",
+        "rationale": "15 is the numerator of the ratio 15/8, but the actual legs are scaled up by a factor of 3 because 51 = 3 · 17."
+      },
+      {
+        "letter": "B",
+        "text": "24",
+        "isCorrect": false,
+        "trapType": "USED_COSINE_FOR_HEIGHT",
+        "rationale": "51 · 8/17 = 24 is the horizontal distance along the ground (the cosine leg), not the height."
+      },
+      {
+        "letter": "C",
+        "text": "27.2",
+        "isCorrect": false,
+        "trapType": "INVERTED_RATIO",
+        "rationale": "51 · 8/15 = 27.2 treats 8/15 as the sine, but sin θ = 15/17."
+      },
+      {
+        "letter": "D",
+        "text": "45",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "The legs are 3 · 15 = 45 and 3 · 8 = 24 with hypotenuse 3 · 17 = 51, so the height is 45 meters."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "M2-06",
+    "section": "math",
+    "skill": "ADV-EXP",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "For positive values of a and b, consider the expression (8a<sup>6</sup>/b<sup>3</sup>)<sup>2/3</sup>.",
+    "questionStem": "Which of the following is equivalent to the given expression?",
+    "coreQuestion": "How do you simplify a power of a quotient with a fractional exponent?",
+    "steps": [
+      "Apply the exponent 2/3 to each factor: 8<sup>2/3</sup> · (a<sup>6</sup>)<sup>2/3</sup> / (b<sup>3</sup>)<sup>2/3</sup>.",
+      "8<sup>2/3</sup> = (∛8)² = 4, (a<sup>6</sup>)<sup>2/3</sup> = a<sup>4</sup>, and (b<sup>3</sup>)<sup>2/3</sup> = b<sup>2</sup>.",
+      "The result is 4a<sup>4</sup>/b<sup>2</sup>."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "2a<sup>2</sup>/b",
+        "isCorrect": false,
+        "trapType": "USED_ONE_THIRD_POWER",
+        "rationale": "This is the cube root (power 1/3) of the expression, (8a<sup>6</sup>/b<sup>3</sup>)<sup>1/3</sup> = 2a<sup>2</sup>/b, not the 2/3 power."
+      },
+      {
+        "letter": "B",
+        "text": "2a<sup>4</sup>/b<sup>2</sup>",
+        "isCorrect": false,
+        "trapType": "FORGOT_TO_SQUARE_CUBE_ROOT",
+        "rationale": "Takes the cube root of 8 but forgets to square it: 8<sup>2/3</sup> is 4, not 2."
+      },
+      {
+        "letter": "C",
+        "text": "4a<sup>4</sup>/b<sup>2</sup>",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "(∛8)² = 4, (a<sup>6</sup>)<sup>2/3</sup> = a<sup>4</sup>, (b<sup>3</sup>)<sup>2/3</sup> = b<sup>2</sup>, giving 4a<sup>4</sup>/b<sup>2</sup>."
+      },
+      {
+        "letter": "D",
+        "text": "4a<sup>4</sup>/b<sup>3</sup>",
+        "isCorrect": false,
+        "trapType": "EXPONENT_NOT_APPLIED_TO_DENOMINATOR",
+        "rationale": "Leaves b<sup>3</sup> unchanged in the denominator instead of raising it to the 2/3 power, which gives b<sup>2</sup>."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "M2-07",
+    "section": "math",
+    "skill": "ALG-LF",
+    "difficulty": "Medium",
+    "type": "spr",
+    "stimulus": "The linear function g satisfies g(−2) = 9 and g(6) = −7.",
+    "questionStem": "For what value of x does g(x) = 0?",
+    "coreQuestion": "How do you find where a linear function equals zero from two of its values?",
+    "steps": [
+      "Slope: (−7 − 9)/(6 − (−2)) = −16/8 = −2.",
+      "Use g(6) = −7: g(x) = −2(x − 6) − 7 = −2x + 5.",
+      "Set −2x + 5 = 0, so x = 5/2."
+    ],
+    "acceptedAnswers": [
+      "5/2"
+    ],
+    "commonErrors": [
+      {
+        "value": "5",
+        "why": "This is g(0), the y-intercept, not the x-value where g(x) = 0."
+      },
+      {
+        "value": "-2",
+        "why": "This is the slope of g, not the zero."
+      }
+    ]
+  },
+  {
+    "id": "M2-08",
+    "section": "math",
+    "skill": "PSD-PROB",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "A fitness center surveyed 160 of its members about the type of workout they prefer. The results, sorted by age group, are shown in the table.",
+    "questionStem": "One member who prefers cardio is selected at random from the surveyed members. What is the probability that this member is 40 or older?",
+    "table": {
+      "caption": "Preferred workout by age group",
+      "headers": [
+        "Age group",
+        "Weights",
+        "Cardio",
+        "Total"
+      ],
+      "rows": [
+        [
+          "Under 40",
+          "54",
+          "36",
+          "90"
+        ],
+        [
+          "40 or older",
+          "21",
+          "49",
+          "70"
+        ],
+        [
+          "Total",
+          "75",
+          "85",
+          "160"
+        ]
+      ]
+    },
+    "coreQuestion": "How do you find a conditional probability when the sample is restricted to one column of a two-way table?",
+    "steps": [
+      "Restrict to the cardio column: 36 + 49 = 85 members prefer cardio.",
+      "Of those 85, 49 are 40 or older.",
+      "The probability is 49/85."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "49/160",
+        "isCorrect": false,
+        "trapType": "WRONG_DENOMINATOR_WHOLE_SAMPLE",
+        "rationale": "49/160 uses all 160 surveyed members as the denominator, but the selection is restricted to members who prefer cardio."
+      },
+      {
+        "letter": "B",
+        "text": "7/16",
+        "isCorrect": false,
+        "trapType": "IGNORED_CARDIO_CONDITION",
+        "rationale": "70/160 = 7/16 is the probability that a random member is 40 or older, ignoring the cardio condition."
+      },
+      {
+        "letter": "C",
+        "text": "49/85",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Only the 85 members who prefer cardio are possible, and 49 of them are 40 or older, so the probability is 49/85."
+      },
+      {
+        "letter": "D",
+        "text": "7/10",
+        "isCorrect": false,
+        "trapType": "REVERSED_CONDITION",
+        "rationale": "49/70 = 7/10 is the probability that a 40-or-older member prefers cardio, which reverses the condition."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "M2-09",
+    "section": "math",
+    "skill": "ADV-FN",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "The functions f and g are defined by f(x) = 2x − 3 and g(x) = x² + 1.",
+    "questionStem": "For what positive value of x does f(g(x)) = 49?",
+    "coreQuestion": "How do you solve an equation that involves a composition of two functions?",
+    "steps": [
+      "Substitute g(x) into f: f(g(x)) = 2(x² + 1) − 3 = 2x² − 1.",
+      "Set 2x² − 1 = 49, so 2x² = 50 and x² = 25.",
+      "The positive solution is x = 5."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "5",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "f(g(5)) = f(26) = 2(26) − 3 = 49."
+      },
+      {
+        "letter": "B",
+        "text": "4√3",
+        "isCorrect": false,
+        "trapType": "SOLVED_G_ONLY",
+        "rationale": "Solving only g(x) = 49 gives x² = 48, so x = 4√3, which ignores f."
+      },
+      {
+        "letter": "C",
+        "text": "25",
+        "isCorrect": false,
+        "trapType": "FORGOT_SQUARE_ROOT",
+        "rationale": "x² = 25 is correct but x itself is the square root of 25, not 25."
+      },
+      {
+        "letter": "D",
+        "text": "26",
+        "isCorrect": false,
+        "trapType": "SOLVED_F_ONLY",
+        "rationale": "Solving only f(x) = 49 gives x = 26, which ignores g."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "M2-10",
+    "section": "math",
+    "skill": "ALG-INEQ",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "A youth league buys x basketballs at $24 each and y volleyballs at $18 each. The league can spend at most $360, must buy at least 15 balls in all, and must buy more volleyballs than basketballs.",
+    "questionStem": "Which of the following ordered pairs (x, y) satisfies all of these conditions?",
+    "coreQuestion": "How do you test candidate points against a system of inequalities from a context?",
+    "steps": [
+      "Write the conditions: 24x + 18y ≤ 360, x + y ≥ 15, and y > x.",
+      "Test each pair against all three conditions.",
+      "Only (6, 12) passes all three: 24(6) + 18(12) = 360, 6 + 12 = 18, and 12 > 6."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "(4, 16)",
+        "isCorrect": false,
+        "trapType": "EXCEEDS_BUDGET",
+        "rationale": "24(4) + 18(16) = 384, which is more than $360."
+      },
+      {
+        "letter": "B",
+        "text": "(2, 12)",
+        "isCorrect": false,
+        "trapType": "TOO_FEW_BALLS",
+        "rationale": "2 + 12 = 14, which is fewer than 15 balls (the cost, $264, is within budget)."
+      },
+      {
+        "letter": "C",
+        "text": "(10, 6)",
+        "isCorrect": false,
+        "trapType": "NOT_MORE_VOLLEYBALLS",
+        "rationale": "24(10) + 18(6) = 348 and 10 + 6 = 16 pass, but 6 volleyballs is not more than 10 basketballs."
+      },
+      {
+        "letter": "D",
+        "text": "(6, 12)",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "24(6) + 18(12) = 360 is within budget, 6 + 12 = 18 is at least 15, and 12 > 6."
+      }
+    ],
+    "correctAnswer": "D"
+  },
+  {
+    "id": "M2-11",
+    "section": "math",
+    "skill": "ADV-EQ",
+    "difficulty": "Medium",
+    "type": "spr",
+    "stimulus": "In the xy-plane, the graphs of y = x² − 5 and y = 2x + 3 intersect at two points.",
+    "questionStem": "What is the greater y-coordinate of the two points of intersection?",
+    "coreQuestion": "How do you find the intersection points of a parabola and a line?",
+    "steps": [
+      "Set the expressions equal: x² − 5 = 2x + 3, so x² − 2x − 8 = 0.",
+      "Factor: (x − 4)(x + 2) = 0, so x = 4 or x = −2.",
+      "Then y = 2(4) + 3 = 11 and y = 2(−2) + 3 = −1, so the greater y-coordinate is 11."
+    ],
+    "acceptedAnswers": [
+      "11"
+    ],
+    "commonErrors": [
+      {
+        "value": "4",
+        "why": "This is the x-coordinate of the point, not its y-coordinate."
+      },
+      {
+        "value": "-1",
+        "why": "This is the smaller y-coordinate, at x = −2."
+      }
+    ]
+  }
+]

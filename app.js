@@ -55,25 +55,6 @@
     return QUESTIONS[idx];
   }
 
-  function renderStimulus(text) {
-    var lines = text.split("\n");
-    var html = "";
-    var inList = false;
-    for (var i = 0; i < lines.length; i++) {
-      var line = lines[i];
-      if (line.trim() === "") continue;
-      if (line.trim().indexOf("\u2022") === 0) {
-        if (!inList) { html += "<ul>"; inList = true; }
-        html += "<li>" + line.trim().substring(1).trim() + "</li>";
-      } else {
-        if (inList) { html += "</ul>"; inList = false; }
-        html += "<p>" + line + "</p>";
-      }
-    }
-    if (inList) html += "</ul>";
-    return html;
-  }
-
   function diffDots(difficulty) {
     var levels = { Easy: 1, Medium: 2, Hard: 3 };
     var n = levels[difficulty] || 1;
@@ -107,19 +88,6 @@
     }, 1000);
   }
 
-  function renderLessonExtras(q) {
-    var html = "";
-    if (q.coreQuestion) {
-      html += '<div class="core-question"><div class="note-label">Underlying core question</div>' + q.coreQuestion + "</div>";
-    }
-    if (q.steps && q.steps.length) {
-      html += '<ol class="steps">';
-      for (var i = 0; i < q.steps.length; i++) html += "<li>" + q.steps[i] + "</li>";
-      html += "</ol>";
-    }
-    return html;
-  }
-
   function renderQuestion() {
     var area = document.getElementById("questionArea");
     var q = currentQuestion();
@@ -144,7 +112,7 @@
     html += "</div>";
 
     html += '<div class="card-body">';
-    html += '<div class="stimulus">' + renderStimulus(q.stimulus) + "</div>";
+    html += '<div class="stimulus">' + ItemRender.stimulus(q.stimulus) + "</div>";
     html += '<div class="stem">' + q.questionStem + "</div>";
     html += '<div class="choices" id="choicesWrap">';
 
@@ -178,7 +146,7 @@
         html += '<div class="verdict bad"><span class="mark" aria-hidden="true">\u2717</span> Not quite \u2014 the correct answer is ' + q.correctAnswer + ".</div>";
       }
 
-      html += renderLessonExtras(q);
+      html += ItemRender.explanation(q);
 
       html += '<details class="study-note"><summary>Study note</summary><div class="note-body">';
       html += '<div class="note-section"><div class="note-label">Core concept</div><div class="note-text">' + q.studyNote.ruleOrPrinciple + "</div></div>";

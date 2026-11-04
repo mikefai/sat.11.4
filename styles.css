@@ -495,3 +495,9 @@ dialog#report::backdrop { background: rgba(10, 20, 18, 0.45); }
   margin: 12px 0 12px;
 }
 .steps li { margin-top: 6px; }
+
+.data-table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; margin: 0 0 14px; font-size: 14px; }
+.data-table caption { text-align: left; font-weight: 600; padding-bottom: 6px; }
+.data-table th, .data-table td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; }
+.data-table th { background: var(--surface-sunken); }
+.data-table td { font-family: ui-monospace, Menlo, Consolas, monospace; }

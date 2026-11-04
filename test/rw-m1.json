@@ -438,7 +438,7 @@
     "difficulty": "Medium",
     "type": "mc",
     "topic": "history",
-    "stimulus": "In 1902, the Harwick Bureau of Weights and Measures began inspecting grocers' scales, a reform meant to protect shoppers from short weight. Shoppers did benefit, but the program's chief effect was on the grocers themselves: inspected scales carried a bureau seal, honest grocers advertised it, and customers began choosing shops by the seal rather than by habit or family loyalty. Within a decade, most dealers who had cheated were out of business.",
+    "stimulus": "In 1902, the Delmont Bureau of Weights and Measures began inspecting grocers' scales, a reform meant to protect shoppers from short weight. Shoppers did benefit, but the program's chief effect was on the grocers themselves: scales that passed inspection carried a bureau seal, honest grocers advertised it, and customers began choosing shops by the seal rather than by habit or family loyalty. Within a decade, most dealers who had cheated were out of business.",
     "questionStem": "Which choice best states the main idea of the text?",
     "choices": [
       {
@@ -453,7 +453,7 @@
         "text": "A program meant to protect shoppers mainly worked by changing which grocers customers chose.",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. The seal let customers pick honest shops, which drove out cheating dealers within a decade."
+        "rationale": "Correct. The seal let customers pick honest shops, which put most of the dealers who had cheated out of business within a decade."
       },
       {
         "letter": "C",
@@ -476,7 +476,7 @@
       "Mark the contrast signal: shoppers did benefit, but the chief effect was on the grocers.",
       "Follow the chain: seal on scales, honest grocers advertise it, customers choose by seal, cheaters fail.",
       "Reject the half-right option that stops at the shoppers and the options that invent resistance or reverse customer behavior.",
-      "Choose the option that states the full chain."
+      "Choose the option that names the chief effect, the change in which grocers customers chose."
     ]
   },
   {
@@ -486,40 +486,40 @@
     "difficulty": "Medium",
     "type": "mc",
     "topic": "literature",
-    "stimulus": "In the novel The Lantern Year, the narrator Teodor gradually comes to resent his mentor, the lamplighter Hesk. A critic claims that Teodor's resentment first appears in the way he describes Hesk's daily routines, through small shifts in tone, rather than in any open complaint.",
+    "stimulus": "In the novel The Lantern Year, the narrator Anselm gradually comes to resent his mentor, the lamplighter Hesk. A critic claims that Anselm's resentment first appears in the way he describes Hesk's daily routines, through small shifts in tone, rather than in any open complaint.",
     "questionStem": "Which quotation from The Lantern Year most directly supports the critic's claim?",
     "choices": [
       {
         "letter": "A",
-        "text": "\"Teodor told Hesk to his face, in front of the other lamplighters, that he was tired of being treated like a hired hand.\"",
+        "text": "\"I told Hesk to his face, in front of the other lamplighters, that I was tired of being treated like a hired hand.\"",
         "isCorrect": false,
         "trapType": "MISMATCHED_EVIDENCE",
         "rationale": "This is an open complaint spoken aloud, the opposite of the subtle tone the critic describes."
       },
       {
         "letter": "B",
-        "text": "\"He admitted to himself, late one night, that he resented the old man's place at the head of the table.\"",
+        "text": "\"I admitted to myself, late one night, that I resented the old man's place at the head of the table.\"",
         "isCorrect": false,
         "trapType": "HALF_CORRECT_DETAIL",
         "rationale": "This shows resentment, but it is stated directly rather than conveyed through a shift in how routines are described."
       },
       {
         "letter": "C",
-        "text": "\"Every evening Hesk made his 'rounds,' as he liked to call them, while Teodor carried the ladder.\"",
+        "text": "\"Every evening Hesk made his 'rounds,' as he liked to call them, while I carried the ladder.\"",
         "isCorrect": true,
         "trapType": "NONE",
-        "rationale": "Correct. The mocking tone around 'rounds' reveals resentment in the description of a routine, with no open complaint."
+        "rationale": "Correct. The narrator's mocking tone around 'rounds' reveals resentment in his own description of a routine, with no open complaint."
       },
       {
         "letter": "D",
-        "text": "\"Teodor watched Hesk trim a wick and thought it the finest and most careful craft in the whole city.\"",
+        "text": "\"I watched Hesk trim a wick and thought it the finest and most careful craft in the whole city.\"",
         "isCorrect": false,
         "trapType": "MISMATCHED_EVIDENCE",
         "rationale": "This shows admiration, not resentment, so it cannot support a claim about when resentment appears."
       }
     ],
     "correctAnswer": "C",
-    "coreQuestion": "Which quotation shows Teodor's resentment appearing in a shift of tone about a routine instead of an open complaint?",
+    "coreQuestion": "Which quotation shows Anselm's resentment appearing in a shift of tone about a routine instead of an open complaint?",
     "steps": [
       "Restate the claim: resentment first shows in the tone used to describe Hesk's routines, not in open complaint.",
       "Test each quotation for two things: does it show resentment, and is it conveyed through tone in describing a routine.",
@@ -738,7 +738,7 @@
     "choices": [
       {
         "letter": "A",
-        "text": "was probably written by nineteen poets, each of whom composed a complete version on his own.",
+        "text": "was probably written by nineteen poets, each of whom composed a complete version independently.",
         "isCorrect": false,
         "trapType": "OVERGENERALIZATION",
         "rationale": "Word-for-word matches at the start and end in all nineteen copies point to a shared source, not nineteen independent compositions."
@@ -771,7 +771,7 @@
       "Pull out the pattern: identical frame stanzas, widely varying middle stanzas.",
       "Ask what that pattern permits us to say about the middle: it was not a single fixed text.",
       "Reject choices that contradict the matching frame or the varying middle, or that assume an unstated original form.",
-      "Choose the option limited to the middle stanzas."
+      "Choose the option that says only that the middle stanzas were not one fixed text; D reverses which stanzas varied, and A and C go beyond the comparison."
     ]
   }
 ]

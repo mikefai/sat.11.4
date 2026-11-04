@@ -497,5 +497,472 @@
       }
     ],
     "correctAnswer": "D"
+  },
+  {
+    "id": "M1-12",
+    "section": "math",
+    "skill": "ADV-FN",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "A farm stand sells jars of honey. When the price of a jar is x dollars, the stand’s daily profit, in dollars, is modeled by P(x) = −5x² + 60x − 100.",
+    "questionStem": "At what price, in dollars, does the model predict the stand’s daily profit will be greatest?",
+    "coreQuestion": "How do you find the input that maximizes a downward-opening quadratic model, and keep it distinct from the maximum output?",
+    "steps": [
+      "The graph of P is a parabola opening downward because the coefficient of x² is negative, so the maximum occurs at the vertex.",
+      "The vertex is at x = −b/(2a) = −60/(2 · (−5)) = 6.",
+      "The price that maximizes profit is 6 dollars. Check: P(6) = −180 + 360 − 100 = 80 dollars, which is more than P(5) = 75 and P(7) = 75."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "2",
+        "isCorrect": false,
+        "trapType": "SMALLER_ZERO",
+        "rationale": "Solving −5x² + 60x − 100 = 0 gives x² − 12x + 20 = 0, so x = 2 or x = 10; 2 is a price where profit is 0, not the maximum."
+      },
+      {
+        "letter": "B",
+        "text": "6",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "x = −60/(2 · (−5)) = 6, the vertex of the parabola."
+      },
+      {
+        "letter": "C",
+        "text": "10",
+        "isCorrect": false,
+        "trapType": "LARGER_ZERO",
+        "rationale": "10 is the other zero of P, where profit is again 0; the maximum is halfway between the zeros."
+      },
+      {
+        "letter": "D",
+        "text": "80",
+        "isCorrect": false,
+        "trapType": "REPORTED_MAX_VALUE",
+        "rationale": "P(6) = 80 is the maximum profit in dollars, but the question asks for the price that produces it."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "M1-13",
+    "section": "math",
+    "skill": "ALG-LF",
+    "difficulty": "Medium",
+    "type": "spr",
+    "stimulus": "A plumber charges a flat service fee plus a fixed amount for each hour of work. A 2-hour job costs $145, and a 5-hour job costs $280.",
+    "questionStem": "What is the flat service fee, in dollars?",
+    "coreQuestion": "How do you build a linear model from two data points and identify what the y-intercept represents?",
+    "steps": [
+      "The hourly rate is the slope: (280 − 145)/(5 − 2) = 135/3 = 45 dollars per hour.",
+      "Write cost = 45h + F and substitute the 2-hour job: 145 = 45(2) + F.",
+      "F = 145 − 90 = 55. Check with the 5-hour job: 45(5) + 55 = 280."
+    ],
+    "acceptedAnswers": [
+      "55"
+    ],
+    "commonErrors": [
+      {
+        "value": "45",
+        "why": "This is the hourly rate (the slope), not the flat fee."
+      },
+      {
+        "value": "100",
+        "why": "Subtracts the hourly rate once (145 − 45) instead of subtracting 2 hours of work (145 − 90)."
+      }
+    ]
+  },
+  {
+    "id": "M1-14",
+    "section": "math",
+    "skill": "ADV-EQ",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "Consider the equation √(2x + 7) = x + 2.",
+    "questionStem": "What is the solution to the given equation?",
+    "coreQuestion": "How do you solve a radical equation and test every candidate for extraneous solutions?",
+    "steps": [
+      "Square both sides: 2x + 7 = (x + 2)² = x² + 4x + 4, so x² + 2x − 3 = 0.",
+      "Factor: (x + 3)(x − 1) = 0, so the candidates are x = −3 and x = 1.",
+      "Check: x = 1 gives √9 = 3 and 1 + 2 = 3, which works. x = −3 gives √1 = 1 but −3 + 2 = −1, so −3 is extraneous. The only solution is 1."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "−3",
+        "isCorrect": false,
+        "trapType": "EXTRANEOUS_SOLUTION",
+        "rationale": "−3 solves the squared equation but fails the original: √1 = 1 while −3 + 2 = −1."
+      },
+      {
+        "letter": "B",
+        "text": "−1",
+        "isCorrect": false,
+        "trapType": "DROPPED_MIDDLE_TERM",
+        "rationale": "Squares x + 2 as x² + 4, which gives x² − 2x − 3 = 0 and candidates 3 and −1; but √5 is not −1 + 2 = 1."
+      },
+      {
+        "letter": "C",
+        "text": "1",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "x² + 2x − 3 = 0 gives x = 1 or −3, and only 1 satisfies √(2x + 7) = x + 2."
+      },
+      {
+        "letter": "D",
+        "text": "3",
+        "isCorrect": false,
+        "trapType": "DROPPED_MIDDLE_TERM",
+        "rationale": "The other candidate from the incorrect expansion (x + 2)² = x² + 4; √13 is not 3 + 2 = 5."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "M1-15",
+    "section": "math",
+    "skill": "ALG-2V",
+    "difficulty": "Medium",
+    "type": "mc",
+    "stimulus": "At a weekend market, a food truck sells wraps for $7 each and smoothies for $4 each. On Saturday the truck took in exactly $364 from these two items, and it sold 28 smoothies.",
+    "questionStem": "How many wraps did the truck sell on Saturday?",
+    "coreQuestion": "How do you use a linear equation in two variables from a context when one variable is known?",
+    "steps": [
+      "Let w be the number of wraps and s the number of smoothies: 7w + 4s = 364.",
+      "Substitute s = 28: 7w + 112 = 364, so 7w = 252.",
+      "Divide: w = 36. Check: 7(36) + 4(28) = 252 + 112 = 364."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "28",
+        "isCorrect": false,
+        "trapType": "REPORTED_SMOOTHIES",
+        "rationale": "28 is the number of smoothies sold, which is given, not the number of wraps."
+      },
+      {
+        "letter": "B",
+        "text": "36",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "7w = 364 − 112 = 252, so w = 36."
+      },
+      {
+        "letter": "C",
+        "text": "52",
+        "isCorrect": false,
+        "trapType": "IGNORED_SMOOTHIES",
+        "rationale": "364/7 = 52 treats all of the revenue as wrap sales and ignores the $112 from smoothies."
+      },
+      {
+        "letter": "D",
+        "text": "91",
+        "isCorrect": false,
+        "trapType": "USED_WRONG_PRICE",
+        "rationale": "364/4 = 91 divides by the smoothie price, ignoring the wraps."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "M1-16",
+    "section": "math",
+    "skill": "PSD-2V",
+    "difficulty": "Hard",
+    "type": "mc",
+    "stimulus": "A typing instructor recorded the number of hours each of six students practiced per week and each student’s typing speed, in words per minute. The line of best fit for the data is y = 4.5x + 24, where x is hours practiced per week and y is the predicted typing speed in words per minute.",
+    "questionStem": "For which student is the line’s prediction farthest from the observed speed, and what is that difference, in words per minute?",
+    "table": {
+      "caption": "Practice time and typing speed",
+      "headers": [
+        "Hours practiced per week",
+        "Typing speed (words per minute)"
+      ],
+      "rows": [
+        [
+          "2",
+          "31"
+        ],
+        [
+          "4",
+          "38"
+        ],
+        [
+          "5",
+          "47"
+        ],
+        [
+          "7",
+          "52"
+        ],
+        [
+          "9",
+          "63"
+        ],
+        [
+          "10",
+          "70"
+        ]
+      ]
+    },
+    "coreQuestion": "How do you measure how far a data point is from a line of best fit, and compare several points?",
+    "steps": [
+      "For each student, compute the predicted speed 4.5x + 24: 33, 42, 46.5, 55.5, 64.5, 69 for x = 2, 4, 5, 7, 9, 10.",
+      "Subtract from the observed speeds (31, 38, 47, 52, 63, 70): the differences are −2, −4, 0.5, −3.5, −1.5, 1.",
+      "The greatest absolute difference is 4, for the student who practiced 4 hours (predicted 42, observed 38)."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "2",
+        "isCorrect": false,
+        "trapType": "CHOSE_FIRST_POINT",
+        "rationale": "2 is the difference for the 2-hour student (33 predicted, 31 observed), which is not the largest gap."
+      },
+      {
+        "letter": "B",
+        "text": "3.5",
+        "isCorrect": false,
+        "trapType": "CHOSE_WRONG_POINT",
+        "rationale": "3.5 is the difference for the 7-hour student (55.5 predicted, 52 observed); the 4-hour student is off by more."
+      },
+      {
+        "letter": "C",
+        "text": "4",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "At x = 4 the prediction is 42 and the observed speed is 38, a difference of 4, the largest of the six."
+      },
+      {
+        "letter": "D",
+        "text": "42",
+        "isCorrect": false,
+        "trapType": "REPORTED_PREDICTED_VALUE",
+        "rationale": "42 is the predicted speed for the 4-hour student; the question asks for the difference between predicted and observed speeds."
+      }
+    ],
+    "correctAnswer": "C"
+  },
+  {
+    "id": "M1-17",
+    "section": "math",
+    "skill": "ADV-EXP",
+    "difficulty": "Hard",
+    "type": "spr",
+    "stimulus": "For x ≠ 1/2, the expression (6x² − 5x + 7)/(2x − 1) is equivalent to 3x + a + b/(2x − 1), where a and b are constants.",
+    "questionStem": "What is the value of a + b?",
+    "coreQuestion": "How do you rewrite a rational expression by polynomial division and read off the quotient and remainder?",
+    "steps": [
+      "Divide: 6x² ÷ 2x = 3x, and 3x(2x − 1) = 6x² − 3x. Subtract: (6x² − 5x) − (6x² − 3x) = −2x, leaving −2x + 7.",
+      "Next −2x ÷ 2x = −1, and −1(2x − 1) = −2x + 1. Subtract: (−2x + 7) − (−2x + 1) = 6.",
+      "So the expression equals 3x − 1 + 6/(2x − 1), giving a = −1 and b = 6, so a + b = 5. Check at x = 2: both forms equal 7."
+    ],
+    "acceptedAnswers": [
+      "5"
+    ],
+    "commonErrors": [
+      {
+        "value": "7",
+        "why": "Takes the quotient term as +1 instead of −1 (a sign error when subtracting −2x + 1), so a + b = 1 + 6."
+      },
+      {
+        "value": "6",
+        "why": "Reports only the remainder b and forgets to add a = −1."
+      }
+    ]
+  },
+  {
+    "id": "M1-18",
+    "section": "math",
+    "skill": "GEO-CIR",
+    "difficulty": "Hard",
+    "type": "mc",
+    "stimulus": "In the xy-plane, a circle is given by the equation x² + y² + 8x − 10y + 5 = 0. The point P has coordinates (2, −3).",
+    "questionStem": "What is the shortest distance, in units, from P to the circle?",
+    "coreQuestion": "How do you complete the square to find a circle’s center and radius, and then use the distance from a point to the center?",
+    "steps": [
+      "Complete the square: (x² + 8x + 16) + (y² − 10y + 25) = −5 + 16 + 25, so (x + 4)² + (y − 5)² = 36. The center is (−4, 5) and the radius is 6.",
+      "Distance from P to the center: √((2 + 4)² + (−3 − 5)²) = √(36 + 64) = 10.",
+      "Since 10 > 6, P is outside the circle, so the shortest distance to the circle is 10 − 6 = 4."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "4",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "The distance to the center is 10 and the radius is 6, so the nearest point on the circle is 10 − 6 = 4 units from P."
+      },
+      {
+        "letter": "B",
+        "text": "6",
+        "isCorrect": false,
+        "trapType": "REPORTED_RADIUS",
+        "rationale": "6 is the radius of the circle, not the distance from P to it."
+      },
+      {
+        "letter": "C",
+        "text": "10",
+        "isCorrect": false,
+        "trapType": "REPORTED_DISTANCE_TO_CENTER",
+        "rationale": "10 is the distance from P to the center (−4, 5); the circle itself is 6 units closer."
+      },
+      {
+        "letter": "D",
+        "text": "16",
+        "isCorrect": false,
+        "trapType": "ADDED_RADIUS",
+        "rationale": "10 + 6 = 16 is the distance from P to the farthest point of the circle."
+      }
+    ],
+    "correctAnswer": "A"
+  },
+  {
+    "id": "M1-19",
+    "section": "math",
+    "skill": "ALG-SYS",
+    "difficulty": "Hard",
+    "type": "mc",
+    "stimulus": "In the system of equations 3x + ky = 12 and 9x − 6y = 20, k is a constant.",
+    "questionStem": "For which value of k does the system have no solution?",
+    "coreQuestion": "When does a system of two linear equations have no solution, and how do you find the parameter that causes it?",
+    "steps": [
+      "No solution means the lines are parallel: the coefficients of x and y are proportional, but the constants are not.",
+      "Match the ratios: 3/9 = k/(−6), so k = −6 · (1/3) = −2.",
+      "Check the constants: 12/20 = 3/5, which is not 1/3, so the lines are parallel and distinct. With k = −2, the system has no solution."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "−18",
+        "isCorrect": false,
+        "trapType": "INVERTED_RATIO",
+        "rationale": "Sets k/(−6) = 9/3, flipping the ratio; with k = −18 the ratios are 3/9 = 1/3 and −18/−6 = 3, which are not equal, so the lines intersect."
+      },
+      {
+        "letter": "B",
+        "text": "−2",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "3/9 = k/(−6) gives k = −2, and 12/20 ≠ 3/9, so the lines are parallel and distinct."
+      },
+      {
+        "letter": "C",
+        "text": "2",
+        "isCorrect": false,
+        "trapType": "SIGN_ERROR",
+        "rationale": "Drops the negative sign on k; with k = 2 the ratios are 3/9 = 1/3 and 2/−6 = −1/3, which are not equal, so the lines intersect."
+      },
+      {
+        "letter": "D",
+        "text": "18",
+        "isCorrect": false,
+        "trapType": "INVERTED_RATIO_SIGN",
+        "rationale": "Flips the ratio and drops the sign; with k = 18 the ratios are 1/3 and 18/−6 = −3, so the lines intersect."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "M1-20",
+    "section": "math",
+    "skill": "ADV-EQ",
+    "difficulty": "Hard",
+    "type": "spr",
+    "stimulus": "The equation x² + (k + 2)x + 9 = 0 has exactly one real solution, where k is a positive constant.",
+    "questionStem": "What is the value of k?",
+    "coreQuestion": "How do you use the discriminant to force exactly one real solution, and why must the sign condition on k be applied?",
+    "steps": [
+      "Exactly one real solution means the discriminant is zero: (k + 2)² − 4(1)(9) = 0.",
+      "So (k + 2)² = 36, and k + 2 = 6 or k + 2 = −6, which gives k = 4 or k = −8.",
+      "The problem says k is positive, so k = 4. Check: x² + 6x + 9 = (x + 3)² has the single solution x = −3."
+    ],
+    "acceptedAnswers": [
+      "4"
+    ],
+    "commonErrors": [
+      {
+        "value": "-8",
+        "why": "This comes from k + 2 = −6, but k is stated to be positive."
+      },
+      {
+        "value": "6",
+        "why": "Takes k + 2 = 6 but forgets to subtract 2 to get k."
+      }
+    ]
+  },
+  {
+    "id": "M1-21",
+    "section": "math",
+    "skill": "ALG-INEQ",
+    "difficulty": "Hard",
+    "type": "mc",
+    "stimulus": "A delivery van is loaded with small boxes that each weigh 12 kilograms and large boxes that each weigh 20 kilograms. The total weight of the boxes cannot exceed 600 kilograms, and the van must carry at least 35 boxes in all.",
+    "questionStem": "What is the greatest number of large boxes the van can carry?",
+    "coreQuestion": "How do you combine two linear inequalities from a context and use the constraint that counts are whole numbers?",
+    "steps": [
+      "Let s be the number of small boxes and L the number of large boxes: 12s + 20L ≤ 600 and s + L ≥ 35.",
+      "To allow the most large boxes, use as few small boxes as the count requires: s = 35 − L. Then 12(35 − L) + 20L ≤ 600, so 420 + 8L ≤ 600 and L ≤ 22.5.",
+      "Boxes are whole numbers, so L ≤ 22. Check: 22 large and 13 small give 35 boxes weighing 440 + 156 = 596 kilograms, which is allowed; 23 large would need at least 12 small boxes, weighing 460 + 144 = 604."
+    ],
+    "choices": [
+      {
+        "letter": "A",
+        "text": "13",
+        "isCorrect": false,
+        "trapType": "REPORTED_SMALL_BOXES",
+        "rationale": "13 is the number of small boxes that goes with 22 large boxes, not the number of large boxes."
+      },
+      {
+        "letter": "B",
+        "text": "22",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "L ≤ 22.5 and L must be a whole number, so L = 22."
+      },
+      {
+        "letter": "C",
+        "text": "23",
+        "isCorrect": false,
+        "trapType": "ROUNDED_UP",
+        "rationale": "Rounds 22.5 up, but 23 large boxes and 12 small boxes weigh 604 kilograms, over the limit."
+      },
+      {
+        "letter": "D",
+        "text": "30",
+        "isCorrect": false,
+        "trapType": "IGNORED_BOX_COUNT",
+        "rationale": "600/20 = 30 uses only the weight limit and ignores the requirement of at least 35 boxes; 30 large boxes weigh 600 kilograms, leaving no room for the other boxes the van needs."
+      }
+    ],
+    "correctAnswer": "B"
+  },
+  {
+    "id": "M1-22",
+    "section": "math",
+    "skill": "ADV-FN",
+    "difficulty": "Hard",
+    "type": "spr",
+    "stimulus": "The value V, in dollars, of a delivery truck t years after it was purchased is modeled by the exponential function V(t) = a · b<sup>t</sup>, where a and b are positive constants. The truck was worth $14400 one year after it was purchased and $11520 two years after it was purchased.",
+    "questionStem": "What was the purchase price, in dollars, of the truck?",
+    "coreQuestion": "How do you find the decay factor of an exponential model from two values and then work back to the initial value?",
+    "steps": [
+      "The factor b is the ratio of consecutive yearly values: b = V(2)/V(1) = 11520/14400 = 0.8.",
+      "Use V(1) = a · 0.8 = 14400, so a = 14400/0.8 = 18000.",
+      "The purchase price is V(0) = a = 18000 dollars. Check: 18000(0.8) = 14400 and 18000(0.64) = 11520."
+    ],
+    "acceptedAnswers": [
+      "18000"
+    ],
+    "commonErrors": [
+      {
+        "value": "14400",
+        "why": "This is the value after one year, V(1), not the value at t = 0."
+      },
+      {
+        "value": "17280",
+        "why": "Multiplies V(1) by 1.2 (treating the 20% yearly loss as a 20% gain to undo it) instead of dividing by 0.8."
+      }
+    ]
   }
 ]

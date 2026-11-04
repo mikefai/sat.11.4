@@ -773,5 +773,581 @@
       "Reject choices that contradict the matching frame or the varying middle, or that assume an unstated original form.",
       "Choose the option that says only that the middle stanzas were not one fixed text; D reverses which stanzas varied, and A and C go beyond the comparison."
     ]
+  },
+  {
+    "id": "RW1-16",
+    "section": "rw",
+    "skill": "BND",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "The novelist Marguerite Aubin spent her entire childhood in a remote lighthouse on the Breton ______ and the sound of the sea shaped nearly every story she later wrote for adult readers.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "coast, the loneliness",
+        "isCorrect": false,
+        "trapType": "COMMA_SPLICE",
+        "rationale": "A comma alone cannot join two independent clauses, so this creates a comma splice."
+      },
+      {
+        "letter": "B",
+        "text": "coast; the loneliness",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. A semicolon correctly joins the two independent clauses: the first ends at \"coast\" and the second begins with \"the loneliness\"."
+      },
+      {
+        "letter": "C",
+        "text": "coast the loneliness",
+        "isCorrect": false,
+        "trapType": "RUN_ON_SENTENCE",
+        "rationale": "With no punctuation, two independent clauses run together."
+      },
+      {
+        "letter": "D",
+        "text": "coast, thus the loneliness",
+        "isCorrect": false,
+        "trapType": "COMMA_SPLICE",
+        "rationale": "\"Thus\" is not a coordinating conjunction, so a comma before it still leaves a comma splice."
+      }
+    ],
+    "correctAnswer": "B",
+    "coreQuestion": "What punctuation can join two complete sentences that have no conjunction between them?",
+    "steps": [
+      "Split the sentence at the blank: \"Aubin spent her childhood ... on the Breton coast\" is complete, and \"the loneliness and the sound of the sea shaped ...\" is also complete.",
+      "Two independent clauses need a semicolon, a period, or a comma plus a coordinating conjunction.",
+      "Reject the options that use only a comma or no mark, because they fuse the clauses.",
+      "Choose the semicolon."
+    ]
+  },
+  {
+    "id": "RW1-17",
+    "section": "rw",
+    "skill": "BND",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "Researchers at several universities study the axolotl, a salamander native to a few lakes near Mexico City ______ because it can regrow lost limbs, spinal cord tissue, and even parts of its heart without scarring.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": ":",
+        "isCorrect": false,
+        "trapType": "UNNECESSARY_COLON",
+        "rationale": "A colon must follow a complete clause, and it cannot close a phrase that began after a comma."
+      },
+      {
+        "letter": "B",
+        "text": ";",
+        "isCorrect": false,
+        "trapType": "UNNECESSARY_SEMICOLON",
+        "rationale": "A semicolon joins independent clauses, and the words on either side of this blank are not two."
+      },
+      {
+        "letter": "C",
+        "text": "—",
+        "isCorrect": false,
+        "trapType": "MISMATCHED_PUNCTUATION",
+        "rationale": "The phrase opened with a comma, so a dash cannot close it. Paired punctuation must match."
+      },
+      {
+        "letter": "D",
+        "text": ",",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The phrase \"a salamander native to ... Mexico City\" is a nonessential supplement. It opens with a comma, so it must close with one."
+      }
+    ],
+    "correctAnswer": "D",
+    "coreQuestion": "How must a nonessential phrase that opens with a comma be closed?",
+    "steps": [
+      "Find the supplement: \"a salamander native to a few lakes near Mexico City\" renames the axolotl.",
+      "Notice it opens with a comma after \"axolotl\", so it needs a matching closing mark.",
+      "Eliminate the colon, semicolon and dash, which do not pair with a comma.",
+      "Choose the comma."
+    ]
+  },
+  {
+    "id": "RW1-18",
+    "section": "rw",
+    "skill": "BND",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "In 1831 the engineers planning the Hartwell canal prepared a report for investors that listed three serious obstacles along the proposed route ______ a ridge of granite, a stretch of marsh, and a fast, shallow river.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": ":",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. A colon follows the complete clause \"the report listed three serious obstacles\" and introduces the list of those obstacles."
+      },
+      {
+        "letter": "B",
+        "text": ";",
+        "isCorrect": false,
+        "trapType": "UNNECESSARY_SEMICOLON",
+        "rationale": "A semicolon needs a complete clause on both sides, and the list that follows is not one."
+      },
+      {
+        "letter": "C",
+        "text": ",",
+        "isCorrect": false,
+        "trapType": "MISSING_LIST_INTRODUCER",
+        "rationale": "A comma alone makes the list read like a stray appositive and blurs which items are the three obstacles."
+      },
+      {
+        "letter": "D",
+        "text": ", and",
+        "isCorrect": false,
+        "trapType": "ILLOGICAL_CONJUNCTION",
+        "rationale": "Adding \"and\" makes the list read as a fourth item attached to the obstacles, and the comma cuts the clause off from what it introduces."
+      }
+    ],
+    "correctAnswer": "A",
+    "coreQuestion": "What mark introduces a list that follows a complete clause?",
+    "steps": [
+      "Check the words before the blank: they form a complete clause ending in \"route\".",
+      "Check what follows: a list that names the three obstacles.",
+      "A colon is the mark that links a complete clause to a list or explanation of it.",
+      "Eliminate the semicolon and the comma options, then choose the colon."
+    ]
+  },
+  {
+    "id": "RW1-19",
+    "section": "rw",
+    "skill": "BND",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "The curator of the Calloway Hall retrospective wondered whether visitors would linger before the quiet watercolors or hurry on to the louder canvases in the next gallery ______ In the end, nearly all of them stayed for an hour or more.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "?",
+        "isCorrect": false,
+        "trapType": "QUESTION_MARK_FOR_INDIRECT_QUESTION",
+        "rationale": "The sentence reports what the curator wondered. It is a statement containing an indirect question, so it does not take a question mark."
+      },
+      {
+        "letter": "B",
+        "text": "!",
+        "isCorrect": false,
+        "trapType": "UNSUPPORTED_EXCLAMATION",
+        "rationale": "Nothing in the sentence calls for an exclamation, and an exclamation mark clashes with the neutral tone."
+      },
+      {
+        "letter": "C",
+        "text": ".",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. \"Wondered whether\" introduces an indirect question inside a statement, so the sentence ends with a period."
+      },
+      {
+        "letter": "D",
+        "text": ",",
+        "isCorrect": false,
+        "trapType": "COMMA_SPLICE",
+        "rationale": "A comma cannot separate two complete sentences, and \"In the end\" begins a new one."
+      }
+    ],
+    "correctAnswer": "C",
+    "coreQuestion": "How should a sentence end if it only reports what someone wondered?",
+    "steps": [
+      "Spot the verb \"wondered whether\": the question is reported, not asked directly.",
+      "A sentence that reports a question is a statement and ends with a period.",
+      "Reject the comma, which would splice two sentences, and the exclamation mark.",
+      "Choose the period."
+    ]
+  },
+  {
+    "id": "RW1-20",
+    "section": "rw",
+    "skill": "FSS",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "The collection of letters written by soldiers who spent the winter of 1862 in camp near the river ______ now held in the county archive, where historians consult it each year.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "are",
+        "isCorrect": false,
+        "trapType": "SUBJECT_VERB_NEAREST_NOUN",
+        "rationale": "This agrees with \"soldiers\" or \"letters\", but those nouns sit inside modifying phrases. The subject is \"collection\"."
+      },
+      {
+        "letter": "B",
+        "text": "were",
+        "isCorrect": false,
+        "trapType": "SUBJECT_VERB_NEAREST_NOUN",
+        "rationale": "A plural verb does not agree with the singular subject \"collection\", and past tense clashes with \"now held\"."
+      },
+      {
+        "letter": "C",
+        "text": "is",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The subject is the singular \"collection\", so the verb is \"is\"."
+      },
+      {
+        "letter": "D",
+        "text": "have been",
+        "isCorrect": false,
+        "trapType": "SUBJECT_VERB_NEAREST_NOUN",
+        "rationale": "This plural form is tied to \"letters\" or \"soldiers\", not to the singular subject \"collection\"."
+      }
+    ],
+    "correctAnswer": "C",
+    "coreQuestion": "Which word is the true subject of the verb in this sentence?",
+    "steps": [
+      "Find the verb that needs agreeing: the blank is followed by \"now held\".",
+      "Cross out the modifying phrase \"of letters written by soldiers ... near the river\" to find the subject.",
+      "The subject \"collection\" is singular.",
+      "Choose \"is\"."
+    ]
+  },
+  {
+    "id": "RW1-21",
+    "section": "rw",
+    "skill": "FSS",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "Scientists tracking the Arctic tern have confirmed that this small seabird flies farther than any other animal, since ______ yearly round trip between the poles can exceed seventy thousand kilometers.",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "its",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The antecedent \"seabird\" is singular, and \"its\" is the singular possessive."
+      },
+      {
+        "letter": "B",
+        "text": "their",
+        "isCorrect": false,
+        "trapType": "PRONOUN_NUMBER_MISMATCH",
+        "rationale": "\"Their\" is plural, but the antecedent is the singular \"seabird\"."
+      },
+      {
+        "letter": "C",
+        "text": "it's",
+        "isCorrect": false,
+        "trapType": "CONFUSED_CONTRACTION",
+        "rationale": "\"It's\" means \"it is\" or \"it has\", and neither fits before \"yearly round trip\"."
+      },
+      {
+        "letter": "D",
+        "text": "one's",
+        "isCorrect": false,
+        "trapType": "WRONG_PRONOUN_PERSON",
+        "rationale": "\"One's\" refers to an unspecified person, not to a bird."
+      }
+    ],
+    "correctAnswer": "A",
+    "coreQuestion": "Which possessive pronoun matches the singular noun that the blank refers to?",
+    "steps": [
+      "Find the antecedent: \"this small seabird\" is singular.",
+      "The blank needs a possessive pronoun that can sit before \"yearly round trip\".",
+      "Eliminate the plural \"their\", the contraction \"it's\", and the person-based \"one's\".",
+      "Choose \"its\"."
+    ]
+  },
+  {
+    "id": "RW1-22",
+    "section": "rw",
+    "skill": "FSS",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "humanities",
+    "stimulus": "Hendrik Vael left few works behind, and most have been lost to fire or neglect. Painted in 1620 on a single oak panel and scarcely touched by later restorers, ______",
+    "questionStem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "the artist's use of shadow is still admired by critics today",
+        "isCorrect": false,
+        "trapType": "DANGLING_MODIFIER",
+        "rationale": "\"Use of shadow\" was not painted on a panel in 1620, so the opening phrase is left modifying the wrong noun."
+      },
+      {
+        "letter": "B",
+        "text": "critics today still admire the artist's use of shadow",
+        "isCorrect": false,
+        "trapType": "DANGLING_MODIFIER",
+        "rationale": "\"Critics\" were not painted on an oak panel, so the opening phrase modifies the wrong noun."
+      },
+      {
+        "letter": "C",
+        "text": "the artist's use of shadow remains much admired today",
+        "isCorrect": false,
+        "trapType": "DANGLING_MODIFIER",
+        "rationale": "The phrase \"painted in 1620 on a single oak panel\" cannot describe \"use of shadow\"."
+      },
+      {
+        "letter": "D",
+        "text": "the portrait is the best-known work he left",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. A portrait is the thing that can be painted on an oak panel and left scarcely touched by restorers, so the opening phrase modifies the right noun."
+      }
+    ],
+    "correctAnswer": "D",
+    "coreQuestion": "What noun must come right after a comma if it is described by the opening participial phrase?",
+    "steps": [
+      "Identify the opening phrase: \"Painted in 1620 ... scarcely touched by later restorers\".",
+      "Ask what was painted and restored: a work such as a portrait, not an ability or the critics.",
+      "Check that the noun right after the comma can logically be that thing.",
+      "Choose the option that begins with the portrait."
+    ]
+  },
+  {
+    "id": "RW1-23",
+    "section": "rw",
+    "skill": "TRN",
+    "difficulty": "Easy",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "In the opening stanza of the poem, the speaker describes the harbor of her hometown as cold, gray, and nearly deserted at dawn. ______ by the final stanza she recalls the same harbor as the brightest, busiest place of her childhood.",
+    "questionStem": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Therefore,",
+        "isCorrect": false,
+        "trapType": "FALSE_CAUSE",
+        "rationale": "Nothing in the first sentence causes the second. It shows a change, not a result."
+      },
+      {
+        "letter": "B",
+        "text": "However,",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The harbor is dull and empty in the first stanza and bright and busy in the last, so the second sentence contrasts with the first."
+      },
+      {
+        "letter": "C",
+        "text": "For example,",
+        "isCorrect": false,
+        "trapType": "MISUSED_EXAMPLE",
+        "rationale": "The second sentence is a different picture of the harbor, not an example of the first."
+      },
+      {
+        "letter": "D",
+        "text": "Similarly,",
+        "isCorrect": false,
+        "trapType": "OPPOSITE_RELATIONSHIP",
+        "rationale": "\"Similarly\" signals likeness, but the two descriptions are opposites."
+      }
+    ],
+    "correctAnswer": "B",
+    "coreQuestion": "What relationship links a gloomy first description to a joyful later one?",
+    "steps": [
+      "Compare the two sentences: cold, gray and deserted versus bright and busy.",
+      "Name the relationship: contrast.",
+      "Eliminate the result, example and similarity transitions.",
+      "Choose \"However,\"."
+    ]
+  },
+  {
+    "id": "RW1-24",
+    "section": "rw",
+    "skill": "TRN",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "Some desert plants have evolved ways to survive long droughts without any rain. ______ the ocotillo drops its small leaves during dry spells and grows a new set within days of the next rainfall.",
+    "questionStem": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Nevertheless,",
+        "isCorrect": false,
+        "trapType": "MISREAD_RELATIONSHIP",
+        "rationale": "\"Nevertheless\" marks a contrast, but the second sentence supports the first."
+      },
+      {
+        "letter": "B",
+        "text": "As a result,",
+        "isCorrect": false,
+        "trapType": "FALSE_CAUSE",
+        "rationale": "The ocotillo's habit is not an effect of other plants surviving. It is one case of the same idea."
+      },
+      {
+        "letter": "C",
+        "text": "In contrast,",
+        "isCorrect": false,
+        "trapType": "MISREAD_RELATIONSHIP",
+        "rationale": "The ocotillo is one of the drought-surviving plants, not a plant that behaves differently from them."
+      },
+      {
+        "letter": "D",
+        "text": "For example,",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. The second sentence gives one specific plant, the ocotillo, as an example of the general statement."
+      }
+    ],
+    "correctAnswer": "D",
+    "coreQuestion": "How does the second sentence relate to the general claim in the first?",
+    "steps": [
+      "Read the first sentence: a general claim about desert plants.",
+      "Read the second: it names one plant and explains how it survives.",
+      "A specific case that illustrates a general claim calls for \"For example\".",
+      "Eliminate the contrast and cause options."
+    ]
+  },
+  {
+    "id": "RW1-25",
+    "section": "rw",
+    "skill": "RS",
+    "difficulty": "Medium",
+    "type": "mc",
+    "topic": "history",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n• The Tamsin Valley Railway opened in 1884.\n• Before it opened, grain took nine days to reach the port by wagon.\n• By rail, the same trip took one day.\n• Farmers along the line planted more acres of wheat in the following decade.\n• Grain shipments through the port tripled between 1884 and 1894.",
+    "questionStem": "The student wants to explain how the railway changed the time grain took to reach the port. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Grain that took nine days to reach the port by wagon before 1884 could make the trip in one day by rail.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. It gives the before and after travel times, which is exactly the change in time."
+      },
+      {
+        "letter": "B",
+        "text": "Grain shipments through the port tripled between 1884 and 1894, a decade of growth along the Tamsin Valley line.",
+        "isCorrect": false,
+        "trapType": "WRONG_FOCUS",
+        "rationale": "The tripling of shipments is a later effect, not the change in travel time."
+      },
+      {
+        "letter": "C",
+        "text": "After the railway opened, farmers along the line planted more acres of wheat during the next decade, according to records.",
+        "isCorrect": false,
+        "trapType": "WRONG_FOCUS",
+        "rationale": "Wheat acreage is a downstream result and says nothing about how long the trip took."
+      },
+      {
+        "letter": "D",
+        "text": "Before the Tamsin Valley Railway opened in 1884, grain took nine days to reach the port by wagon from the farms.",
+        "isCorrect": false,
+        "trapType": "INCOMPLETE_COMPARISON",
+        "rationale": "It gives only the old travel time, so it never shows how the railway changed it."
+      }
+    ],
+    "correctAnswer": "A",
+    "coreQuestion": "Which choice gives both the old and the new travel time for the grain?",
+    "steps": [
+      "Restate the goal: how the railway changed the time grain took to reach the port.",
+      "Look in the notes for two numbers: nine days by wagon and one day by rail.",
+      "Reject the choices about shipment totals and wheat acreage, and the choice that gives only the old time.",
+      "Choose the sentence that contrasts nine days with one day."
+    ]
+  },
+  {
+    "id": "RW1-26",
+    "section": "rw",
+    "skill": "RS",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "literature",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n• Imre Valdis published the novel The Salt Road in 1998.\n• The novel follows a family of salt traders across a desert over three generations.\n• Valdis worked as a geologist before turning to fiction.\n• The book is told in short chapters, each narrated by a different family member.\n• The novel has been translated into eleven languages.",
+    "questionStem": "The student wants to show how the author's earlier career connects to the novel's setting. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "Valdis worked as a geologist before turning to fiction, and his novel has since been translated into eleven languages worldwide.",
+        "isCorrect": false,
+        "trapType": "HALF_RIGHT_OMITS_LINK",
+        "rationale": "It gives the earlier career, but translations do not connect to the setting."
+      },
+      {
+        "letter": "B",
+        "text": "The Salt Road, published in 1998, follows a family of salt traders across a desert over the span of three generations.",
+        "isCorrect": false,
+        "trapType": "HALF_RIGHT_OMITS_LINK",
+        "rationale": "It describes the setting but never mentions the author's career."
+      },
+      {
+        "letter": "C",
+        "text": "Valdis, a former geologist, set The Salt Road among salt traders crossing a desert.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. It pairs his earlier career as a geologist with a setting built on salt and desert land."
+      },
+      {
+        "letter": "D",
+        "text": "Told in short chapters by different family members, Valdis's The Salt Road appeared in 1998 after he left geology.",
+        "isCorrect": false,
+        "trapType": "WRONG_FOCUS",
+        "rationale": "It mentions his past career, but the form of the book is not the setting."
+      }
+    ],
+    "correctAnswer": "C",
+    "coreQuestion": "Which choice ties the author's former job to the place where the story is set?",
+    "steps": [
+      "Restate the goal: link the author's earlier career to the setting.",
+      "Pick out the two needed notes: geologist, and salt traders in a desert.",
+      "Reject choices that give only one note, or that bring in structure or translations.",
+      "Choose the sentence that joins both."
+    ]
+  },
+  {
+    "id": "RW1-27",
+    "section": "rw",
+    "skill": "RS",
+    "difficulty": "Hard",
+    "type": "mc",
+    "topic": "science",
+    "stimulus": "While researching a topic, a student has taken the following notes:\n• Honeybee colonies typically hold 20,000 to 60,000 bees.\n• Bumblebee colonies typically hold 50 to 500 bees.\n• A honeybee colony as a whole survives the winter.\n• In a bumblebee colony, only the new queens survive the winter.\n• Both kinds of bees pollinate crops such as apples and blueberries.",
+    "questionStem": "The student wants to contrast honeybee and bumblebee colonies in both size and winter survival. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      {
+        "letter": "A",
+        "text": "A honeybee colony typically holds 20,000 to 60,000 bees, while a bumblebee colony typically holds only 50 to 500 bees in all.",
+        "isCorrect": false,
+        "trapType": "HALF_RIGHT_OMITS_SECOND_POINT",
+        "rationale": "It contrasts size but says nothing about winter survival."
+      },
+      {
+        "letter": "B",
+        "text": "A honeybee colony of tens of thousands survives the winter whole, but in a bumblebee colony of a few hundred, only new queens do.",
+        "isCorrect": true,
+        "trapType": "NONE",
+        "rationale": "Correct. It contrasts both size and winter survival for the two kinds of colonies."
+      },
+      {
+        "letter": "C",
+        "text": "A honeybee colony survives the winter as a whole, while in a bumblebee colony only the new queens survive the winter months.",
+        "isCorrect": false,
+        "trapType": "HALF_RIGHT_OMITS_SECOND_POINT",
+        "rationale": "It contrasts winter survival but says nothing about size."
+      },
+      {
+        "letter": "D",
+        "text": "Both honeybees and bumblebees pollinate crops such as apples and blueberries, as the colonies of each kind do each year without fail.",
+        "isCorrect": false,
+        "trapType": "WRONG_FOCUS",
+        "rationale": "It states a similarity, not the contrast the student wants."
+      }
+    ],
+    "correctAnswer": "B",
+    "coreQuestion": "Which choice contrasts the colonies on both size and winter survival?",
+    "steps": [
+      "Restate the goal: a contrast on two points, size and winter survival.",
+      "Match notes to each point: 20,000 to 60,000 versus 50 to 500, and whole colony versus new queens only.",
+      "Reject choices that cover only one point or that give a similarity.",
+      "Choose the sentence that covers both points."
+    ]
   }
 ]
